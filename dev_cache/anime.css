@@ -1,0 +1,59 @@
+.box{
+    display: grid;
+    grid-template-rows: 30% 70%;
+}   
+   .graphic1{
+        height: 700px;
+        width: 100%;
+        background-color: green;
+        left: 0%;
+        grid-row: 1;
+        grid-column: 1;
+    }
+
+    .parent1{
+        height: 700px;
+        width: 100%;
+        background-color: aqua;
+        left: 30%;
+        grid-row: 1;
+        grid-column: 2;
+       
+    }
+
+    .graphic2{
+        height: 700px;
+        width: 30%;
+        background-color: rebeccapurple;
+       
+    }
+
+    .parent2{
+        height: 700px;
+        width: 70%;
+        background-color: rgb(105, 248, 100);
+        
+        left: 30%;
+        top:0;
+    }
+
+    .graphic3{
+        height: 700px;
+        width: 30%;
+        background-color: rgb(204, 223, 39);
+       
+    }
+
+    .parent3{
+        height: 700px;
+        width: 70%;
+        background-color: rgb(236, 126, 163);
+        
+        left: 30%;
+        top:0;
+    }
+
+    #card1{
+        margin: auto 10px;
+        padding: auto auto;
+    }
