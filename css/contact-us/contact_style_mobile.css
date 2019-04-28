@@ -1,0 +1,23 @@
+@media only screen and (max-width: 600px) {
+
+     .container{
+         width: 100%;
+     }
+
+     
+.particles-js{
+    position: relative;
+    min-width: 100%;
+    z-index: 0;
+    display: none;
+    
+}
+
+#gmap{
+    left:0;
+    min-width: 100%;
+    height: auto;  
+    height: 450px;
+}
+
+}

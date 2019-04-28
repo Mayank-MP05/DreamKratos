@@ -1,0 +1,56 @@
+@media only screen and (min-width: 600px) {
+    @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
+
+    body {
+        font-weight: 100;
+        font-size: 14px;
+        line-height: 30px;
+    }
+
+a{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container{
+    position: absolute;
+    top:70px;
+    left:42%;
+    width:58%;
+    float:right;
+    border: 5px solid black;
+    z-index: 1;
+    background:linear-gradient(to right,rgb(255,255,255,0),rgb(255,255,255,1));
+}
+
+.particles-js{
+    position: relative;
+    height: 1600px;
+    min-width: 100%;
+    z-index: 0;
+}
+
+
+
+#map_title{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 8px;
+    margin-left: 40px;
+    position: absolute;
+    top: 680px;
+    left:0;
+    background: linear-gradient(rgb(0,0,0,0),rgb(0,0,0,0))
+}
+  
+#gmap{
+    position: absolute;
+    top: 820px;
+    left:0;
+    width: 100%;
+    padding: 0% auto;
+    margin: 0% auto;
+    height: 800px;  
+}
+
+}

@@ -1,0 +1,13 @@
+#fixed_bar{
+    position: fixed;
+    left:0;
+    top:100px;
+    background-color: aqua;
+}
+
+.dept_name{
+    padding: 5px;
+    width: 100%;
+    background-color:black;
+    color: white;
+}
