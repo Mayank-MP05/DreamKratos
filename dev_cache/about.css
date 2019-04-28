@@ -1,0 +1,19 @@
+*{
+    margin: 0%;
+    padding :0%;
+}
+
+#paragraph-one{
+    display: block;
+    width: 30%;
+    height: 700px;
+    text-align: center;
+    background-color: red;
+    float: left;
+}
+
+#image-one{
+    float: right;
+    width: 100%;
+    height: 700px;
+}
