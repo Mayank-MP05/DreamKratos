@@ -70,6 +70,5 @@
                 <h3 class="quote statement">Keeping up with the legacy that our mentors started we are on a quest of becoming the epitome of hard work , team spirit  and FORMULA STUDENT SUCCESS.</h3>
         </div>
 
-  
 </div></body>
 </html>
