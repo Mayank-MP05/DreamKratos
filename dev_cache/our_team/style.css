@@ -1,8 +1,9 @@
 #fixed_bar{
     position: fixed;
     left:0;
-    top:100px;
-    background-color: aqua;
+    top:0px;
+    height: 1700px;
+    background-color: rgb(1, 221, 221);
 }
 
 .dept_name{
