@@ -10,7 +10,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <link rel="stylesheet" href="lib/css_lib/hover.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/laurels/laurel_css.css">
 
 </head>
 <body>
