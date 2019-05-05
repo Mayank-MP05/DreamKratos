@@ -7,13 +7,77 @@
       ]
     },
 
-    /* Chasis Dept */
-
     {
       "name": "Chasis",
       "grp-member":[
           "Vaibhav Shelke",
           "Rahul Kannavar"
       ]
+    },
+
+    {
+      "name": "Vehicle-Dynamics",
+      "grp-member":[
+          "Darshan Deshmukh",
+          "Shreyas Padamvar",
+          "Manas Kolhe",
+          "Harshal Meher"
+      ]
+    },
+
+    {
+      "name": "Composites",
+      "grp-member":[
+          "Rahul Aatade",
+          "Vaishnavi Shejwal",
+          "Tanmay Vinchvekar"
+      ]
+    },
+
+    {
+      "name": "Drivertrain",
+      "grp-member":[
+          "Chinmay Bungas",
+          "Aditya Patil",
+          "Nikhil Patel",
+          "Sagar Ghorpade"
+      ]
+    },
+
+    {
+      "name": "Brakes",
+      "grp-member":[
+          "Mohnish Potu",
+          "Shriprasad Kulkarni",
+          "Pranav tathe"
+      ]
+    },
+    {
+      "name": "Electric Powertrain",
+      "grp-member":[
+          "Akash Shinde",
+          "Sanket Kamat"
+      ]
+    },
+
+    {
+      "name": "Marketing",
+      "grp-member":[
+          "Rishikesh Kulkarni",
+          "Samadhan Dorge",
+          "Dikshant Jain",
+          "Dhanshree Bhoge"
+      ]
+    },
+    {
+      "name": "Ground Low Voltage and Data Aquisitions",
+      "grp-member":[
+          "Niranjan Tarle",
+          "Nainesh Desale"
+      ]
     }
+
+
+
+
 ]
