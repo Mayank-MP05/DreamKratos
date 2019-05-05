@@ -76,7 +76,7 @@
             <!----- Awards and Legacy Showing : bootstrap Cards Section-->
 
         <div class="card-deck">
-            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+            <div class="col-xs-12 col-sm-6 col-md-3">
                 <div class="card padding-0 cardone">
                     <img class="card-img-top repre_logo" src="images/logo_representations/award.png" alt="Card image cap">
                     <div class="card-body text-center">
@@ -84,7 +84,7 @@
                     <h1 id="Awards"><h1></div>
                     </div>
             </div>
-            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+            <div class="col-xs-12 col-sm-6 col-md-3">
                 <div class="card padding-0 cardtwo">
                 <img class="card-img-top repre_logo" src="images/logo_representations/cars.png" alt="Card image cap">
                 <div class="card-body text-center">
@@ -92,7 +92,7 @@
                     <h1 id="cars"></h1></div>
                 </div>
             </div>
-            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+            <div class="col-xs-12 col-sm-6 col-md-3">
                 <div class="card padding-0 cardthree">
                 <img class="card-img-top repre_logo" src="images/logo_representations/competitions.png" alt="Card image cap">
                 <div class="card-body text-center">
@@ -100,7 +100,7 @@
                 <h1 id="competitions"><h1></div>
                 </div>
             </div>
-            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+            <div class="col-xs-12 col-sm-6 col-md-3">
                 <div class="card padding-0 cardfour">
                     <img class="card-img-top repre_logo" src="images/logo_representations/years.png" alt="Card image cap">
                     <div class="card-body text-center">
