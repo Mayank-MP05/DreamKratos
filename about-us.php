@@ -16,7 +16,7 @@
 </head>
 <body>
 <div class="container">
-        <div class="row img1">
+        <div class="row align-items-center img1">
             <div class="col-sm-5 p1 vcenter">
  
                 <p>Team Kratos Racing is a Formula student team of PCCOE, comprising of 35 highly dedicated and diligent undergraduate students. Putting in hours at the workshop where sleepless nights and greasy jeans became our daily routine, we design, manufacture and test a Formula 3 styled vehicle. We promote students to hone their skills and execute all tasks to perfection. We exist to race in the top echelon of motor racing starting with national level and then taking India to the world.</p>
@@ -26,9 +26,10 @@
                 <img src="images/about-us/team-kratos-racing-whole-team-p1.jpg" alt="Whole Team" class="img-fluid">
             </div>
         </div>
+        <hr/>
                <!----Row 2 : Paragraph 2 -->
 
-               <div class="row img2">
+               <div class="row img2 align-items-center">
             <div class="col-sm-8 ">
                 <img src="images/about-us/Team-kratos-Thunderblade.jpg" alt="Whole Team" class="img-fluid">
             </div>
@@ -36,26 +37,26 @@
                 <p>Driven by our motto, “TOGETHER WE RISE”,  we have successfully manufactured 3 combustion Formula-3 cars in 3 years. The genesis of the adventure began when a few passionate minds from the college set out on this journey of forming a Formula Student team. Holding spanners in their hands, chains round their neck, innovation in their minds and determination in their heart, they set out on the journey to achieve the impossible.</p>
             </div>
         </div>
-        
+        <hr/>
        <!----Row 3 : full Screen Image -->
 
-       <div class="row text-center img3">
+       <div class="row text-center img3 align-items-center">
             <div class="col-sm-12 img_div">
                     <img src="images/about-us/thunderblade-in-race.jpg" alt="Whole Team" class="img-fluid">
             </div>
        </div>
-
+       <hr/>
        <!----Row 4 : Quote -->
 
-       <div class="row text-center">
+       <div class="row text-center align-items-center">
         <div class="col-sm-12 quote_bg">
             <h3 class="quote statement">“WE DIDN’T KNOW IT WAS IMPOSSIBLE, SO WE DID IT”.</h3>
         </div>
        </div>
-
+       <hr/>
        <!----Row 5 : Quote -->
 
-       <div class="row text-center img4">
+       <div class="row text-center img align-items-center">
            <div class="col-sm-3 p3">
                 <p>Making the ends meet, manufactured the first vehicle in the year 2015. But that was not all that we were capable of. Brainstorming on the solutions by unified efforts, we set in again to manufacture our next vehicle for the second season as we stood up on the podium as the overall WINNERS. Hence, the legacy of PCCOE MOTORSPORTS  took its way up and there is no looking back from here.</p>
            </div>
@@ -63,10 +64,10 @@
                 <img src="images/about-us/Thunderblade-Bossy-theme.jpg" alt="Whole Team" class="img-fluid">
            </div>
        </div>
-
+       <hr/>
         <!----Row 6 : Quote -->
 
-        <div class="row text-center quote_bg img1">
+        <div class="row text-center quote_bg img1 align-items-center">
                 <h3 class="quote statement">Keeping up with the legacy that our mentors started we are on a quest of becoming the epitome of hard work , team spirit  and FORMULA STUDENT SUCCESS.</h3>
         </div>
 

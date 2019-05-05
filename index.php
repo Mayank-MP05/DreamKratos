@@ -14,6 +14,7 @@
 
 </head>
 <body>
+	<?php include("tokens/header.php");?>
     <script src="js/homepage_show_meter.js"></script>
     <div class="container">
         <div class="row">
@@ -133,6 +134,7 @@
 
 
         </div>
+        
     <script>
         $('.carousel').carousel({
         interval: 2000
@@ -142,7 +144,7 @@
 <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 
 <script>
-  particlesJS.load('left_particles', 'lib/js_lib/particles-custom.json', function(){
+  particlesJS.load('left_particles', 'lib/js_lib/particles.json', function(){
     console.log('particles.json loaded...');
   });
   particlesJS.load('right_particles', 'lib/js_lib/particles.json', function(){

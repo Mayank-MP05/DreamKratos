@@ -30,7 +30,7 @@
                     <a class="nav-link">Departments</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link">Our Team</a>
+                    <a class="nav-link">Team Leads</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link">Vehicle Dynamics</a>
@@ -65,13 +65,90 @@
                 </li>
     
                 <li class="nav-item">
+                    <a class="nav-link">Team 2K18</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link">Alumnis</a>
                 </li>
         </div>
     </nav>
 
+    <!--- Container Containing Images --->
+
     <div class="container cont3">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae cum placeat nostrum voluptates consectetur aliquam pariatur, temporibus optio quam quibusdam eum, explicabo et consequatur. Repellendus aut nulla ipsa asperiores architecto voluptatem sint labore beatae officia eligendi! Hic, sed quam! Sequi earum enim harum, eligendi iste eaque expedita aut saepe porro accusantium? Culpa doloremque officia provident sequi consequuntur, minima inventore, eligendi et molestias, id numquam nulla tempora officiis necessitatibus saepe expedita velit at optio asperiores adipisci molestiae recusandae! Dicta voluptatem nihil deserunt reprehenderit nulla, natus quidem commodi aliquam qui nam veniam.</p>
+
+       <!--- 1 --->
+       <div class="row align-items-center" id="Team_Leads">
+
+
+       </div><hr/>
+
+       <!--- 2 --->
+
+       <div class="row align-items-center" id="vehicledynamics">
+
+
+       </div><hr/>
+ 
+
+       <!--- 3 --->
+       <div class="row align-items-center" id="drivertrain">
+
+
+       </div><hr/>
+
+        <!--- 4 --->
+       <div class="row align-items-center" id="brakes">
+
+
+       </div><hr/>
+
+        <!--- 5 --->
+       <div class="row align-items-center" id="chassis">
+
+
+       </div><hr/>
+
+       <!--- 6 --->
+       <div class="row align-items-center" id="marketing">
+
+
+       </div><hr/>
+
+
+       <!--- 7 --->
+       <div class="row align-items-center" id="composites">
+
+
+       </div><hr/>
+
+        <!--- 8 --->
+       <div class="row align-items-center" id="tractive">
+
+
+       </div><hr/>
+
+        <!--- 9 --->
+       <div class="row align-items-center" id="glv">
+
+
+       </div><hr/>
+
+        <!--- 10 --->
+       <div class="row align-items-center" id="Team2k18">
+
+
+       </div><hr/>
+
+        <!--- 11 --->      
+       <div class="row align-items-center" id="alumni">
+
+
+       </div><hr/>
+
+
+       
+
     </div>
 
 </body>

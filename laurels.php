@@ -64,7 +64,7 @@
                 </div>
     
                 <div class="col-sm-8">
-                    <img class="img img-fluid" src="images/laurels/1.png" alt="">
+                    <img class="img img-fluid" src="images/laurels/fake/maya (1).jpg" alt="">
                 </div>
             </div>
     
@@ -79,7 +79,7 @@
 
         <div class="row align-items-center">
             <div class="col-sm-8">
-                <img class="img img-fluid" src="images/laurels/1.png" alt="">
+                <img class="img img-fluid" src="images/laurels/fake/maya (2).jpg" alt="">
             </div>
             <div class="col-sm-4 bg-dark align-middle" id="particle2">
                 <ul class="list-group">
@@ -113,7 +113,7 @@
                 </div>
     
                 <div class="col-sm-8">
-                    <img class="img img-fluid" src="images/laurels/1.png" alt="">
+                    <img class="img img-fluid" src="images/laurels/fake/maya (3).jpg" alt="">
                 </div>
             </div>
 
@@ -126,7 +126,7 @@
 
         <div class="row align-items-center">
             <div class="col-sm-8">
-                <img class="img img-fluid" src="images/laurels/1.png" alt="">
+                <img class="img img-fluid" src="images/laurels/fake/maya (4).jpg" alt="">
             </div>
             <div class="col-sm-4 bg-dark" id="particle3">
                 <ul class="list-group align-middle">
@@ -158,7 +158,7 @@
                     </div>
         
                     <div class="col-sm-8">
-                        <img class="img img-fluid" src="images/laurels/1.png" alt="">
+                        <img class="img img-fluid" src="images/laurels/fake/maya (5).jpg" alt="">
                     </div>
                 </div>
 
@@ -170,7 +170,7 @@
             
                     <div class="row align-items-center">
                         <div class="col-sm-8">
-                            <img class="img img-fluid" src="images/laurels/1.png" alt="">
+                            <img class="img img-fluid" src="images/laurels/fake/maya (6).jpg" alt="">
                         </div>
                         <div class="col-sm-4 bg-dark" id="particle5">
                                 <ul class="list-group">
@@ -199,7 +199,7 @@
                     </div>
         
                     <div class="col-sm-8">
-                        <img class="img img-fluid" src="images/laurels/1.png" alt="">
+                        <img class="img img-fluid" src="images/laurels/fake/maya (7).jpg" alt="">
                     </div>
                 </div>
 
