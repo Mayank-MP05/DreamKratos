@@ -133,16 +133,16 @@
         
         .frontside .card .card-body img
         {
-            width: 120px;
+            width: 300px;
             height: 120px;
             border-radius: 50%;
         }
-
 
 /* Boot Snip Code */
 
 /* FontAwesome for working BootSnippet :> */
 
+/*
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 #team {
     background: #eee !important;
@@ -269,4 +269,4 @@ section .section-title {
     width: 120px;
     height: 120px;
     border-radius: 50%;
-}
+}*/

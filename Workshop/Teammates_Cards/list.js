@@ -12,8 +12,7 @@ btn.addEventListener("click", function() {
   ourRequest.onload = function() {
     if (ourRequest.status >= 200 && ourRequest.status < 400) {
       var ourData = JSON.parse(ourRequest.responseText);
-      console.log(ourData);
-      cardify(ourData);
+      create_card(ourData);
     } else {
       console.log("We connected to the server, but it returned an error.");
     }
@@ -33,7 +32,7 @@ function renderHTML(data) {
   var htmlString = "";
 
   for (i = 0; i < data.length; i++) {
-    htmlString += "<p>" + data[i].name + " is a " + data[i].species + " that likes to eat ";
+    htmlString += "<p>" + data[i].deptName + " is a " + data[i].species + " that likes to eat ";
     
     for (ii = 0; ii < data[i].foods.likes.length; ii++) {
       if (ii == 0) {
@@ -70,25 +69,30 @@ function tabulate(data){
         <th>Serial No.</th>
         <th>Dept. No</th>
         <th>Dept</th>
-        <th>Teammate Name</th>
+        <th>Teammate deptName</th>
+        <th>Image<th>
     </tr>`;
 
     code2 = "";
     count = 0;
     code3 = "</table>";
     for(var i=0; i < data.length ; i++){
-        console.log(data[i].name);
+        console.log(data[i].deptName);
 
             for(var j = 0; j < data[i].grpMember.length;j++){
                 count++;
                 
+                let img_src = data[i].grpMember[j].replace(" ","-");
+                img_src += ".png";
+
                 code2 += `
                 <tr>
                     <td>` + count + `</td>
                     <td>` + i + `</td>
-                    <td>` + data[i].name + `</td>`;
+                    <td>` + data[i].deptName + `</td>`;
 
                 code2 += `<td>` + data[i].grpMember[j] + `</td>
+                <td><img src="../../images/our team/` + img_src + `"></td>
                 </tr>`;
 
             }
@@ -98,56 +102,140 @@ function tabulate(data){
 }
 
 function cardify(data){
-    console.log(data);
 
-    team_member = `<!-- Team member -->
-    <div class="col-xs-12 col-sm-6 col-md-4">
-        <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
-            <div class="mainflip">
-                <div class="frontside">
-                    <div class="card">
-                        <div class="card-body text-center">
-                            <p><img class=" img-fluid" src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_01.png" alt="card image"></p>
-                            <h4 class="card-title">Sunlimetech</h4>
-                            <p class="card-text">This is basic card with image on top, title, description and button.</p>
-                            <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+    var row_code = "";
+
+    for(var i=0; i < data.length ; i++){
+        /*console.log(data[i].deptName);*/
+
+        row_code += `<div class="row align-self-center"><h5 class="section-title h1">`+ data[i].deptName +` :</h5></div><hr/>`;
+        var card_code = '';
+
+        for(var j = 0; j < data[i].grpMember.length;j++){
+            let img_src = data[i].grpMember[j].replace(" ",'-');
+            img_src += ".png";
+            /*console.log(img_src);*/
+            card_code += `<div class="row">`;
+
+            if(j == 4 || j == 7){
+                card_code += `<div class="row">`;
+                card_code += `<!-- Team member -->
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                        <div class="mainflip">
+                            <div class="frontside">
+                                <div class="card">
+                                    <div class="card-body text-center">
+                                        <p><img class=" img-fluid" src="../../images/our team/` + img_src + `" alt=" `+ data[i].grpMember[j] +`"></p>
+                                        <h4 class="card-title">` + data[i].grpMember[j] + `</h4>
+                                        <p class="card-text">` + data[i].deptName + `</p>
+                                        <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="backside">
+                                <div class="card">
+                                    <div class="card-body text-center mt-4">
+                                        <h4 class="card-title">` + data[i].deptName + `</h4>
+                                        <p><img class=" img-fluid" src="` +  + `" alt=" `+ +`"></p>
+                                                <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                    Team Kratos Racing
+                                                </a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="backside">
-                    <div class="card">
-                        <div class="card-body text-center mt-4">
-                            <h4 class="card-title">Sunlimetech</h4>
-                            <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
-                            <ul class="list-inline">
-                                <li class="list-inline-item">
-                                    <a class="social-icon text-xs-center" target="_blank" href="#">
-                                        <i class="fa fa-facebook"></i>
-                                    </a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a class="social-icon text-xs-center" target="_blank" href="#">
-                                        <i class="fa fa-twitter"></i>
-                                    </a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a class="social-icon text-xs-center" target="_blank" href="#">
-                                        <i class="fa fa-skype"></i>
-                                    </a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a class="social-icon text-xs-center" target="_blank" href="#">
-                                        <i class="fa fa-google"></i>
-                                    </a>
-                                </li>
-                            </ul>
+                </div>
+                <!-- ./Team member -->`;
+            }else{
+            card_code += `<!-- Team member -->
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class=" img-fluid" src="../../images/our team/` + img_src + `" alt=" `+ data[i].grpMember[j] +`"></p>
+                                    <h4 class="card-title">` + data[i].grpMember[j] + `</h4>
+                                    <p class="card-text">` + data[i].deptName + `</p>
+                                    <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">` + data[i].deptName + `</h4>
+                                    <p><img class=" img-fluid" src="` +  + `" alt=" `+ +`"></p>
+                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                Team Kratos Racing
+                                            </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-    <!-- ./Team member -->`;
-}
+            <!-- ./Team member -->`;
+            }
+            
+        
+            /* If Else Finishes Here*/
+        }
+            card_code += "<hr/>";
+        }
+        html = row_code + card_code;
+        op.innerHTML = html;
+    }
+    
+
+    function create_card(data){
+        var row_code = "";
+        row_code += `<div class="row align-self-center"><h5 class="section-title h1">`+ data[0].deptName +` :</h5></div><hr/>`;
+        var card_code = '';
+
+        let img_src = data[0].grpMember[0].replace(" ",'-');
+            img_src += ".png";
+            /*console.log(img_src);*/
+            card_code += `<div class="row">`;
+
+                card_code += `<div class="row">`;
+                card_code += `<!-- Team member -->
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                    <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                        <div class="mainflip">
+                            <div class="frontside">
+                                <div class="card">
+                                    <div class="card-body text-center">
+                                        <p><img class=" img-fluid" src="../../images/our team/` + img_src + `" alt=" `+ data[0].grpMember[0] +`"></p>
+                                        <h4 class="card-title">` + data[0].grpMember[0] + `</h4>
+                                        <p class="card-text">` + data[0].deptName + `</p>
+                                        <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="backside">
+                                <div class="card">
+                                    <div class="card-body text-center mt-4">
+                                        <h4 class="card-title">` + data[0].deptName + `</h4>
+                                        <p><img class=" img-fluid" src="` +  + `" alt=" `+ +`"></p>
+                                                <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                    Team Kratos Racing
+                                                </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <!-- ./Team member -->`;
+           
+            html = row_code + card_code;
+            op.innerHTML = html;
+    }
 
 }
+
