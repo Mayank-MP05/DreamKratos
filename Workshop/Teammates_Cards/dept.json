@@ -1,7 +1,7 @@
 [
     {
       "name": "Team-Leads",
-      "grp-member":[
+      "grpMember":[
           "Shubham Patil",
           "Sanket Kamat"
       ]
@@ -9,7 +9,7 @@
 
     {
       "name": "Chasis",
-      "grp-member":[
+      "grpMember":[
           "Vaibhav Shelke",
           "Rahul Kannavar"
       ]
@@ -17,7 +17,7 @@
 
     {
       "name": "Vehicle-Dynamics",
-      "grp-member":[
+      "grpMember":[
           "Darshan Deshmukh",
           "Shreyas Padamvar",
           "Manas Kolhe",
@@ -27,7 +27,7 @@
 
     {
       "name": "Composites",
-      "grp-member":[
+      "grpMember":[
           "Rahul Aatade",
           "Vaishnavi Shejwal",
           "Tanmay Vinchvekar"
@@ -36,7 +36,7 @@
 
     {
       "name": "Drivertrain",
-      "grp-member":[
+      "grpMember":[
           "Chinmay Bungas",
           "Aditya Patil",
           "Nikhil Patel",
@@ -46,7 +46,7 @@
 
     {
       "name": "Brakes",
-      "grp-member":[
+      "grpMember":[
           "Mohnish Potu",
           "Shriprasad Kulkarni",
           "Pranav tathe"
@@ -54,7 +54,7 @@
     },
     {
       "name": "Electric Powertrain",
-      "grp-member":[
+      "grpMember":[
           "Akash Shinde",
           "Sanket Kamat"
       ]
@@ -62,7 +62,7 @@
 
     {
       "name": "Marketing",
-      "grp-member":[
+      "grpMember":[
           "Rishikesh Kulkarni",
           "Samadhan Dorge",
           "Dikshant Jain",
@@ -71,7 +71,7 @@
     },
     {
       "name": "Ground Low Voltage and Data Aquisitions",
-      "grp-member":[
+      "grpMember":[
           "Niranjan Tarle",
           "Nainesh Desale"
       ]
