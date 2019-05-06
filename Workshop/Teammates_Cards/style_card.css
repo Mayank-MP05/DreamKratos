@@ -1,4 +1,7 @@
 /* Code for Cards */
+body{
+    background: linear-gradient(to bottom , rgb(0,0,0,0.7),rgb(0,0,0,0.2));
+}
 
 .btn-primary:hover,
     .btn-primary:focus
@@ -117,6 +120,7 @@
     .backside .card
     {
         min-height: 312px;
+        
     }
         
         .backside .card a
@@ -133,7 +137,7 @@
         
         .frontside .card .card-body img
         {
-            width: 300px;
+            width: 120px;
             height: 120px;
             border-radius: 50%;
         }
