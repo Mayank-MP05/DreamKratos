@@ -30,36 +30,27 @@
                         <li class="list-group-item right-grp-item">
                             <p>1st - Overall Ranking</p>
                         </li>
-                        <li class="list-group-item">
-                            
+                        <li class="list-group-item">  
                             <p>1st - Endurance</p>
                         </li>
                         <li class="list-group-item">
-                            
                             <p>1st - Autocross</p>
                         </li>
                         <li class="list-group-item">
-                            
                             <p>1st - Skidpad</p>
                         </li>
                         <li class="list-group-item">
-                            
                             <p>1st - Acceleration</p>
                         </li>
                         <li class="list-group-item">
-                            
                             <p>1st - Energy Efficiency</p>
                         </li>
                         <li class="list-group-item">
-                            
                             <p>2nd - Business Plan</p>
                         </li>
                         <li class="list-group-item">
-                            
                             <p>3rd - Cost And  Manufacturing Report</p>
                         </li>
-    
-    
                     </ul>
                 </div>
     
