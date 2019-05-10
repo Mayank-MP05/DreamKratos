@@ -1,6 +1,4 @@
-
-var animalContainer = document.getElementById("animal-info");
-var btn = document.getElementById("btn");
+btn = document.getElementById("btn");
 
 btn.addEventListener("click", function() {
   var ourRequest = new XMLHttpRequest();
@@ -8,8 +6,11 @@ btn.addEventListener("click", function() {
   ourRequest.onload = function() {
     if (ourRequest.status >= 200 && ourRequest.status < 400) {
       var ourData = JSON.parse(ourRequest.responseText);
-      create_div(ourData);
-      deptwise(ourData);
+      
+      /* funstions to Create and Show Data */
+     
+      row_maker(ourData);
+
 
     } else {
       console.log("We connected to the server, but it returned an error.");
@@ -23,6 +24,68 @@ btn.addEventListener("click", function() {
 
   ourRequest.send();
 });
+
+function row_maker(data){
+    var main = document.getElementById("main_container");
+    var html = "";
+
+    for(var i = 0; i < data.length;i++){
+
+        var title_code = '';
+        var row_code = '';
+        
+
+        title_code += `
+                        <hr/><div class="row text-center align-self-center" id="`+ data[i].category +`">
+                            <h1 class="align-self-center">` + data[i].category + `Mayank</h1>
+                        </div><hr/>
+                        `;
+
+        row_code += `
+            <div class="row text-center align-self-center" id="`+data[i].category+`_cardsrow">
+                Content Row `+i+`
+            </div>
+        `;
+        html = html + title_code + row_code;
+    }
+
+    main.innerHTML = html;
+
+}
+
+
+function card_maker(data){
+    var html = "";
+
+    for(var i = 0; i < data.length;i++){
+        var row = document.getElementById(data[i].category);
+        for(var j = 0; j < data[i].length;j++){
+            card 
+
+        }
+
+        var title_code = '';
+        var row_code = '';
+        
+
+        title_code += `
+                        <hr/><div class="row text-center align-self-center" id="`+ data[i].category +`">
+                            <h1 class="align-self-center">` + data[i].category + `Mayank</h1>
+                        </div><hr/>
+                        `;
+
+        row_code += `
+            <div class="row text-center align-self-center" id="`+data[i].category+`_cardsrow">
+                Content Row `+i+`
+            </div>
+        `;
+        html = html + title_code + row_code;
+    }
+
+    main.innerHTML = html;
+}
+
+
 
 
 function create_div(data){
