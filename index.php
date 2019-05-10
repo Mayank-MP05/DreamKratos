@@ -18,7 +18,7 @@
     <script src="js/homepage_show_meter.js"></script>
     <div class="container">
         <div class="row">
-            <div class="col-sm-1 bg-dark" id="left_particles"></div>
+            
             <div class="col-sm-10">
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                         <ol class="carousel-indicators">
@@ -64,7 +64,6 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-sm-1 bg-dark" id="right_particles"></div>
             </div>
             <hr>
             <div class="row text-center">
@@ -76,7 +75,7 @@
             <!----- Awards and Legacy Showing : bootstrap Cards Section-->
 
         <div class="card-deck">
-            <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="col-xs-6 col-sm-6 col-md-3">
                 <div class="card padding-0 cardone">
                     <img class="card-img-top repre_logo" src="images/logo_representations/award.png" alt="Card image cap">
                     <div class="card-body text-center">
@@ -84,7 +83,7 @@
                     <h1 id="Awards"><h1></div>
                     </div>
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="col-xs-6 col-sm-6 col-md-3">
                 <div class="card padding-0 cardtwo">
                 <img class="card-img-top repre_logo" src="images/logo_representations/cars.png" alt="Card image cap">
                 <div class="card-body text-center">
@@ -92,7 +91,7 @@
                     <h1 id="cars"></h1></div>
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="col-xs-6 col-sm-6 col-md-3">
                 <div class="card padding-0 cardthree">
                 <img class="card-img-top repre_logo" src="images/logo_representations/competitions.png" alt="Card image cap">
                 <div class="card-body text-center">
@@ -100,7 +99,7 @@
                 <h1 id="competitions"><h1></div>
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="col-xs-6 col-sm-6 col-md-3">
                 <div class="card padding-0 cardfour">
                     <img class="card-img-top repre_logo" src="images/logo_representations/years.png" alt="Card image cap">
                     <div class="card-body text-center">
@@ -141,15 +140,5 @@
         })
     </script>
 
-<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-
-<script>
-  particlesJS.load('left_particles', 'lib/js_lib/particles.json', function(){
-    console.log('particles.json loaded...');
-  });
-  particlesJS.load('right_particles', 'lib/js_lib/particles.json', function(){
-    console.log('particles.json loaded...');
-  });
-</script>
 </body>
 </html

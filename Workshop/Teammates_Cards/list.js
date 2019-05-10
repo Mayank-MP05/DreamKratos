@@ -50,7 +50,7 @@ function deptwise(data){
 
             
             row_html += `<!-- Team member ` + i + ` -->
-            <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="col-xs-6 col-sm-6 col-md-4">
                 <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
                     <div class="mainflip">
                         <div class="frontside">
