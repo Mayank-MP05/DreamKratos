@@ -1,0 +1,74 @@
+[
+    {
+        "category":"Title",
+        "list":[
+            {
+                "sponsName":"ABC",
+                "sponsWebsite":"www.abc.xyz"
+            },
+            {
+                "sponsName":"ABC",
+                "sponsWebsite":"www.abc.xyz"
+            }
+        ]
+    },
+
+    {
+        "category":"Platinum",
+        "list":[
+            {
+                "sponsName":"ABC",
+                "sponsWebsite":"www.abc.xyz"
+            },
+            {
+                "sponsName":"ABC",
+                "sponsWebsite":"www.abc.xyz"
+            },
+            {
+                "sponsName":"ABC",
+                "sponsWebsite":"www.abc.xyz"
+            }
+        ]
+    },
+
+    {
+        "category":"Gold",
+        "list":[
+            {
+                "sponsName":"ABC",
+                "sponsWebsite":"www.abc.xyz"
+            },
+            {
+                "sponsName":"ABC",
+                "sponsWebsite":"www.abc.xyz"
+            },
+            {
+                "sponsName":"ABC",
+                "sponsWebsite":"www.abc.xyz"
+            },
+            {
+                "sponsName":"ABC",
+                "sponsWebsite":"www.abc.xyz"
+            }
+        ]
+    },
+
+    {
+        "category":"Silver",
+        "list":[
+            {
+                "sponsName":"",
+                "sponsWebsite":""
+            },{
+                "sponsName":"ABC",
+                "sponsWebsite":"www.abc.xyz"
+            }
+            ,{
+                "sponsName":"ABC",
+                "sponsWebsite":"www.abc.xyz"
+            }
+        ]
+    }
+
+
+]
