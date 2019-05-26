@@ -58,6 +58,7 @@
     /* Day 0 : Styling */
     .full{
         width:100%;
+        text-align: center;
     }
     .half{
         width: 50%;
