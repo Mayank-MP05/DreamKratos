@@ -1,5 +1,60 @@
 @media only screen and (min-width: 480px) {
-    body{
-        background-color: red;
+ 
+    /* Pre-CSS */
+    *,html,body{
+        padding:0%;
+        margin: 0% auto;
+        font-family:Lora,serif;
     }
+    
+    img{
+        max-width:100%;
+    }
+
+    /* Page Styling */
+
+    .bigbox{
+        max-width: 95%;
+    }
+
+    /* Link to Days */
+    .days_list{
+        display: flex;
+        flex-direction: row;
+        align-items: 
+    }
+
+    .pagelink{
+        background-color: linear-gradient(black,white);
+        padding:auto auto;
+        width: auto;
+    }
+
+    .pagelink:hover{
+        background-color: linear-gradient(white,black);
+    }
+
+    /* FB19 Info styling */
+
+    .fbinfo{
+        height: 80%;
+    }
+
+    .days:nth-child(odd){
+        min-height: 80%;
+        background: linear-gradient(to right,#FFC0CB,#66CDAA);
+    }
+
+    .days:nth-child(even){
+        min-height: 80%;
+        background: linear-gradient(to left,#FFC0CB,#66CDAA);
+    }
+    /* Day  0 : Styling */
+
+    h2{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    /* Day 0 : Styling */
+
+
 }
