@@ -31,7 +31,7 @@ function create_div(data){
     var dept_name = data[m].deptName;
 
     str1 += `<h5 class="section-title h1">`+ dept_name +`</h5>
-    <div class="row" id="`+dept_name+`"></div>`;
+    <div class="row" id="`+dept_name.replace(" ","-")+`"></div>`;
     }
     document.getElementById("whole").innerHTML = str1;
 }

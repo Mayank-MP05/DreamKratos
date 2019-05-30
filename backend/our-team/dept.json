@@ -1,6 +1,6 @@
 [
     {
-      "deptName": "Team Leads",
+      "deptName": "Team-Leads",
       "grpMember":[
           "Shubham Patil",
           "Sanket Kamat"
@@ -16,7 +16,7 @@
     },
 
     {
-      "deptName": "Vehicle Dynamics",
+      "deptName": "Vehicle-Dynamics",
       "grpMember":[
           "Darshan Deshmukh",
           "Shreyas Padamvar",

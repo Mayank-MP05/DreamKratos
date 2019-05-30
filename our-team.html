@@ -8,12 +8,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.2.1/materia/bootstrap.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <link rel="stylesheet" href="css/our-team/navbar-fixed-left.min.css">
-    <link rel="stylesheet" href="docs.css">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-            integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.js"></script>
-    <script src="docs.js"></script>
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <link rel="stylesheet" href="css/our-team/style_card.css">
 </head>
 
 <body>
@@ -24,45 +22,45 @@
                 aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-    
+        
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav" id="links_list">
                 <li class="nav-item">
                     <a class="nav-link">Departments</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link">Team Leads</a>
+                    <a class="nav-link" href="#Team-Leads">Team Leads</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link">Vehicle Dynamics</a>
-                </li>
-    
-                <li class="nav-item">
-                    <a class="nav-link">Drivetrain System</a>
+                    <a class="nav-link" href="#Vehicle-Dynamics">Vehicle Dynamics</a>
                 </li>
     
                 <li class="nav-item">
-                    <a class="nav-link">Brakes System</a>
+                    <a class="nav-link" href="#Drivertrain">Drivetrain System</a>
                 </li>
     
                 <li class="nav-item">
-                    <a class="nav-link">Chassis System</a>
+                    <a class="nav-link" href="#Brakes">Brakes System</a>
                 </li>
     
                 <li class="nav-item">
-                    <a class="nav-link">Marketing Team</a>
+                    <a class="nav-link" href="#Chasis">Chassis System</a>
                 </li>
     
                 <li class="nav-item">
-                    <a class="nav-link">Composites System</a>
+                    <a class="nav-link" href="#Marketing">Marketing Team</a>
                 </li>
     
                 <li class="nav-item">
-                    <a class="nav-link">Tractive System and<br>Accumulator</a>
+                    <a class="nav-link" href="#Composites">Composites System</a>
                 </li>
     
                 <li class="nav-item">
-                    <a class="nav-link">Ground Low Voltage System<br>and Data Aquisition System</a>
+                    <a class="nav-link" href="#Electric-Powertrain">Electric Powertrain</a>
+                </li>
+    
+                <li class="nav-item">
+                    <a class="nav-link" href="#Ground-Low-Voltage-and-Data-Aquisitions">Ground Low Voltage System<br>and Data Aquisition System</a>
                 </li>
     
                 <li class="nav-item">
@@ -71,84 +69,20 @@
                 <li class="nav-item">
                     <a class="nav-link">Alumnis</a>
                 </li>
+            </ul>
         </div>
     </nav>
 
-    <!--- Container Containing Images --->
-
-    <div class="container cont3">
-
-       <!--- 1 --->
-       <div class="row align-items-center" id="Team_Leads">
-
-
-       </div><hr/>
-
-       <!--- 2 --->
-
-       <div class="row align-items-center" id="vehicledynamics">
-
-
-       </div><hr/>
- 
-
-       <!--- 3 --->
-       <div class="row align-items-center" id="drivertrain">
-
-
-       </div><hr/>
-
-        <!--- 4 --->
-       <div class="row align-items-center" id="brakes">
-
-
-       </div><hr/>
-
-        <!--- 5 --->
-       <div class="row align-items-center" id="chassis">
-
-
-       </div><hr/>
-
-       <!--- 6 --->
-       <div class="row align-items-center" id="marketing">
-
-
-       </div><hr/>
-
-
-       <!--- 7 --->
-       <div class="row align-items-center" id="composites">
-
-
-       </div><hr/>
-
-        <!--- 8 --->
-       <div class="row align-items-center" id="tractive">
-
-
-       </div><hr/>
-
-        <!--- 9 --->
-       <div class="row align-items-center" id="glv">
-
-
-       </div><hr/>
-
-        <!--- 10 --->
-       <div class="row align-items-center" id="Team2k18">
-
-
-       </div><hr/>
-
-        <!--- 11 --->      
-       <div class="row align-items-center" id="alumni">
-
-
-       </div><hr/>
-
-
-       
+    <div id="animal-info"></div>
+        <button id="btn">get Data</button>
+        <div id="op"></div>
+        <section id="team" class="pb-5">
+                <div class="container" id="whole">
+                    
+                </div>
+        </section>
+        <script src="backend/our-team/card_create.js"></script>
+        <script src="backend/our-team/Navbar_list_create.js"></script>
 
     </div>
 
