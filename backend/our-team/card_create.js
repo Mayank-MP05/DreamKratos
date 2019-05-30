@@ -31,7 +31,7 @@ function create_div(data){
     var dept_name = data[m].deptName;
 
     str1 += `<h5 class="section-title h1">`+ dept_name +`</h5>
-    <div class="row" id="`+dept_name+`"></div>`;
+    <div class="row" id="`+dept_name.replace(" ","-")+`"></div>`;
     }
     document.getElementById("whole").innerHTML = str1;
 }
@@ -42,13 +42,18 @@ function deptwise(data){
 
     for(var i = 0;i < 9 ;i++){
         var dept_name = data[i].deptName;
-        var row = document.getElementById(dept_name);
+        var row = document.getElementById(dept_name.replace(" ","-"));
         var row_html = "";
         for(var j = 0 ; j < data[i].grpMember.length ; j++){
             var person_name = data[i].grpMember[j];
             var img_src = person_name.replace(" ","-");
 
-            
+            if(j == 0){
+                var pose = "Dept Head"; 
+            }else{
+                pose = "";
+            }
+
             row_html += `<!-- Team member ` + i + ` -->
             <div class="col-xs-6 col-sm-6 col-md-4">
                 <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
@@ -59,7 +64,7 @@ function deptwise(data){
                                     <p><img class=" img-fluid" src="../../images/our team/`+ img_src +`.png" alt="` + person_name + `"></p>
                                     <h4 class="card-title">`+ person_name +`</h4>
                                     <p class="card-text">`+ dept_name +`</p>
-                                    <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                    <a href="#" class="btn btn-success btn-sm">`+pose+`</i></a>
                                 </div>
                             </div>
                         </div>
