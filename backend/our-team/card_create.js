@@ -1,9 +1,8 @@
 
 var animalContainer = document.getElementById("animal-info");
-var btn = document.getElementById("btn");
 
-btn.addEventListener("click", function() {
-  var ourRequest = new XMLHttpRequest();
+function GetXHRData(){
+    var ourRequest = new XMLHttpRequest();
   ourRequest.open('GET', 'backend/our-team/dept.json');
   ourRequest.onload = function() {
     if (ourRequest.status >= 200 && ourRequest.status < 400) {
@@ -22,8 +21,7 @@ btn.addEventListener("click", function() {
   };
 
   ourRequest.send();
-});
-
+}
 
 function create_div(data){
     var str1 = '';
@@ -55,13 +53,13 @@ function deptwise(data){
             }
 
             row_html += `<!-- Team member ` + i + ` -->
-            <div class="col-xs-6 col-sm-6 col-md-4">
+            <div class="col-xs-6 col-lg-3">
                 <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
                     <div class="mainflip">
                         <div class="frontside">
                             <div class="card">
                                 <div class="card-body text-center">
-                                    <p><img class=" img-fluid" src="../../images/our team/`+ img_src +`.png" alt="` + person_name + `"></p>
+                                    <p><img class="profile_pic" src="../../images/our team/`+ img_src +`.png" alt="` + person_name + `"></p>
                                     <h4 class="card-title">`+ person_name +`</h4>
                                     <p class="card-text">`+ dept_name +`</p>
                                     <a href="#" class="btn btn-success btn-sm">`+pose+`</i></a>
@@ -92,4 +90,16 @@ function deptwise(data){
         row.innerHTML = row_html;
     }
 
+}
+
+window.onload = GetXHRData;
+   
+function setwidth(){
+    var width = window.innerWidth;
+    if(width > 900){
+        var cardwidth = width/4;
+    }else{
+        var cardwidth = width/2;
+    }
+    document.getElementsByClassName("cardClass").style.width = cardwidth
 }
