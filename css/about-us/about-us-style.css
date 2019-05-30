@@ -1,58 +1,53 @@
 
 @import url('https://fonts.googleapis.com/css?family=Orbitron');
 
+@media only screen and (min-width: 950px) {
+/* Desktop CSS */
+
+body{
+   background: linear-gradient(to Right,#3090C7,rgb(0,0,0,0));
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("images/about-us/thunderblade-in-race.jpg"),linear-gradient(rgb(0,0,0,0.3),rgb(0,0,0,0.3));
+  
+    /* Set a specific height */
+    height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.parallax img{
+    filter: blur(3px);
+}
+.onimage{
+    position: absolute;
+    padding: auto , auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+  
+.color-white{
+    color: white;
+}
+
 img{
     width: 100%;
     padding: 0%;
     margin: 0%;
 }
-/*
-.p1{
-    background-color: #4285F4;
-    color: black;
-}
-
-.p2{
-    background-color: #DB4437;
-    color: black;
-}*/
 
 .quote_bg{
     background-color: rgb(244, 180, 0,0.3);
     color: black;
 }
-/*
-.p3{
-    background-color: #0F9D58;
-    color: black;
-}
-
-.img1{
-    border: 15px solid#F4B400;
-    border-bottom: none;
-}
-
-.img2{
-    border: 15px solid#0F9D58;
-    border-top: none;
-    border-bottom: none;
-}
-
-.img3{
-    border-left: 15px solid#4285F4;
-    border-right: 15px solid#4285F4;
-    border-top:none;
-    border-bottom: none;
-}
-
-.img4{
-    border-left: 15px solid #DB4437;
-    border-right: 15px solid #DB4437;
-    border-top:none;
-    border-bottom: 15px solid #DB4437;
-}*/
-
-/* Bootstrap Code edit */
 
 .row{
     padding-top: 10px;
@@ -69,11 +64,18 @@ img{
     vertical-align: middle;
     float: none;
 }
+
 p{
     font-size: 20px;
 }
+
 .para{
     margin: auto 0%;
 }
 
-/* Wobbling Paragraphs */ 
+}
+
+/* Mobile CSS */
+@media only screen and (max-width: 600px) {
+       
+}
