@@ -1,0 +1,46 @@
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/headnav/headnav.css">
+
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Animated Bootstrap Nav</a>
+    </div>
+
+  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <ul class="nav navbar-nav">
+      <li><a href="#">About</a><span class="hover"></span></li>
+      <li><a href="#">Services</a><span class="hover"></span></li>
+      <li><a href="#">Portfolio</a><span class="hover"></span></li>
+      <li><a href="#">Blog</a><span class="hover"></span></li>
+      <li><a href="#">Contact</a><span class="hover"></span></li>
+    </ul>
+  </div>
+  </div>
+</nav>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script>
+    $( "li" ).hover(
+      function() {
+          $(this).find("span").stop().animate({
+          width:"100%",
+          opacity:"1",
+        }, 400, function () {
+        })
+      }, function() {
+          $(this).find("span").stop().animate({
+          width:"0%",
+          opacity:"0",
+        }, 400, function () {
+        })
+      }
+    );
+</script>
