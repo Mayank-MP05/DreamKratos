@@ -1,8 +1,4 @@
-body {
-    background: #D0D8DB;
-    padding-top: 60px;
-    padding-bottom: 40px;
-}
+
 
 textarea {
     resize: none;
@@ -56,7 +52,7 @@ textarea {
 }
 
 .rounded-social-buttons .fa-twitter, .fa-facebook-f, .fa-linkedin, .fa-youtube, .fa-instagram {
-  font-size: 25px;
+  font-size: 40px;
 }
 
 .rounded-social-buttons .social-button.facebook {
