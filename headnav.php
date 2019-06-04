@@ -20,11 +20,11 @@
 
   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
     <ul class="nav navbar-nav">
-      <li><a href="/index.html">Home</a><span class="hover"></span></li>
-      <li><a href="/about-us.html">About</a><span class="hover"></span></li>
-      <li><a href="/laurels.html">Laurels</a><span class="hover"></span></li>
-      <li><a href="/our-cars.html">Our Cars</a><span class="hover"></span></li>
-      <li><a href="/our-team.html">Our Team</a><span class="hover"></span></li>
+      <li><a href="dreamkratos/index.html">Home</a><span class="hover"></span></li>
+      <li><a href="dreamkratos/about-us.html">About</a><span class="hover"></span></li>
+      <li><a href="dreamkratos/laurels.html">Laurels</a><span class="hover"></span></li>
+      <li><a href="dreamkratos/our-cars.html">Our Cars</a><span class="hover"></span></li>
+      <li><a href="dreamkratos/our-team.html">Our Team</a><span class="hover"></span></li>
       <li>
 
       <li>
@@ -40,9 +40,9 @@
             </div>
       </li>
       <li><a href="#">Gallery</a><span class="hover"></span></li>
-      <li><a href="/newswire.html">News</a><span class="hover"></span></li>
-      <li><a href="/sponsers.html">Sponsers</a><span class="hover"></span></li>
-      <li><a href="/contact-us.html">Contact</a><span class="hover"></span></li>
+      <li><a href="dreamkratos/newswire.html">News</a><span class="hover"></span></li>
+      <li><a href="dreamkratos/sponsers.html">Sponsers</a><span class="hover"></span></li>
+      <li><a href="dreamkratos/contact-us.html">Contact</a><span class="hover"></span></li>
      
     </ul>
   </div>

@@ -15,6 +15,12 @@
     <link rel="stylesheet" href="lib/css_lib/hover.css">
     <link rel="stylesheet" href="css/home/home-style.css">
     <!-- <link rel="stylesheet" href="css/home/bootsrap_Home.css">-->
+
+    <style>
+        .item img{
+            width:100%;
+        }
+    </style>
 </head>
 <body>
    
@@ -29,10 +35,10 @@
             <img src="images/home/SlideShow/right.png">
         </button>
     </div>-->
-
+        
 
     <!-- SlideShow Bootstrap -->
-
+            <?php include("headnav.php"); ?>
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
                 <ol class="carousel-indicators">
@@ -169,6 +175,7 @@
     </div>
 
 </div>
+<?php include("footer.php"); ?>
 <script src="backend/homepage/slideshow.js"></script>
 <script src="backend/homepage/awards_count.js"></script>
 <script src="backend/homepage/get_spons.js"></script>
