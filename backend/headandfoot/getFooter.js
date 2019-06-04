@@ -1,8 +1,9 @@
+var Footer_code = `
 
 <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js"></script>
 <link rel="stylesheet" href="css/footer/foot_css.css">
 
-<footer>
+<footer id="">
   <div class="rounded-social-buttons" style="float: left">
                     <a class="social-button facebook" href="https://www.facebook.com/kratosracing/" target="_blank"><i class="fab fa-facebook-f"></i></a>
                     <a class="social-button twitter" href="https://twitter.com/kratos_team" target="_blank"><i class="fab fa-twitter"></i></a>
@@ -17,3 +18,9 @@
 </footer>
 
 
+
+`;
+
+function getFooter(){
+    return Footer_code;
+}

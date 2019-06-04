@@ -283,3 +283,50 @@ p{
   
 }
 
+
+/* Custom Styling Starts Here */ 
+
+.slide_div{
+  width: 100%;
+  position: relative;
+}
+
+#slide_img{
+  width: 100%;
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+#OnSlideText{
+  background: linear-gradient(#6973A4,rgb(0,0,0,0));
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  max-width: 40%;
+  text-align: center;
+  vertical-align: center;
+  vertical-align: middle;
+}
+
+.slide_div button{
+  height: 100%;
+  position: absolute;
+  max-width: 10%;
+  vertical-align: middle;
+}
+
+.slide_div button img{
+  max-width: 100%;
+  height: auto;
+}
+
+#leftbtn{
+  left: 0;
+}
+
+#rightbtn{
+  right: 0;
+}
