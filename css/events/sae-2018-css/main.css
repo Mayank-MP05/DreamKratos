@@ -182,7 +182,7 @@ textarea {
 .front-page .scroll-arrow{
 	position: fixed; 
 	bottom: 40px;
-	background: url('../img/arrow-1.png') center center no-repeat; 
+	background: url('../img/arrow.png') center center no-repeat; 
 	display: block;
 	height: 22px;
 	width: 40px; 

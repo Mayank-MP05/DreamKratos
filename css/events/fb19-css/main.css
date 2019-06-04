@@ -182,7 +182,7 @@ textarea {
 .front-page .scroll-arrow{
 	position: fixed; 
 	bottom: 40px;
-	background: url('../img/arrow-1.png') center center no-repeat; 
+	background: url('../img/arrow.png') center center no-repeat; 
 	display: block;
 	height: 22px;
 	width: 40px; 
@@ -982,17 +982,17 @@ input{
 		padding: 25px 3%;
 	}
 	.js.skrollr .front-page .wrapper {
-		margin: -100px auto 0;
+		margin: -10px auto 0;
 	}
 	.front-page h1 {
-		font-size: 30px;
+		font-size: 32px;
 	}
 	.front-page h1 span {
-		font-size: 45px;
+		font-size: 30px;
 		line-height: 38px;
 	}
 	.front-page p {
-		padding: 20px;
+		padding: 10px;
 	}
 	.decades > .decade header:after{ 
 		display: none; 
@@ -1032,7 +1032,7 @@ input{
 	}
 	.js.skrollr .decades .fact.bottom-left, 
 	.js.skrollr .decades .fact.bottom-right{
-		margin-top: 105px;
+		margin-top: 10px;
 	}
 	.js.skrollr .decades .decade1980 .fact.bottom-left, 
 	.js.skrollr .decades .decade1980 .fact.bottom-right{
