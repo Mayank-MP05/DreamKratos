@@ -14,7 +14,7 @@
 
 </head>
 <body>
-
+<?php include("headnav.php"); ?>
     <div class="container">
 
         <!----Car 1 -->
@@ -219,5 +219,6 @@
                         </div>
                     </div>
     </div>
+    <?php include("footer.php"); ?>
 </body>
 </html

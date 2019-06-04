@@ -12,11 +12,11 @@
 
 </head>
 <body>
-
+<?php include("headnav.php"); ?>
     <button id="btn" class="btn-primary">Get Data</button>
     <div class="container" id="main_container">
     </div>
-
+<?php include("footer.php"); ?>
     <!-- JS Integration -->
     
     <script src="backend/sponsers/spons.js"></script>

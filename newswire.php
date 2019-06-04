@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/newswire/newswire_desktop.css">
 </head>
 <body>
+<?php include("headnav.php"); ?>
 <div class="container">
     <h3 class="newswire_title">Newswire :</h3>
 
@@ -67,6 +68,6 @@
 
 <p>We have added "border:0" to prevent IE9 (and earlier) from displaying a border around the image.</p>
 
-
+<?php include("footer.php"); ?>
 </body>
 </html>

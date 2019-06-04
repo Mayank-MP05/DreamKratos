@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html>S
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/about-us/about-us-style.css">
 </head>
 <body>
+<?php include("headnav.php"); ?>
 <div class="container">
         <div class="row align-items-center img1">
             <div class="col-sm-5 p1 vcenter">
@@ -72,5 +73,7 @@
             </div>
         </div>
 
-</div></body>
+</div>
+<?php include("footer.php"); ?>
+</body>
 </html>

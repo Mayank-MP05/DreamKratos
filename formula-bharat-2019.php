@@ -27,25 +27,7 @@
         <script src="js\vendor\modernizr-2.6.2.min.js"></script>
     </head>
     <body>
-        <!--[if lt IE 7]>
-            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> or <a href="https://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-        <![endif]-->
-		
-		<div id="fb-root"></div>
-		<script>(function(d, s, id) {
-		  var js, fjs = d.getElementsByTagName(s)[0];
-		  if (d.getElementById(id)) return;
-		  js = d.createElement(s); js.id = id;
-		  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=156184304582535";
-		  fjs.parentNode.insertBefore(js, fjs);
-		}(document, 'script', 'facebook-jssdk'));</script>
-		
-		
-				<noscript>
-            <div class="no-js-warning">This site is better with JavaScript turned on!</div>
-        </noscript>
-        
-		
+	<?php include("headnav.php"); ?>S
 			
 			 <!-- FRONT -->
 			<div class="page front-page" data-0="z-index: 1; position: fixed; top: 0; left: 0; bottom: 0; left: 0; margin: auto; height: 100%; width: 100%; " data-800="z-index: 0;">
@@ -411,7 +393,8 @@
 					
 					<nav class="app-nav"><ul style="top: 192px;"><li><a data-position="1500" href="#decade2010"><span>2010</span></a></li><li><a data-position="2500" href="#decade2000"><span>2000</span></a></li><li><a data-position="3500" href="#decade1990"><span>1990</span></a></li><li><a data-position="4500" href="#decade1980"><span>1980</span></a></li><li><a data-position="5500" href="#decade1970"><span>1970</span></a></li><li><a data-position="6500" href="#decade1960"><span>1960</span></a></li><li><a data-position="7500" href="#decade1950"><span>1950</span></a></li><li><a data-position="8500" href="#decadepre1950"><span>Pre 1950</span></a></li></ul></nav>
 				
-        
+					<?php include("footer.php"); ?>
+					
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
 

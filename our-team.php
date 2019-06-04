@@ -13,7 +13,7 @@
 </head>
 
 <body>
-
+<?php include("headnav.php"); ?>
 <nav class="navbar navbar-expand-md navbar-dark bg-primary fixed-left">
    
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
@@ -80,6 +80,6 @@
         <script src="backend/our-team/Navbar_list_create.js"></script>
 
     </div>
-
+    <?php include("footer.php"); ?>
 </body>
 </html>
