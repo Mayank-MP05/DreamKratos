@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/our-cars/custom_our_cars.css">
 </head>
 <body>
+    <?php include("headnav.php"); ?>
     <div class="bigbox">
     <div class="optionbox">
     <center>
@@ -25,6 +26,7 @@
         <iframe id="our-cars-iframe" src="ourCars/Fireblade4.0.html" scrolling="no" frameborder="0"></iframe>
     </div> 
 </div>
+<?php include("footer.php"); ?>
 <script src="js/our_cars_iframe.js"></script>
 <script>
 

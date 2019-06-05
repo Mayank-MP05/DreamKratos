@@ -74,6 +74,16 @@ p{
     margin: auto 0%;
 }
 
+.navbar-collaps{
+    display: flex;
+    flex-direction: row;
+}
+
+.bigbox{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 }
 
 /* Mobile CSS */
@@ -82,6 +92,11 @@ p{
 body{
     background: linear-gradient(to Right,#3090C7,rgb(0,0,0,0));
  }
+
+ .navbar-collaps{
+    display: flex;
+    flex-direction: column;
+}
  
  .parallax {
      /* The image used */
@@ -147,5 +162,10 @@ body{
  
  .para{
      margin: auto 0%;
- }    
+ } 
+ 
+ .bigbox{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 }

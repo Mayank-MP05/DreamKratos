@@ -41,5 +41,9 @@ body{
 .bodybox{
   width: 100%;
   height: auto;
-  margin-top:50px;
+  margin-top:10px;
+}
+
+.item img{
+  max-height: 700px;
 }
