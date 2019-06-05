@@ -84,6 +84,7 @@ p{
     margin-bottom: 50px;
 }
 
+
 }
 
 /* Mobile CSS */
@@ -93,7 +94,7 @@ body{
     background: linear-gradient(to Right,#3090C7,rgb(0,0,0,0));
  }
 
- .navbar-collaps{
+.navbar-collaps{
     display: flex;
     flex-direction: column;
 }
@@ -165,7 +166,7 @@ body{
  } 
  
  .bigbox{
-    margin-top: 50px;
+    margin-top: 95px;
     margin-bottom: 50px;
 }
 }

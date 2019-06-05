@@ -15,7 +15,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#"><p>Team Kratos Racing</p></a>
+      <a class="navbar-brand" href="#"><p class="navbar-brand-title">Team Kratos Racing</p></a>
     </div>
 
 
@@ -40,16 +40,7 @@
               </div>
             </div>
       </li>
-      <li class="nav-item dropdown dropdown-animating show">
-        <a class="nav-link dropdown-toggle waves-effect waves-light" id="navbarDropdownMenuLink-5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown
-        </a>
-        <div class="dropdown-menu dropdown-secondary animated fadeIn show fadeOut" aria-labelledby="navbarDropdownMenuLink-5">
-          <a class="dropdown-item waves-effect waves-light" href="#">Action</a>
-          <a class="dropdown-item waves-effect waves-light" href="#">Another action</a>
-          <a class="dropdown-item waves-effect waves-light" href="#">Something else here</a>
-        </div>
-    </li>
+      
       <li><a href="#">Gallery</a><span class="hover"></span></li>
       <li><a href="/newswire.php">News</a><span class="hover"></span></li>
       <li><a href="/sponsers.php">Sponsers</a><span class="hover"></span></li>

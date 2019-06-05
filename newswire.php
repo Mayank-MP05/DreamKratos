@@ -15,7 +15,7 @@
 
 <div class="card-deck">
         
-        <div class="card" >
+        <div class="card">
             <img class="card-img-top" src="images/newswire/Autocar_professional.png" alt="Autocar_professional.png">
         <h2 class="card-title text-center sucess">
                         <a href="https://punemirror.indiatimes.com/others/sunday-read/podium-finish/articleshow/60135468.cms">
@@ -25,7 +25,7 @@
      
         </div>
         </a>
-    <div class="card" >
+    <div class="card">
             <img class="card-img-top" src="images/newswire/business-std.jpeg" alt="business-std.jpeg">
     </div>
     <div class="card" >
