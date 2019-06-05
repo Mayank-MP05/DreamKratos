@@ -3,29 +3,41 @@ html, body {
     overflow-x: hidden;
 }
 
+center{
+    width: 100%;
+}
+
+
 .optionbox{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     width:100%;
     text-align: center;
 }
 
-.optionbox div{
-    align-content: stretch;
+.optionbox button{
     max-width: 50%;
-    min-width: 16%;
+    min-width: 12%;
     padding: 1.5%;
     margin: 1%;
-    justify-content: center;
     border: 5px solid rgb(105, 115, 164);
     background-color: black;
     color: white;
     text-transform: uppercase;
 }
 
+.optionbox button:hover{
+    color: #fff;
+    background: linear-gradient(black,rgb(105, 115, 164));
+}
+
 body{
     overflow-x: hidden;
+}
+
+.bigbox{
+    width: 100%;
+    margin-top: 50px;
 }
 
 /* Iframe Styling */
@@ -33,5 +45,8 @@ body{
 #our-cars-iframe , .framebox{
     min-width: 100%;
     width: 100%;
-    height: auto;
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow: hidden;
+    height: 2000px;
 }
