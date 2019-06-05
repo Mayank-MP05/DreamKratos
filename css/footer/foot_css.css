@@ -52,7 +52,7 @@ textarea {
 }
 
 .rounded-social-buttons .fa-twitter, .fa-facebook-f, .fa-linkedin, .fa-youtube, .fa-instagram {
-  font-size: 40px;
+  font-size: 27px;
 }
 
 .rounded-social-buttons .social-button.facebook {
@@ -103,4 +103,34 @@ textarea {
   color: #125688;
   background: #fefefe;
   border-color: #125688;
+}
+
+.containernbs{
+  width: 100%;
+  height: 50px;
+  background-color: #101010;
+  border-top: 5px solid #125688;
+  color: white;
+  padding: auto 10px;
+  bottom: 0;
+  margin: 0;
+}
+
+.left_foot{
+  float: left;
+  background: transparent;
+  margin: auto 0;
+}
+
+.right_foot{
+  float: right;
+  background: transparent;
+}
+
+@media only screen and (max-width: 600px) {
+  .containernbs{
+    display: flex;
+    flex-direction: column;
+    height: 80px;
+  }
 }

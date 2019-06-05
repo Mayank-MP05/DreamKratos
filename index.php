@@ -16,29 +16,12 @@
     <link rel="stylesheet" href="css/home/home-style.css">
     <!-- <link rel="stylesheet" href="css/home/bootsrap_Home.css">-->
 
-    <style>
-        .item img{
-            width:100%;
-        }
-    </style>
 </head>
 <body>
-   
-    <!-- SildeShow 
-    <div class="slide_div">
-        <img id="slide_img" src="">
-        <p id="OnSlideText"></p>
-        <button id="leftbtn" onclick="slide(0)">
-            <img src="images/home/SlideShow/left.png">
-        </button>
-        <button id="rightbtn" onclick="slide(1)">
-            <img src="images/home/SlideShow/right.png">
-        </button>
-    </div>-->
-        
 
     <!-- SlideShow Bootstrap -->
             <?php include("headnav.php"); ?>
+            <div class="bodybox">
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
                 <ol class="carousel-indicators">
@@ -122,58 +105,112 @@
           </div>
 
     <!-- 3 Cards With Counter -->
-    <div class="row text-center">
+    <div class="row text-center padding10">
             <h3>Welcome to Team Kratos Official Website.</h3>
     </div>
+    <hr>
     <div class="row text-center">
             <div class="card-deck">
-            <div class="card">
-              <img class="card-img-top" src="..." alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-              </div>
+                <div class="card">
+                <img class="card-img-top img-fluid" src="images/logo_representations/award.png" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title">Awards</h4>
+                    </div>
+                </div>
+                <div class="card">
+                <img class="card-img-top img-fluid" src="images/logo_representations/cars.png" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title">Cars</h4>
+                    </div>
+                </div>
+                <div class="card">
+                <img class="card-img-top img-fluid" src="images/logo_representations/competitions.png" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title">Competitions</h4>
+                    </div>
+                </div>
             </div>
-            <div class="card">
-              <img class="card-img-top" src="..." alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-              </div>
-            </div>
-            <div class="card">
-              <img class="card-img-top" src="..." alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-              </div>
-            </div>
-        </div>
     </div>
-</div>
+
     <!-- About u -->
-    <div class="row">
+    <hr>
+    <div class="text-center padding10">
         <h3>About us</h3>
     </div>
-    <div class="row">
+    <hr>
+    <div class="">
         <p>
-            Team Kratos Racing is a Formula student team of Pimpri Chinchwad College of Engineering, comprising of 35 highly dedicated and diligent undergraduate students. Putting in hours at the workshop where sleepless nights and greasy jeans became our daily routine, we design, manufacture and test a Formula 3 styled vehicle. We promote students to hone their skills and execute all tasks to perfection. We exist to race in the top echelon of motor racing starting with national level and then taking India to the world.
+            &nbsp &nbsp &nbsp &nbsp &nbspTeam Kratos Racing is a Formula student team of Pimpri Chinchwad College of Engineering, comprising of 35 highly dedicated and diligent undergraduate students. Putting in hours at the workshop where sleepless nights and greasy jeans became our daily routine, we design, manufacture and test a Formula 3 styled vehicle. We promote students to hone their skills and execute all tasks to perfection. We exist to race in the top echelon of motor racing starting with national level and then taking India to the world.
             <br><br>
-            Driven by our motto, “TOGETHER WE RISE”,  we have successfully manufactured 3 combustion Formula-3 cars in 3 years. The genesis of the adventure began when a few passionate minds from the college set out on this journey of forming a Formula Student team. Holding spanners in their hands, chains round their neck, innovation in their minds and determination in their heart, they set out on the journey to achieve the impossible.
+            &nbsp &nbsp &nbsp &nbsp &nbspDriven by our motto, “TOGETHER WE RISE”,  we have successfully manufactured 3 combustion Formula-3 cars in 3 years. The genesis of the adventure began when a few passionate minds from the college set out on this journey of forming a Formula Student team. Holding spanners in their hands, chains round their neck, innovation in their minds and determination in their heart, they set out on the journey to achieve the impossible.
             <a href="/about-us.html">Read More ...</a>
         </p>
     </div>
+    <hr>
 
     <!-- Sponsers -->
 
-    <div class="row">
+    <div class="text-center padding10">
         <h3>Proud Sponsers</h3>
-        <button id="btn">Get Spons</button>
     </div>
 
+    <hr>
+
+    <div class="Sponser_box">
+        <div class="card">
+            <img class="card-img-top img-fluid" src="images/logo_representations/competitions.png" alt="Card image cap">
+            <div class="card-body">
+                <h4 class="card-title">Competitions</h4>
+                <a href="">Sponser.com</a>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top img-fluid" src="images/logo_representations/competitions.png" alt="Card image cap">
+            <div class="card-body">
+                <h4 class="card-title">Competitions</h4>
+                <a href="">Sponser.com</a>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top img-fluid" src="images/logo_representations/competitions.png" alt="Card image cap">
+            <div class="card-body">
+                <h4 class="card-title">Competitions</h4>
+                <a href="">Sponser.com</a>
+            </div>
+        </div>
+
+    </div>
+    <div class="Sponser_box">
+
+        <div class="card">
+            <img class="card-img-top img-fluid" src="images/logo_representations/competitions.png" alt="Card image cap">
+            <div class="card-body">
+                <h4 class="card-title">Competitions</h4>
+                <a href="">Sponser.com</a>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top img-fluid" src="images/logo_representations/competitions.png" alt="Card image cap">
+            <div class="card-body">
+                <h4 class="card-title">Competitions</h4>
+                <a href="">Sponser.com</a>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top img-fluid" src="images/logo_representations/competitions.png" alt="Card image cap">
+            <div class="card-body">
+                <h4 class="card-title">Competitions</h4>
+                <a href="">Sponser.com</a>
+            </div>
+        </div>
+    
+    </div>
+
+    <div class="card-deck">
+           
+    </div>
+
+</div>
 </div>
 <?php include("footer.php"); ?>
 <script src="backend/homepage/slideshow.js"></script>

@@ -66,10 +66,8 @@ btn.addEventListener("click", function() {
       var ourData = JSON.parse(ourRequest.responseText);
       
       /* funstions to Create and Show Data */
-        console.log(ourData);
-      row_maker(ourData);
-      card_maker(ourData);
-
+      console.log(ourData);
+      createCard(ourData);
 
     } else {
       console.log("We connected to the server, but it returned an error.");
@@ -83,3 +81,9 @@ btn.addEventListener("click", function() {
 
   ourRequest.send();
 });
+
+function createCard(data){
+  
+}
+
+var Cardcode = ` `;
