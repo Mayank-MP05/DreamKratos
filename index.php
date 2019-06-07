@@ -111,22 +111,25 @@
     <hr>
     <div class="row text-center">
             <div class="card-deck">
+            <div class="card">
+                <img class="card-img-top img-fluid" src="images/logo_representations/cars.png" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title">Cars</h4>
+                    <h5 id="Cars_count"></h5>
+                </div>
+                </div>
                 <div class="card">
                 <img class="card-img-top img-fluid" src="images/logo_representations/award.png" alt="Card image cap">
                 <div class="card-body">
                     <h4 class="card-title">Awards</h4>
-                    </div>
-                </div>
-                <div class="card">
-                <img class="card-img-top img-fluid" src="images/logo_representations/cars.png" alt="Card image cap">
-                <div class="card-body">
-                    <h4 class="card-title">Cars</h4>
+                    <h5 id="Awards_count"></h5>
                     </div>
                 </div>
                 <div class="card">
                 <img class="card-img-top img-fluid" src="images/logo_representations/competitions.png" alt="Card image cap">
                 <div class="card-body">
                     <h4 class="card-title">Competitions</h4>
+                    <h5 id="Competitions_count"></h5>
                     </div>
                 </div>
             </div>
@@ -213,8 +216,32 @@
 </div>
 </div>
 <?php include("footer.php"); ?>
-<script src="backend/homepage/slideshow.js"></script>
-<script src="backend/homepage/awards_count.js"></script>
-<script src="backend/homepage/get_spons.js"></script>
+<script>
+    cars = document.getElementById("Cars_count");
+    awards = document.getElementById("Awards_count");
+    comps = document.getElementById("Competitions_count");
+
+    var car , award , comp;
+    car = comp = award = 1;
+
+    
+    setInterval(function(){ 
+        if(car < 8){
+            cars.innerHTML = "Cars : " + car;
+            car++;
+            comps.innerHTML = "Competitions : " + comp;
+            comp++;
+        }
+    }, 200);
+
+    setInterval(function(){ 
+        if(award < 30){
+            awards.innerHTML = "Awards : " + award;
+            award++;
+        }
+    }, 200);
+    
+</script>
+
 </body>
 </html
