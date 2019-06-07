@@ -4,3 +4,11 @@ body{
     background: linear-gradient(to right, rgba(30,87,153,1) 0%,rgba(125,185,232,0.47) 53%,rgba(125,185,232,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#007db9e8',GradientType=1 ); /* IE6-9 */
 }
+
+.bigbox{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    min-height:800px;
+    background-color: black;
+    height: 800px; 
+}

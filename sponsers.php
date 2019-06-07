@@ -6,16 +6,25 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Spoonsers</title>
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
     <!-- Linked CSS -->
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <link rel="stylesheet" href="css/spoonsers/spons.css">
 
 </head>
 <body>
 <?php include("headnav.php"); ?>
+    
+<div class="bigbox">
     <button id="btn" class="btn-primary">Get Data</button>
     <div class="container" id="main_container">
+        
     </div>
+</div>
+
+
 <?php include("footer.php"); ?>
     <!-- JS Integration -->
     

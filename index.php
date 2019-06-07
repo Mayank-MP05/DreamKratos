@@ -41,15 +41,15 @@
                     <img src="images/home/slides/slide_1.jpeg" alt="Team Kratos Racing Electric">
                     <div class="carousel-caption">
                     <h3>Team Kratos Racing</h3>
-                    <p>Team Kratos Racing Electric All Rights Reserved</p>
+                    <p></p>
                     </div>
                 </div>
             
                 <div class="item">
                         <img src="images/home/slides/slide_2.jpeg" alt="Team Kratos Racing Electric">
                         <div class="carousel-caption">
-                        <h3>Team Kratos Racing</h3>
-                        <p>Team Kratos Racing Electric All Rights Reserved</p>
+                        <h3>Together We Rise</h3>
+                        <p></p>
                         </div>
                 </div>
 
@@ -57,15 +57,15 @@
                         <img src="images/home/slides/slide_3.jpeg" alt="Team Kratos Racing Electric">
                         <div class="carousel-caption">
                         <h3>Team Kratos Racing</h3>
-                        <p>Team Kratos Racing Electric All Rights Reserved</p>
+                        <p></p>
                         </div>
                     </div>
 
                 <div class="item">
                     <img src="images/home/slides/slide_4.jpeg" alt="Team Kratos Racing Electric">
                     <div class="carousel-caption">
-                    <h3>Team Kratos Racing</h3>
-                    <p>Team Kratos Racing Electric All Rights Reserved</p>
+                    <h3>Together We Rise</h3>
+                    <p></p>
                     </div>
                 </div>
 
@@ -73,14 +73,14 @@
                     <img src="images/home/slides/slide_5.jpeg" alt="Team Kratos Racing Electric">
                     <div class="carousel-caption">
                     <h3>Team Kratos Racing</h3>
-                    <p>Team Kratos Racing Electric All Rights Reserved</p>
+                    <p></p>
                     </div>
                 </div>
                 <div class="item">
                         <img src="images/home/slides/slide_6.jpeg" alt="Team Kratos Racing Electric">
                         <div class="carousel-caption">
-                        <h3>Team Kratos Racing</h3>
-                        <p>Team Kratos Racing Electric All Rights Reserved</p>
+                        <h3>Together We Rise</h3>
+                        <p></p>
                         </div>
                 </div>
 
@@ -88,7 +88,7 @@
                     <img src="images/home/slides/slide_7.jpeg" alt="Team Kratos Racing Electric">
                     <div class="carousel-caption">
                     <h3>Team Kratos Racing</h3>
-                    <p>Team Kratos Racing Electric All Rights Reserved</p>
+                    <p></p>
                     </div>
                 </div>
             </div>
