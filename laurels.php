@@ -21,20 +21,12 @@
 
         <!----Car 1 -->
 
-        <div class="container2">
-            <img src="images/laurels/fake/maya (1).jpg" alt="Notebook" style="width:100%;">
-            <div class="content">
-              <h1>Heading</h1>
-              <p>Lorem ipsum..</p>
-            </div>
-        </div>
-
-        <div class="row">
+            <div class="row">
                 <h2 class="comp_name">FORMULA BHARAT ELECTRIC 2019</h2>
                 
             </div>
     
-            <div class="row align-items-center">
+            <div class="row align-items-center row-fb19">
                 <div class="col-sm-4 bg-dark" id="particle1">
                     <ul class="list-group">
                         <li class="list-group-item right-grp-item">
@@ -65,7 +57,7 @@
                 </div>
     
                 <div class="col-sm-8">
-                    <img class="img img-fluid" src="images/laurels/fake/maya (1).jpg" alt="">
+                    <img class="img img-fluid" src="images/laurels/Original/img1-FB19.jpg" alt="">
                 </div>
             </div>
     
@@ -78,9 +70,9 @@
             
         </div>
 
-        <div class="row align-items-center">
+        <div class="row align-items-center concept18">
             <div class="col-sm-8">
-                <img class="img img-fluid" src="images/laurels/fake/maya (2).jpg" alt="">
+                <img class="img img-fluid" src="images/laurels/Original/img2-Concept-challenge.jpg" alt="">
             </div>
             <div class="col-sm-4 bg-dark align-middle" id="particle2">
                 <ul class="list-group">
@@ -99,7 +91,7 @@
                 
             </div>
     
-            <div class="row align-items-center">
+            <div class="row align-items-center sae18">
                 <div class="col-sm-4 bg-dark" id="particle7">
                     <ul class="list-group">
                         <li class="list-group-item">1st - Overall Ranking</li>
@@ -114,7 +106,7 @@
                 </div>
     
                 <div class="col-sm-8">
-                    <img class="img img-fluid" src="images/laurels/fake/maya (3).jpg" alt="">
+                    <img class="img img-fluid" src="images/laurels/Original/img3-Fireblade-4.0.jpg" alt="">
                 </div>
             </div>
 
@@ -125,9 +117,9 @@
             
         </div>
 
-        <div class="row align-items-center">
+        <div class="row align-items-center fb18">
             <div class="col-sm-8">
-                <img class="img img-fluid" src="images/laurels/fake/maya (4).jpg" alt="">
+                <img class="img img-fluid" src="images/laurels/Original/img4-Fireblade-3.1-1.jpg" alt="">
             </div>
             <div class="col-sm-4 bg-dark" id="particle3">
                 <ul class="list-group align-middle">
@@ -147,7 +139,7 @@
                     
                 </div>
         
-                <div class="row align-items-center">
+                <div class="row align-items-center sae17">
                     <div class="col-sm-4 bg-dark" id="particle4">
                         <ul class="list-group">
                             <li class="list-group-item">1st - Overall Ranking</li>
@@ -159,7 +151,7 @@
                     </div>
         
                     <div class="col-sm-8">
-                        <img class="img img-fluid" src="images/laurels/fake/maya (5).jpg" alt="">
+                        <img class="img img-fluid" src="images/laurels/Original/img5-fireblade-3.0.jpg" alt="">
                     </div>
                 </div>
 
@@ -169,9 +161,9 @@
                         <h2 class="comp_name">FORMULA BHARAT 2017</h2>
                 </div>
             
-                    <div class="row align-items-center">
+                    <div class="row align-items-center fb17">
                         <div class="col-sm-8">
-                            <img class="img img-fluid" src="images/laurels/fake/maya (6).jpg" alt="">
+                            <img class="img img-fluid" src="images/laurels/Original/img6.jpg" alt="">
                         </div>
                         <div class="col-sm-4 bg-dark" id="particle5">
                                 <ul class="list-group">
@@ -188,7 +180,7 @@
                     
                 </div>
         
-                <div class="row align-items-center">
+                <div class="row align-items-center sae16">
                     <div class="col-sm-4 bg-dark"  id="particle6">
                         <ul class="list-group">
                             <li class="list-group-item">1st - Overall Ranking</li>
@@ -200,7 +192,7 @@
                     </div>
         
                     <div class="col-sm-8">
-                        <img class="img img-fluid" src="images/laurels/fake/maya (7).jpg" alt="">
+                        <img class="img img-fluid" src="images/laurels/Original/img7.jpg" alt="">
                     </div>
                 </div>
 
@@ -210,9 +202,9 @@
                         <h2 class="comp_name">SAE SUPRA 2015</h2>
                         
                     </div>
-                    <div class="row align-items-center">
+                    <div class="row align-items-center sae15">
                          <div class="col-sm-8">
-                            <img class="img img-fluid" src="images/laurels/1.png" alt="">
+                            <img class="img img-fluid" src="images/laurels/Original/img8.jpg" alt="">
                         </div>
                         <div class="col-sm-4 bg-dark" id="particle8">
                                 <ul class="list-group">

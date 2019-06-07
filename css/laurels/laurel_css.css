@@ -1,7 +1,7 @@
 /* Forward */
 
 .list-group-item {
-    display: inline-block;
+    display: flex;
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
@@ -115,4 +115,86 @@
   color: #f1f1f1; /* Grey text */
   height: 100%; /* Full width */
   padding: 0 20px; /* Some padding */
+}
+
+@media only screen and (max-width: 600px) {
+  /* mobile Css */
+
+  .img-fluid{
+    width: 100%;
+    height: auto;
+  }
+
+}
+
+@media only screen and (min-width: 600px) {
+  /* Desktop CSS Css */
+  .img-fluid{
+    display: none;
+  }
+
+  .row{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+  }
+  .row-fb19{
+    background: url("/images/laurels/Original/img1-FB19.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+  }
+
+  .concept18{
+    background: url("/images/laurels/Original/img2-Concept-challenge.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+  }
+
+  .sae18{
+    background: url("/images/laurels/Original/img3-Fireblade-4.0.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+  }
+
+  .fb18{
+    background: url("/images/laurels/Original/img4-Fireblade-3.1-1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+  }
+
+  .sae17{
+    background: url("/images/laurels/Original/img5-fireblade-3.0.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+  }
+
+  .fb17{
+    background: url("/images/laurels/Original/img6.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+  }
+
+  .sae16{
+    background: url("/images/laurels/Original/img7.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+  }
+
+  .sae15{
+    background: url("/images/laurels/Original/img8.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+  }
+
+  .container .row:nth-child(even){
+    min-height: 500px;
+  }
 }
