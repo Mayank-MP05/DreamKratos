@@ -124,36 +124,6 @@
   border-bottom-left-radius: calc(.25rem - 1px)
 }
 
-.card-deck {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: row;
-  flex-direction: row;
-}
-
-.card-deck .card {
-  margin-bottom: 15px
-}
-
-@media (min-width:576px) {
-  .card-deck {
-      -ms-flex-flow: row wrap;
-      flex-flow: row wrap;
-      margin-right: -15px;
-      margin-left: -15px
-  }
-  .card-deck .card {
-      display: -ms-flexbox;
-      display: flex;
-      -ms-flex: 1 0 0%;
-      flex: 1 0 0%;
-      -ms-flex-direction: column;
-      flex-direction: column;
-      margin-right: 15px;
-      margin-bottom: 0;
-      margin-left: 15px
-  }
-}
 
 .card-group {
   display: -ms-flexbox;
@@ -281,4 +251,43 @@
 .margin50{
   margin-top: 50px;
   margin-bottom: 50px;
+}
+
+/* Flex Box Code */
+.card-deck {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.card-deck .card {
+  margin-bottom: 15px
+}
+
+.card{
+  width: 33%;
+}
+
+@media (max-width:576px) {
+  .card{
+    width: 100%;
+  }
+  .card-deck {
+      display: flex;
+      flex-direction: column;
+      margin-right: -15px;
+      margin-left: -15px
+  }
+  .card-deck .card {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex: 1 0 0%;
+      flex: 1 0 0%;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      margin-right: 15px;
+      margin-bottom: 0;
+      margin-left: 15px
+  }
 }
