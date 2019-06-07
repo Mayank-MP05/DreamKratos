@@ -3,12 +3,16 @@
         "category":"Title",
         "list":[
             {
-                "sponsName":"ABC",
-                "sponsWebsite":"www.abc.xyz"
+                "sponsName":"Tata Motars",
+                "sponsWebsite":"https://www.tatamotors.com/"
             },
             {
-                "sponsName":"ABC",
-                "sponsWebsite":"www.abc.xyz"
+                "sponsName":"PCET Trust",
+                "sponsWebsite":"http://www.pccoepune.com/"
+            },
+            {
+                "sponsName":"Bosch",
+                "sponsWebsite":"https://www.bosch.in/"
             }
         ]
     },
@@ -17,37 +21,33 @@
         "category":"Platinum",
         "list":[
             {
-                "sponsName":"ABC",
+                "sponsName":"Dana Spicer",
                 "sponsWebsite":"www.abc.xyz"
             },
             {
-                "sponsName":"ABC",
+                "sponsName":"Manil Engineers",
                 "sponsWebsite":"www.abc.xyz"
             },
             {
-                "sponsName":"ABC",
+                "sponsName":"Bekar Gauges",
                 "sponsWebsite":"www.abc.xyz"
             },{
-                "sponsName":"ABC",
+                "sponsName":"Bender",
                 "sponsWebsite":"www.abc.xyz"
             },
             {
-                "sponsName":"ABC",
+                "sponsName":"Gigavac",
                 "sponsWebsite":"www.abc.xyz"
             },
             {
-                "sponsName":"ABC",
+                "sponsName":"Nana Industries",
                 "sponsWebsite":"www.abc.xyz"
             },{
-                "sponsName":"ABC",
+                "sponsName":"Dupont",
                 "sponsWebsite":"www.abc.xyz"
             },
             {
-                "sponsName":"ABC",
-                "sponsWebsite":"www.abc.xyz"
-            },
-            {
-                "sponsName":"ABC",
+                "sponsName":"TE Connectivity",
                 "sponsWebsite":"www.abc.xyz"
             }
         ]
@@ -57,19 +57,91 @@
         "category":"Gold",
         "list":[
             {
-                "sponsName":"ABC",
+                "sponsName":"JK Udyog",
                 "sponsWebsite":"www.abc.xyz"
             },
             {
-                "sponsName":"ABC",
+                "sponsName":"Toolcon Systems",
                 "sponsWebsite":"www.abc.xyz"
             },
             {
-                "sponsName":"ABC",
+                "sponsName":"VR Coatings pvt ltd",
                 "sponsWebsite":"www.abc.xyz"
             },
             {
-                "sponsName":"ABC",
+                "sponsName":"Pooja Lasers",
+                "sponsWebsite":"www.abc.xyz"
+            },
+            {
+                "sponsName":"Autodisir",
+                "sponsWebsite":"www.abc.xyz"
+            },
+            {
+                "sponsName":"India Cables and Electricals pvt ltd",
+                "sponsWebsite":"www.abc.xyz"
+            },
+            {
+                "sponsName":"BEICO",
+                "sponsWebsite":"www.abc.xyz"
+            },
+            {
+                "sponsName":"LEM",
+                "sponsWebsite":"www.abc.xyz"
+            },
+            {
+                "sponsName":"SA Electronics",
+                "sponsWebsite":"www.abc.xyz"
+            },
+            {
+                "sponsName":"Elsa Ganter",
+                "sponsWebsite":"www.abc.xyz"
+            },
+            {
+                "sponsName":"Maa-ku",
+                "sponsWebsite":"www.abc.xyz"
+            },
+            {
+                "sponsName":"Matlab",
+                "sponsWebsite":"www.abc.xyz"
+            },
+            {
+                "sponsName":"PVG Technologies",
+                "sponsWebsite":"www.abc.xyz"
+            },
+            {
+                "sponsName":"Redbull",
+                "sponsWebsite":"www.abc.xyz"
+            },
+            {
+                "sponsName":"Sensata",
+                "sponsWebsite":"www.abc.xyz"
+            },
+            {
+                "sponsName":"Om Atharva",
+                "sponsWebsite":"www.abc.xyz"
+            },
+            {
+                "sponsName":"Cotmac",
+                "sponsWebsite":"www.abc.xyz"
+            },
+            {
+                "sponsName":"IndexNine",
+                "sponsWebsite":"www.abc.xyz"
+            },
+            {
+                "sponsName":"Grabriel",
+                "sponsWebsite":"www.abc.xyz"
+            },
+            {
+                "sponsName":"SealWings",
+                "sponsWebsite":"www.abc.xyz"
+            },
+            {
+                "sponsName":"Loyli",
+                "sponsWebsite":"www.abc.xyz"
+            },
+            {
+                "sponsName":"Zen Microsystems",
                 "sponsWebsite":"www.abc.xyz"
             }
         ]
@@ -79,14 +151,54 @@
         "category":"Silver",
         "list":[
             {
-                "sponsName":"",
+                "sponsName":"M M Industries",
                 "sponsWebsite":""
             },{
-                "sponsName":"ABC",
+                "sponsName":"M and M Engineers",
                 "sponsWebsite":"www.abc.xyz"
             }
             ,{
-                "sponsName":"ABC",
+                "sponsName":"Micro Lasers",
+                "sponsWebsite":"www.abc.xyz"
+            },
+            {
+                "sponsName":"NPT",
+                "sponsWebsite":""
+            },{
+                "sponsName":"Sugam Enterprises",
+                "sponsWebsite":"www.abc.xyz"
+            }
+            ,{
+                "sponsName":"Suaan",
+                "sponsWebsite":"www.abc.xyz"
+            },
+            {
+                "sponsName":"Precision Gears",
+                "sponsWebsite":""
+            },{
+                "sponsName":"KGC",
+                "sponsWebsite":"www.abc.xyz"
+            }
+            ,{
+                "sponsName":"Diya",
+                "sponsWebsite":"www.abc.xyz"
+            },{
+                "sponsName":"Pramod Gears",
+                "sponsWebsite":"www.abc.xyz"
+            }
+            ,{
+                "sponsName":"Jyot Heat Treat Industries",
+                "sponsWebsite":"www.abc.xyz"
+            },
+            {
+                "sponsName":"Sri Sri Industries",
+                "sponsWebsite":""
+            },{
+                "sponsName":"Kwality Engineering",
+                "sponsWebsite":"www.abc.xyz"
+            }
+            ,{
+                "sponsName":"Vinkay Auto pvt ltd",
                 "sponsWebsite":"www.abc.xyz"
             }
         ]
