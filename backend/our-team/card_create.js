@@ -38,7 +38,7 @@ function create_div(data){
 function deptwise(data){
     var html ="";
 
-    for(var i = 0;i < 9 ;i++){
+    for(var i = 0;i < 11 ;i++){
         var dept_name = data[i].deptName;
         var row = document.getElementById(dept_name.replace(" ","-"));
         var row_html = "";

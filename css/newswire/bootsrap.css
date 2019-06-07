@@ -57,7 +57,6 @@ footer,
 header,
 hgroup,
 main,
-nav,
 section {
     display: block
 }
@@ -4284,7 +4283,7 @@ input[type=submit].btn-block {
         transition: none
     }
 }
-
+/*
 .nav {
     display: -ms-flexbox;
     display: flex;
@@ -4301,7 +4300,7 @@ input[type=submit].btn-block {
 }
 
 .nav-link:focus,
-.nav-link:hover {
+.card-deck-link:hover {
     text-decoration: none
 }
 
@@ -4797,7 +4796,7 @@ input[type=submit].btn-block {
 .navbar-dark .navbar-text a:hover {
     color: #fff
 }
-
+*/
 .card {
     position: relative;
     display: -ms-flexbox;
@@ -4921,8 +4920,8 @@ input[type=submit].btn-block {
 .card-deck {
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column
+    -ms-flex-direction: row;
+    flex-direction: row;
 }
 
 .card-deck .card {
@@ -10145,10 +10144,10 @@ a.text-dark:hover {
     }
     .container {
         min-width: 992px!important
-    }
+    }/*
     .navbar {
         display: none
-    }
+    }*/
     .badge {
         border: 1px solid #000
     }

@@ -65,22 +65,26 @@
                 </li>
     
                 <li class="nav-item">
-                    <a class="nav-link">Team 2K18</a>
+                    <a class="nav-link" href="#Team-2K18">Team 2K18</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item" href="#Alumnis">
                     <a class="nav-link">Alumnis</a>
                 </li>
             </ul>
         </div>
     </nav>
-        <div id="op"></div>
+        
+        <div id="op">
+        
+        </div>
         <section id="team" class="pb-5">
-                <div class="container" id="whole">
-                    
-                </div>
+            <div class="bigbox" id="whole">
+            
+            </div>
         </section>
+ 
         <script src="backend/our-team/card_create.js"></script>
-        <script src="backend/our-team/Navbar_list_create.js"></script>
+        <script src="backend/our-team/Navbar_list_create.js"></script>-->
 
     </div>
     <?php include("footer.php"); ?>

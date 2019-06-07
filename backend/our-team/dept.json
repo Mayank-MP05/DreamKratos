@@ -6,7 +6,6 @@
           "Sanket Kamat"
       ]
     },
-
     {
       "deptName": "Chasis",
       "grpMember":[
@@ -75,9 +74,30 @@
           "Niranjan Tarale",
           "Nainesh Desale"
       ]
+    },
+    {
+      "deptName": "Team 2k18",
+      "grpMember":[
+          "Shubhaang Digge",
+          "Subodh Mhase",
+          "Ashutosh Jatkar"  ,        
+          "Purushottam Doshi",
+          "Param Desai",
+          "Virendra Nichit",
+          "Shivkumar Mirajgave",
+          "Mohit Maru",
+          "Shubham Patil"
+      ]
+    },
+    {
+      "deptName": "Alumni",
+      "grpMember":[
+          "Kushal Dhokare",
+          "Pratik Waikar",	
+          "Abhishek Patil",
+          "Prafull Bhosale",	
+          "Shweta Khonde",
+          "Shubham.Patil"
+      ]
     }
-
-
-
-
 ]
