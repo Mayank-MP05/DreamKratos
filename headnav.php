@@ -29,18 +29,15 @@
       <li><a href="/our-cars.php">Our Cars</a><span class="hover"></span></li>
       <li><a href="/our-team.php">Our Team</a><span class="hover"></span></li>
       <li>
-
-      <li>
-          <div class="btn-group">
-              <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Events
-              </button>
-              <div class="dropdown-menu">
-                <a class="dropdown-item" href="/">SAE Supra 2k18<br></a>
-                <a class="dropdown-item" href="#">Formula Bharat 2k18<br></a>
-                <a class="dropdown-item" href="#">Formula Bharat 2k18<br></a>
-              </div>
-            </div>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Events
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="/sae-supra-2018.php">SAE Supra 2k18</a>
+          <a class="dropdown-item" href="/formula-bharat-2018.php">Formula Bharat 2k18</a>
+          <a class="dropdown-item" href="/formula-bharat-2019.php">Formula Bharat 2k19</a>
+        </div>
       </li>
       
       <li><a href="#">Gallery</a><span class="hover"></span></li>
