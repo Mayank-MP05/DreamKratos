@@ -70,7 +70,7 @@
 								<h3></h3>
 								<p></p>
 							</div>
-							<img src="img\2010.png" alt="2010: Mobile devices, Windows 8 and cloud devices">
+							<img src="images/sae-supra-18/day1.jpg" alt="2010: Mobile devices, Windows 8 and cloud devices">
 							
 							<div class="fact bottom-right" data-1300="opacity: 0;" data-1500="opacity: 1;">
 								<h3></h3>
@@ -124,7 +124,7 @@
 						
 							<div class="dot" id="decade2000Left" rel="popover" data-2300="opacity: 0;" data-2500="opacity: 1;" data-title="Introduction of the iPhone" data-content="Apple released the first generation iPhone on 29 June 2007, the phone was later released in November 2007 in the UK. Development began in 2004, comprised of a team of 1000 people and cost $150m over thirty months." data-placement="bottom"></div>
 							
-        					<img src="img\2000.png" alt="2000: Desktop computers, launch of BlackBerry and iPhones">
+        					<img src="images/sae-supra-18/day2-team.jpg" alt="2000: Desktop computers, launch of BlackBerry and iPhones">
         					
 							<div class="fact bottom-right" data-2300="opacity: 0;" data-2500="opacity: 1;">
 								<h3></h3>
@@ -177,7 +177,7 @@
 									</p>
 								</div>
 							
-							<img src="img\1990.png" alt="1990: Common to see desktop computers in homes. Uptake of world wide web">
+							<img src="images/sae-supra-18/day3-1.jpg" alt="1990: Common to see desktop computers in homes. Uptake of world wide web">
 							
 							<div class="fact bottom-right" data-3300="opacity: 0;" data-3500="opacity: 1;">
 								<h3></h3>
@@ -235,7 +235,7 @@
 								</p>
 							</div>
 						
-							<img src="img\1980.png" alt="1980: CDROM and Floppy Disks, ZX80 Sinclair. Tetris">
+							<img src="images/sae-supra-18/day3-2.jpg" alt="1980: CDROM and Floppy Disks, ZX80 Sinclair. Tetris">
 							
 							<div class="fact bottom-right" data-4300="opacity: 0;" data-4500="opacity: 1;">        					
 								<h3>Q and A</h3>
@@ -281,7 +281,7 @@
 								<p></p>
 							</div>
 							
-							<img src="img\1970.png" alt="1970: Launch of Microsoft, Apple, Commodeore PET">
+							<img src="images/sae-supra-18/day4-1.jpg" alt="1970: Launch of Microsoft, Apple, Commodeore PET">
 							
 							<div class="fact bottom-right" data-5300="opacity: 0;" data-5500="opacity: 1;">
 								<h3></h3>
@@ -324,7 +324,7 @@
 								<p></p>
 							</div>
 						
-							<img src="img\1960.png" alt="1960: Launch of Intel, HP and BASIC programming language">
+							<img src="images/sae-supra-18/day4-2.jpg" alt="1960: Launch of Intel, HP and BASIC programming language">
 						
 							<div class="fact bottom-right" data-6300="opacity: 0;" data-6500="opacity: 1;">
 								<h3></h3>
@@ -370,7 +370,7 @@
 								</p>
 								</div>
 						
-							<img src="img\1950.png" alt="1950: UNIVAC in production. Lyons tea employs computers for first commercial application. Alan Turing publishes intelligence paper">
+							<img src="images/sae-supra-18/day5.jpg" alt="1950: UNIVAC in production. Lyons tea employs computers for first commercial application. Alan Turing publishes intelligence paper">
 						
 							<div class="fact bottom-right" data-7300="opacity: 0;" data-7500="opacity: 1;">
 								<h3></h3>
@@ -414,7 +414,7 @@
 								</p>
 								</div>
 							
-							<img src="img\pre1950.png" alt="Pre 1950: COLOSSUS and other elecontronic and non electronic computers ">
+							<img src="images/sae-supra-18/day-6-victory.jpg" alt="Pre 1950: COLOSSUS and other elecontronic and non electronic computers ">
 						
 							<div class="fact bottom-right" data-8300="opacity: 0;" data-8500="opacity: 1;">
 									<h3>Hattrick</h3><br>
@@ -436,8 +436,16 @@
 
 						</div>
 					
-					<nav class="app-nav"><ul style="top: 192px;"><li><a data-position="1500" href="#decade2010"><span>2010</span></a></li><li><a data-position="2500" href="#decade2000"><span>2000</span></a></li><li><a data-position="3500" href="#decade1990"><span>1990</span></a></li><li><a data-position="4500" href="#decade1980"><span>1980</span></a></li><li><a data-position="5500" href="#decade1970"><span>1970</span></a></li><li><a data-position="6500" href="#decade1960"><span>1960</span></a></li><li><a data-position="7500" href="#decade1950"><span>1950</span></a></li><li><a data-position="8500" href="#decadepre1950"><span>Pre 1950</span></a></li></ul></nav>
-				
+					<nav class="app-nav"><ul style="top: 192px;">
+						<li><a data-position="1500" href="#decade2010"><span>Day 1</span></a></li>
+						<li><a data-position="2500" href="#decade2000"><span>Day 2</span></a></li>
+						<li><a data-position="3500" href="#decade1990"><span>Day 3</span></a></li>
+						
+						<li><a data-position="5500" href="#decade1970"><span>Day 4</span></a></li>
+						
+						<li><a data-position="7500" href="#decade1950"><span>Day 5</span></a></li>
+						<li><a data-position="8500" href="#decadepre1950"><span>Victory</span></a></li>
+					</ul></nav>
         
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>

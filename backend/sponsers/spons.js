@@ -1,6 +1,9 @@
+var cate = ["Title","Platinum","Gold","Silver"];
+
 function row_maker(data){
     var main = document.getElementById("main_container");
     var html = "";
+
 
     for(var i = 0; i < data.length;i++){
 
@@ -10,13 +13,13 @@ function row_maker(data){
 
         title_code += `
                         <hr/><div class="row text-center align-self-center" id="`+ data[i].category +`">
-                            <h1 class="align-self-center">` + data[i].category + `Mayank</h1>
+                            <h1 class="align-self-center">` + data[i].category + ` Sponsers</h1>
                         </div><hr/>
                         `;
 
         row_code += `
-            <div class="row text-center align-self-center" id="`+data[i].category+`_cardsrow">
-                Content Row `+i+`
+            <div class="row text-center align-self-center" id="`+ data[i].category +`_cardsrow">
+                 `+cate[i]+` Sponsers
             </div>
         `;
         html = html + title_code + row_code;
@@ -29,24 +32,27 @@ function row_maker(data){
 
 function card_maker(data){
     var html = "";
+    
 
     for(var i = 0; i < data.length;i++){
-        var row = document.getElementById(data[i].category);
+        var row = document.getElementById(data[i].category + "_cardsrow");
         var card_code = "";
         for(var j = 0; j < data[i].list.length;j++){
             let company = data[i].list[j].sponsName;
             let website = data[i].list[j].sponsWebsite;
 
+
+
             card_code += `
-            <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="col-xs-6 col-sm-6 col-md-3">
                 <a href="`+website+`">
                 <div class="card">
-                    <img class="card-img-top" src="../../images/sponsers/Gold/Autodisir.54.23.png" alt="`+ company +`">
+                    <img class="card-img-top img-fluid" src="../../images/sponsers/` + cate[i] + "/" + company.replace(" ","-") + `.png" ` + `alt="`+ company +`">
                     <div class="card-body">
                         <h3>`+ company +`</h3>
-                        <h4>`+ website +`</h4>
                     </div>
                 </div>
+                </a>
             </div>
             `;
 
@@ -55,10 +61,7 @@ function card_maker(data){
     }
 }
 
-
-btn = document.getElementById("btn");
-
-btn.addEventListener("click", function() {
+function loadData() {
   var ourRequest = new XMLHttpRequest();
   ourRequest.open('GET', 'backend/sponsers/spons.json');
   ourRequest.onload = function() {
@@ -82,4 +85,6 @@ btn.addEventListener("click", function() {
   };
 
   ourRequest.send();
-});
+}
+
+window.onload = loadData;

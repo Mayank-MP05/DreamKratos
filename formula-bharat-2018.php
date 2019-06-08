@@ -20,7 +20,9 @@
         <link rel="stylesheet" href="css/events/fb18-css/bootstrap.min.css">
         <link rel="stylesheet" href="css/events/fb18-css/normalize.min.css">
         <link rel="stylesheet" href="css/events/fb18-css/main.css">
-        
+		
+		
+		
        	<script type="text/javascript" src="//use.typekit.net/egy0gkk.js"></script>
 		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
         <script src="js/events/vendor/modernizr-2.6.2.min.js"></script>
@@ -68,7 +70,7 @@
 								<h3></h3>
 								<p></p>
 							</div>
-							<img src="img\2010.png" alt="2010: Mobile devices, Windows 8 and cloud devices">
+							<img src="images/formula-bharat-18/Day1.jpeg" alt="2010: Mobile devices, Windows 8 and cloud devices">
 							
 							<div class="fact bottom-right" data-1300="opacity: 0;" data-1500="opacity: 1;">
 								<h3></h3>
@@ -109,7 +111,7 @@
 						
 							<div class="dot" id="decade2000Left" rel="popover" data-2300="opacity: 0;" data-2500="opacity: 1;" data-title="Introduction of the iPhone" data-content="Apple released the first generation iPhone on 29 June 2007, the phone was later released in November 2007 in the UK. Development began in 2004, comprised of a team of 1000 people and cost $150m over thirty months." data-placement="bottom"></div>
 							
-        					<img src="img\2000.png" alt="2000: Desktop computers, launch of BlackBerry and iPhones">
+        					<img src="images/formula-bharat-18/day2-1.jpeg" alt="2000: Desktop computers, launch of BlackBerry and iPhones">
         					
 							<div class="fact bottom-right" data-2300="opacity: 0;" data-2500="opacity: 1;">
 								<h3></h3>
@@ -151,7 +153,7 @@
 							
 								</div>
 							
-							<img src="img\1990.png" alt="1990: Common to see desktop computers in homes. Uptake of world wide web">
+							<img src="images/formula-bharat-18/day2-2.jpeg" alt="1990: Common to see desktop computers in homes. Uptake of world wide web">
 							
 							<div class="fact bottom-right" data-3300="opacity: 0;" data-3500="opacity: 1;">
 								<h3></h3>
@@ -205,7 +207,7 @@
 								</p>
 							</div>
 						
-							<img src="img\1980.png" alt="1980: CDROM and Floppy Disks, ZX80 Sinclair. Tetris">
+							<img src="images/formula-bharat-18/day3-1.jpeg" alt="1980: CDROM and Floppy Disks, ZX80 Sinclair. Tetris">
 							
 							<div class="fact bottom-right" data-4300="opacity: 0;" data-4500="opacity: 1;">        					
 								<h3></h3>
@@ -246,7 +248,7 @@
 								<p></p>
 							</div>
 							
-							<img src="img\1970.png" alt="1970: Launch of Microsoft, Apple, Commodeore PET">
+							<img src="images/formula-bharat-18/day3-2.jpeg" alt="1970: Launch of Microsoft, Apple, Commodeore PET">
 							
 							<div class="fact bottom-right" data-5300="opacity: 0;" data-5500="opacity: 1;">
 								<h3></h3>
@@ -278,16 +280,16 @@
 								<p>
 									<ul style="text-align: left">
 									<li>‚ÄúIt was great to see all the teams put up a great show with a level of competency as well as a spirit of formula student
-. The team members interacted with the competing teams and they exchanged knowledge and experience of their vehicle with enthusiasm and spirit of
+								. The team members interacted with the competing teams and they exchanged knowledge and experience of their vehicle with enthusiasm and spirit of
 
-Formula Student.
-</li>
-<li>
-	Formula Bharat shows up the cumulative efforts of a team to
-display what all you do. Team Kratos Racing will come back stronger at Formula Bharat 2019. The team
-is determined, dedicated to make one more memorable season with the Fireblade.‚Äù
-</li>
-</ul>
+								Formula Student.
+								</li>
+								<li>
+									Formula Bharat shows up the cumulative efforts of a team to
+								display what all you do. Team Kratos Racing will come back stronger at Formula Bharat 2019. The team
+								is determined, dedicated to make one more memorable season with the Fireblade.‚Äù
+								</li>
+								</ul>
 								</p>
 							</div>
 							
@@ -298,7 +300,7 @@ is determined, dedicated to make one more memorable season with the Fireblade.‚Ä
 								<p></p>
 							</div>
 						
-							<img src="img\1960.png" alt="1960: Launch of Intel, HP and BASIC programming language">
+							<img src="images/formula-bharat-18/day4-1.jpeg" alt="1960: Launch of Intel, HP and BASIC programming language">
 						
 							<div class="fact bottom-right" data-6300="opacity: 0;" data-6500="opacity: 1;">
 								<h3></h3>
@@ -320,8 +322,16 @@ is determined, dedicated to make one more memorable season with the Fireblade.‚Ä
         		</section>
         		
 					
-					<nav class="app-nav"><ul style="top: 192px;"><li><a data-position="1500" href="#decade2010"><span>2010</span></a></li><li><a data-position="2500" href="#decade2000"><span>2000</span></a></li><li><a data-position="3500" href="#decade1990"><span>1990</span></a></li><li><a data-position="4500" href="#decade1980"><span>1980</span></a></li><li><a data-position="5500" href="#decade1970"><span>1970</span></a></li><li><a data-position="6500" href="#decade1960"><span>1960</span></a></li><li><a data-position="7500" href="#decade1950"><span>1950</span></a></li><li><a data-position="8500" href="#decadepre1950"><span>Pre 1950</span></a></li></ul></nav>
-				
+			<nav class="app-nav">
+				<ul style="top: 192px;">
+					<li><a data-position="1500" href="#decade2010"><span>Day 1</span></a></li>
+					<li><a data-position="2500" href="#decade2000"><span>DAy 2</span></a></li>
+					<li><a data-position="4500" href="#decade1980"><span>Day 3</span></a></li>
+					<li><a data-position="6500" href="#decade1960"><span>Day 4</span></a></li>
+					<!--<li><a data-position="7500" href="#decade1950"><span>Day 6</span></a></li>
+					<li><a data-position="8500" href="#decadepre1950"><span>Victory</span></a></li>-->
+				</ul>
+			</nav>
 		<?php include("footer.php"); ?>
 		
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>

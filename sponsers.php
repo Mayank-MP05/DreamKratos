@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-
+    <link rel="stylesheet" href="css/spoonsers/spons_bs3.4.css">
+    
     <!-- Linked CSS -->
     <link rel="stylesheet" href="css/spoonsers/spons.css">
 
@@ -18,7 +19,6 @@
 <?php include("headnav.php"); ?>
     
 <div class="bigbox">
-    <button id="btn" class="btn-primary">Get Data</button>
     <div class="container" id="main_container">
         
     </div>
@@ -29,8 +29,6 @@
     <!-- JS Integration -->
     
     <script src="backend/sponsers/spons.js"></script>
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     
 </body>
 </html>

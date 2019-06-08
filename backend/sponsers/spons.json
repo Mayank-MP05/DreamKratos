@@ -29,7 +29,7 @@
                 "sponsWebsite":"www.abc.xyz"
             },
             {
-                "sponsName":"Bekar Gauges",
+                "sponsName":"Baker Gauges",
                 "sponsWebsite":"www.abc.xyz"
             },{
                 "sponsName":"Bender",
@@ -89,14 +89,6 @@
                 "sponsWebsite":"www.abc.xyz"
             },
             {
-                "sponsName":"SA Electronics",
-                "sponsWebsite":"www.abc.xyz"
-            },
-            {
-                "sponsName":"Elsa Ganter",
-                "sponsWebsite":"www.abc.xyz"
-            },
-            {
                 "sponsName":"Maa-ku",
                 "sponsWebsite":"www.abc.xyz"
             },
@@ -129,7 +121,15 @@
                 "sponsWebsite":"www.abc.xyz"
             },
             {
-                "sponsName":"Grabriel",
+                "sponsName":"Gabriel",
+                "sponsWebsite":"www.abc.xyz"
+            },
+            {
+                "sponsName":"SA Electronics",
+                "sponsWebsite":"www.abc.xyz"
+            },
+            {
+                "sponsName":"Elsa Ganter",
                 "sponsWebsite":"www.abc.xyz"
             },
             {
@@ -187,7 +187,7 @@
                 "sponsWebsite":"www.abc.xyz"
             }
             ,{
-                "sponsName":"Jyot Heat Treat Industries",
+                "sponsName":"Jyoti Heat Treat Industries",
                 "sponsWebsite":"www.abc.xyz"
             },
             {

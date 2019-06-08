@@ -1,0 +1,84 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+body{
+    overflow-x:hidden;
+}
+center{
+    width: 100%;
+}
+
+
+.optionbox{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    text-align: center;
+}
+
+.optionbox button{
+    max-width: 50%;
+    min-width: 12%;
+    padding: 1.5%;
+    margin: 1%;
+    border: 5px solid rgb(105, 115, 164);
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+}
+
+.optionbox button:hover{
+    color: #fff;
+    background: linear-gradient(black,rgb(105, 115, 164));
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.bigbox{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+hr{
+    margin-bottom: 10px;
+}
+
+/* Iframe Styling */
+
+@media screen and (min-width: 480px) {
+    /* Desktop */
+    #contact-us-form{
+        max-width: 100%;
+        min-width: 100%;
+        overflow: hidden;
+        height: 1150px;
+        /*
+        background-image: url("https://cdnjs.cloudflare.com/ajax/libs/galleriffic/2.0.1/css/loader.gif");   
+        background-repeat: no-repeat;
+        background-position: 50% 50%;*/
+    }
+    #gmap{
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 480px) {
+    #contact-us-form{
+        max-width: 100%;
+        min-width: 100%;
+        overflow: hidden;
+        height: 1200px;
+        /*
+        background-image: url("https://cdnjs.cloudflare.com/ajax/libs/galleriffic/2.0.1/css/loader.gif");   
+        background-repeat: no-repeat;
+        background-position: 50% 50%;*/
+    }
+
+    #gmap{
+        width: 100%;
+    }
+}

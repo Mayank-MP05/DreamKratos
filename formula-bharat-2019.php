@@ -19,15 +19,17 @@
 				
         <link rel="stylesheet" href="css/events/fb19-css/bootstrap.min.css">
         <link rel="stylesheet" href="css/events/fb19-css/normalize.min.css">
-				<link rel="stylesheet" href="css/events/fb19-css/main.css">
-				<link rel="stylesheet" href="css/events/fb19-css/custom.css">
-        
+		<link rel="stylesheet" href="css/events/fb19-css/main.css">
+		<link rel="stylesheet" href="css/events/fb19-css/custom.css">
+		<link rel="stylesheet" href="css/events/fb19-css/nav-collapse.css">
+		
+		
        	<script type="text/javascript" src="//use.typekit.net/egy0gkk.js"></script>
 		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
         <script src="js\vendor\modernizr-2.6.2.min.js"></script>
     </head>
     <body>
-	<?php include("headnav.php"); ?>S
+	<?php include("headnav.php"); ?>
 			
 			 <!-- FRONT -->
 			<div class="page front-page" data-0="z-index: 1; position: fixed; top: 0; left: 0; bottom: 0; left: 0; margin: auto; height: 100%; width: 100%; " data-800="z-index: 0;">
@@ -50,12 +52,6 @@
 							<br><br>	<span>‘THUNDERBLADE V 1.0’</span></p>
 						<div class="hide-if-js"><p>Bookmark this page to view on a larger, JavaScript-enabled device.</p></div>
 					</div>
-					<ul class="social-icons">
-						<li><div class="fb-like" data-href="https://www.akita.co.uk/computing-history/" data-layout="box_count" data-action="like" data-show-faces="false" data-share="false"></div></li>
-						<li><div class="g-plusone" data-size="tall"></div></li>
-						<li><a href="https://twitter.com/share" class="twitter-share-button" data-count="vertical" data-via="akita_limited" data-related="akita_limited">Tweet</a></li>
-						<li><a href="//www.pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.akita.co.uk%2Fcomputing-history%2F&media=http%3A%2F%2Fwww.akita.co.uk%2Fcomputing-history%2Fakita-computers-history-full.jpg&description=The%20modern%20personal%20computer%20as%20we%20know%20it%20is%20only%20a%20recent%20invention%20-%20see%20how%20this%20technology%20has%20evolved%20since%20the%20first%20computer%20was%20created" data-pin-do="buttonPin" data-pin-config="above"><img src="//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_gray_20.png"></a></li>
-					</ul>
 					<div class="scroll-arrow" data-7000="opacity: 1;" data-8000="opacity: 0;"></div>
 				</div>
 			</div>
@@ -79,7 +75,7 @@
 								<h3></h3>
 								<p></p>
 							</div>
-							<img src="img\2010.png" alt="2010: Mobile devices, Windows 8 and cloud devices">
+							<img src="images/formula-bharat-19/Day0-Pegasus.jpg" alt="2010: Mobile devices, Windows 8 and cloud devices">
 							
 							<div class="fact bottom-right" data-1300="opacity: 0;" data-1500="opacity: 1;">
 								<h3>Let the Game Begins</h3>
@@ -114,7 +110,7 @@
 						
 							<div class="dot" id="decade2000Left" rel="popover" data-2300="opacity: 0;" data-2500="opacity: 1;" data-title="Introduction of the iPhone" data-content="Apple released the first generation iPhone on 29 June 2007, the phone was later released in November 2007 in the UK. Development began in 2004, comprised of a team of 1000 people and cost $150m over thirty months." data-placement="bottom"></div>
 							
-        					<img src="img\2000.png" alt="2000: Desktop computers, launch of BlackBerry and iPhones">
+        					<img src="images/formula-bharat-19/day1-inspection.jpeg" alt="2000: Desktop computers, launch of BlackBerry and iPhones">
         					
 							<div class="fact bottom-right" data-2300="opacity: 0;" data-2500="opacity: 1;">
 								<h3></h3>
@@ -148,7 +144,7 @@
 								<p>By the end of the day, accumulator inspection, the electrical inspection was done and mechanical inspection was attempted with mechanical inspection had some minor issues to be solved.</p>
 							</div>
 							
-							<img src="img\1990.png" alt="1990: Common to see desktop computers in homes. Uptake of world wide web">
+							<img src="images/formula-bharat-19/day3.jpeg" alt="1990: Common to see desktop computers in homes. Uptake of world wide web">
 							
 							<div class="fact bottom-right" data-3300="opacity: 0;" data-3500="opacity: 1;">
 								<h3>mechanical inspection issues </h3>
@@ -187,7 +183,7 @@
 				 
 									The team lined up for Mechanical scrutineering as soon as the bay got open and got all the three stickers of Accumulator, electrical and mechanical inspection in the morning.
 				 
-				 Followed by the technical inspection, the team had no time to waste as the car went into the design bay for the design presentations scheduled at 10 am.</p>
+									Followed by the technical inspection, the team had no time to waste as the car went into the design bay for the design presentations scheduled at 10 am.</p>
 							</div>
 						
 							<div class="dot" id="decade1980Left" rel="popover" data-4300="opacity: 0;" data-4500="opacity: 1;" data-title="3½ inch floppy disk" data-content="Following the initial launch of various new disk formats in the early 1970's, 1982 saw the launch of the then-standard 3½ inch floppy disk, first manufactured by Sony." data-placement="bottom"></div>
@@ -198,7 +194,7 @@
 								</p>
 							</div>
 						
-							<img src="img\1980.png" alt="1980: CDROM and Floppy Disks, ZX80 Sinclair. Tetris">
+							<img src="images/formula-bharat-19/day3-inspection.jpeg" alt="1980: CDROM and Floppy Disks, ZX80 Sinclair. Tetris">
 							
 							<div class="fact bottom-right" data-4300="opacity: 0;" data-4500="opacity: 1;">        					
 								<h3>Q and A</h3>
@@ -235,7 +231,7 @@
 								<p></p>
 							</div>
 							
-							<img src="img\1970.png" alt="1970: Launch of Microsoft, Apple, Commodeore PET">
+							<img src="images/formula-bharat-19/Day4.jpeg" alt="1970: Launch of Microsoft, Apple, Commodeore PET">
 							
 							<div class="fact bottom-right" data-5300="opacity: 0;" data-5500="opacity: 1;">
 								<h3>Together We Rise </h3>
@@ -278,7 +274,7 @@
 								<p></p>
 							</div>
 						
-							<img src="img\1960.png" alt="1960: Launch of Intel, HP and BASIC programming language">
+							<img src="images/formula-bharat-19/day6.jpeg" alt="1960: Launch of Intel, HP and BASIC programming language">
 						
 							<div class="fact bottom-right" data-6300="opacity: 0;" data-6500="opacity: 1;">
 								<h3></h3>
@@ -320,7 +316,7 @@
 								</p>
 								</div>
 						
-							<img src="img\1950.png" alt="1950: UNIVAC in production. Lyons tea employs computers for first commercial application. Alan Turing publishes intelligence paper">
+							<img src="images/formula-bharat-19/day5-Friends.jpeg" alt="1950: UNIVAC in production. Lyons tea employs computers for first commercial application. Alan Turing publishes intelligence paper">
 						
 							<div class="fact bottom-right" data-7300="opacity: 0;" data-7500="opacity: 1;">
 								<h3></h3>
@@ -371,7 +367,7 @@
 								</p>
 								</div>
 							
-							<img src="img\pre1950.png" alt="Pre 1950: COLOSSUS and other elecontronic and non electronic computers ">
+							<img src="images/formula-bharat-19/day6-vistory.jpeg" alt="Pre 1950: COLOSSUS and other elecontronic and non electronic computers ">
 						
 							<div class="fact bottom-right" data-8300="opacity: 0;" data-8500="opacity: 1;">
 									<h3>EVENT HIGHLIGHTS:</h3><br>
@@ -386,12 +382,16 @@
         			</div>
 						</section>
 						
-						<div class="containermask">
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dolores temporibus doloribus vel repellat eius sapiente veritatis assumenda! Repudiandae corrupti quam libero ut fuga vel enim quasi doloribus tempora nulla. Tenetur itaque fuga voluptates. Doloribus porro quas blanditiis, magni explicabo accusantium ut aspernatur consequuntur exercitationem aut est hic. Minus voluptate facilis, hic reiciendis veritatis quis alias quisquam totam incidunt consequatur, laborum dolorum harum odio sed quo, molestias id natus eveniet autem pariatur? Maxime, dolores repudiandae! Exercitationem nesciunt dicta consequatur sunt? Nostrum vitae quasi doloremque aliquid ipsum ullam impedit ad delectus sit, debitis maxime minima quae eos fuga eligendi eum. Eveniet eius, distinctio saepe dolor libero, sequi quae reprehenderit fugit, aspernatur quia animi! Veritatis fugit tempora ratione animi distinctio eveniet ullam quaerat dolorem repudiandae assumenda. Delectus dicta eligendi cumque, nostrum ad corrupti asperiores assumenda inventore, cum harum accusamus quod. Ex, quibusdam. Enim, mollitia. Quibusdam eos ea voluptas facilis cumque, aperiam ducimus officiis esse atque dolorum illo, assumenda nemo minus expedita culpa ipsam natus, harum iste nam ab eveniet incidunt nesciunt? Quis iste odit provident deserunt earum repellendus ab voluptatibus non consequatur modi! Eaque, beatae nostrum, assumenda ad, illo libero nihil perferendis earum expedita recusandae deserunt dolore excepturi magni dignissimos! Earum laborum at harum similique facere accusantium voluptate exercitationem veritatis! Quis odit aperiam voluptas sint! Sequi omnis fuga facere quo assumenda, debitis voluptas impedit. Consequuntur earum perspiciatis porro voluptatibus id? Velit quis repudiandae, nihil, magnam recusandae voluptates illum qui, et saepe nisi odit ipsa illo aliquid? Voluptatibus expedita voluptas accusantium tempora inventore et, corporis explicabo reiciendis! Ducimus, itaque est. Placeat aspernatur neque error voluptatum quisquam consequatur officiis sequi eum possimus, explicabo itaque excepturi, deleniti earum enim autem praesentium optio vitae harum eveniet. Aliquid praesentium nostrum quia. Et rerum vitae cumque voluptas similique porro sint animi excepturi illo, accusamus libero dolore corporis adipisci at, nam quidem deserunt placeat. Esse eligendi eos architecto perspiciatis suscipit maxime iure fuga rerum ipsam ut tempora explicabo consequatur quaerat, laudantium corrupti facilis, aliquid quisquam amet quia exercitationem doloremque ex! Consectetur aliquid similique tempore earum doloribus. Iure omnis, fuga ex quas quo velit pariatur magni et natus repellendus quaerat, asperiores voluptatem architecto, eos amet cum error non accusamus qui autem? Eligendi laboriosam ducimus dolor, pariatur aspernatur odio recusandae rem facilis corrupti ex at omnis accusamus! Sint nulla nisi illo sed magni in dolor officiis error distinctio deserunt, accusantium perspiciatis laudantium minus eos nemo delectus accusamus molestias eligendi alias, consectetur nobis exercitationem. Perferendis impedit eligendi iusto odio perspiciatis aperiam non aliquid eaque incidunt nam reprehenderit accusamus itaque ipsam dolorem quas at beatae esse, in error voluptas ab temporibus quae nihil fugiat. Fugiat, quisquam consequuntur culpa quidem animi eum hic ipsam deserunt enim placeat dolore est? Veritatis, rem consequatur? Laborum pariatur eligendi tempore quam corporis nam. Adipisci officiis, ducimus fugiat quod facilis ex aut quam dolore optio neque aliquam minus soluta maiores unde corporis voluptate modi. Consectetur beatae assumenda non deserunt! Aperiam quod asperiores odit laborum! Minus dolores atque esse sequi fugit, molestias molestiae eum beatae numquam consequuntur quod rem quae debitis laboriosam, nulla reprehenderit cumque iure? Quod molestias et deserunt recusandae doloribus nulla hic perferendis, consequatur, commodi a explicabo dolores distinctio soluta fugit! Consequuntur magni impedit, mollitia laudantium dicta harum adipisci consequatur deserunt, incidunt animi nostrum fugit laborum veniam quos? Dolorum culpa ipsum rerum eius reprehenderit eligendi quas eaque quidem quibusdam facilis, ratione nesciunt minima nemo nisi. Repellat quo eaque odit quos doloremque harum nesciunt corporis veniam quod quae vitae optio maiores vero, nihil quisquam minima voluptatem laudantium inventore accusamus perferendis alias nulla. Dolor repellat asperiores eos, suscipit quisquam architecto numquam libero? Ea harum dolores voluptas, quasi totam inventore quis ratione in est nemo voluptatem illo beatae incidunt. Ipsa, delectus ab sit minus quidem quod ut perspiciatis soluta debitis dolor ullam veritatis alias suscipit vitae corporis iusto obcaecati error optio. Sit, dolore facilis sint aliquam facere tenetur hic asperiores accusantium, mollitia, obcaecati nam? Possimus quam, distinctio voluptate illum, sunt inventore repellendus atque temporibus iusto placeat beatae voluptas! Ducimus, commodi quae, dicta maxime fugit quasi eos quos odit ipsa, dolorem dignissimos nam ipsam voluptate nobis omnis quisquam! Alias, molestiae dolorem temporibus molestias nobis ex sint ducimus aliquid repellendus unde. Possimus laborum natus assumenda illum mollitia, corrupti alias ducimus qui amet, placeat aut in minima modi nisi tempore cum ullam numquam quasi commodi adipisci id libero culpa. Debitis id voluptates illo quia quod commodi accusantium unde dolorem ullam? Sit alias animi veritatis quaerat ab eligendi ipsa quibusdam iusto delectus sunt veniam, ipsum sequi, porro illo cupiditate perspiciatis, placeat corrupti ut officiis ad! Laboriosam nam voluptas recusandae cum saepe repellendus dicta rem placeat distinctio totam. Veritatis beatae odit, voluptas voluptate exercitationem commodi aliquam obcaecati eius nam reprehenderit omnis fugit quia fuga ipsum! Recusandae, voluptates sequi, quod nostrum tenetur enim optio nisi alias sed architecto minima labore corrupti eaque a ea repellat fuga? Sed cum vero temporibus veritatis facere, fuga libero blanditiis expedita, illo laboriosam iure itaque. Similique error repudiandae ullam. Neque minima repellat at facilis enim unde fugit officiis commodi suscipit magnam cumque, aliquid autem alias ipsum impedit, laudantium numquam eveniet earum distinctio debitis vero excepturi. Libero, obcaecati ex odio ducimus, quam cumque corporis error temporibus fugiat eum dolores aperiam exercitationem totam porro placeat quasi? Laborum iusto fuga, nesciunt non nam dolorum numquam praesentium deleniti in ad, sint eos saepe, repellat commodi hic? Error culpa quos illo officia quia dolorum reiciendis exercitationem quisquam est iste odit, ullam, dolores tempora sed illum! Deserunt, necessitatibus?
-
-						</div>
-					
-					<nav class="app-nav"><ul style="top: 192px;"><li><a data-position="1500" href="#decade2010"><span>2010</span></a></li><li><a data-position="2500" href="#decade2000"><span>2000</span></a></li><li><a data-position="3500" href="#decade1990"><span>1990</span></a></li><li><a data-position="4500" href="#decade1980"><span>1980</span></a></li><li><a data-position="5500" href="#decade1970"><span>1970</span></a></li><li><a data-position="6500" href="#decade1960"><span>1960</span></a></li><li><a data-position="7500" href="#decade1950"><span>1950</span></a></li><li><a data-position="8500" href="#decadepre1950"><span>Pre 1950</span></a></li></ul></nav>
+					<nav class="app-nav"><ul style="top: 192px;">
+						<li><a data-position="1500" href="#decade2010"><span>Day0</span></a></li>
+						<li><a data-position="2500" href="#decade2000"><span>Day 1</span></a></li>
+						<li><a data-position="3500" href="#decade1990"><span>Day 2</span></a></li>
+						<li><a data-position="4500" href="#decade1980"><span>Day 3</span></a></li>
+						<li><a data-position="5500" href="#decade1970"><span>Day 4</span></a></li>
+						<li><a data-position="6500" href="#decade1960"><span>Day 5</span></a></li>
+						<li><a data-position="7500" href="#decade1950"><span>Day 6</span></a></li>
+						<li><a data-position="8500" href="#decadepre1950"><span>Victory</span></a></li>
+					</ul></nav>
 				
 					<?php include("footer.php"); ?>
 					

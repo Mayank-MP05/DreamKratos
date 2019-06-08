@@ -8,7 +8,8 @@ body{
 .bigbox{
     margin-top: 50px;
     margin-bottom: 50px;
-    min-height:800px;
-    background-color: black;
-    height: 800px; 
+}
+
+img{
+max-width: 33%;
 }
