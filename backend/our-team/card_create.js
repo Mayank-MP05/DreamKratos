@@ -49,13 +49,20 @@ function deptwise(data){
 
             if(j == 0){
                 var pose = "Dept Head"; 
+                row_html += "<div class='row'>";
             }else{
                 pose = "";
             }
 
             /*src="../../images/our team/`+ img_src +`.png" alt="` + person_name + `"*/
-            if(j == 4 && j == 8){
-                row_html += "</div><div class='row'>";
+            if(window.innerHeight > 600){
+                if(j == 4 || j == 8){
+                    row_html += "</div><div class='row'>";
+                }
+            }else{
+                if(j == 2 || j == 4 || j == 6 || j == 8){
+                    row_html += "</div><div class='row'>";
+                }
             }
             row_html += `<!-- Team member ` + i + ` -->
             <div class="col-xs-6 col-lg-3">

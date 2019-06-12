@@ -45,7 +45,8 @@
           "Aditya Patil",
           "Nikhil Patel",
           "Sagar Ghorpade"
-      ]
+      ],
+      "deptDescription":"The drivetrain of a motor vehicle is the group of components that deliver power to the driving wheels. This excludes the engine or motor that generates the power. In contrast, the powertrain is considered to include both the engine or motor and the drivetrain"
     },
 
     {
@@ -54,14 +55,16 @@
           "Mohnish Potu",
           "Shriprasad Kulkarni",
           "Pranav thate"
-      ]
+      ],
+      "deptDescription":"A brake is a mechanical device that inhibits motion by absorbing energy from a moving system.[1] It is used for slowing or stopping a moving vehicle, wheel, axle, or to prevent its motion, most often accomplished by means of friction."
     },
     {
       "deptName": "Electric Powertrain",
       "grpMember":[
           "Akash Shinde",
           "Sanket Kamat"
-      ]
+      ],
+      "deptDescription":"In a motor vehicle, the powertrain or powerplant comprises the main components that generate power and deliver it to the road surface, water, or air. ... More recently in hybrid powertrains the battery, the electric motor and the control algorithm are also seen as elements of the powertrain."
     },
 
     {
@@ -71,14 +74,16 @@
           "Samadhan Dorge",
           "Dikshant Jain",
           "Dhanashree Bhoge"
-      ]
+      ],
+      "deptDescription":"Marketing is the study and management of exchange relationships. Marketing is the business process of creating relationships with and satisfying customers. With its focus on the customer, marketing is one of the premier components of business management"
     },
     {
       "deptName": "Ground Low Voltage and Data Aquisitions",
       "grpMember":[
           "Niranjan Tarale",
           "Nainesh Desale"
-      ]
+      ],
+      "deptDescription":"(DAQ) is the process of measuring an electrical or physical phenomenon such as voltage, current, temperature, pressure, or sound with a computer. A DAQ system consists of sensors, DAQ measurement hardware, and a computer with programmable software."
     },
     {
       "deptName": "Team 2k18",

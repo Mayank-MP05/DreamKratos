@@ -40,11 +40,20 @@ function card_maker(data){
         for(var j = 0; j < data[i].list.length;j++){
             let company = data[i].list[j].sponsName;
             let website = data[i].list[j].sponsWebsite;
-
+            
+            if(window.innerHeight > 600){
+              if(j % 4 == 0){
+                card_code += "</div><div class='row'>";
+              }
+            }else{
+              if(j % 2 == 0){
+                card_code += "</div><div class='row'>";
+              }
+            }
 
 
             card_code += `
-            <div class="col-xs-6 col-sm-6 col-md-3">
+            <div class="col-xs-6 col-sm-6 col-md-3 loading">
                 <a href="`+website+`">
                 <div class="card">
                     <img class="card-img-top img-fluid" src="../../images/sponsers/` + cate[i] + "/" + company.replace(" ","-") + `.png" ` + `alt="`+ company +`">

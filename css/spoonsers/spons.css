@@ -11,5 +11,11 @@ body{
 }
 
 img{
-max-width: 33%;
+    max-width: 66%;
 }
+
+.card-img-top{
+    border-radius: 50%;
+}
+
+/* Spoonsers Animation */
