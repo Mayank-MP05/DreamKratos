@@ -9,6 +9,7 @@ function GetXHRData(){
       var ourData = JSON.parse(ourRequest.responseText);
       create_div(ourData);
       deptwise(ourData);
+      setTimeout(loadimg(ourData), 3000);
 
     } else {
       console.log("We connected to the server, but it returned an error.");
@@ -52,6 +53,10 @@ function deptwise(data){
                 pose = "";
             }
 
+            /*src="../../images/our team/`+ img_src +`.png" alt="` + person_name + `"*/
+            if(j == 4 && j == 8){
+                row_html += "</div><div class='row'>";
+            }
             row_html += `<!-- Team member ` + i + ` -->
             <div class="col-xs-6 col-lg-3">
                 <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
@@ -59,7 +64,7 @@ function deptwise(data){
                         <div class="frontside">
                             <div class="card">
                                 <div class="card-body text-center">
-                                    <p><img class="profile_pic" src="../../images/our team/`+ img_src +`.png" alt="` + person_name + `"></p>
+                                    <p><img class="profile_pic" id="img`+i+''+j+`tor" src="images/our%20team/default-team.jpg" alt="` + person_name + `"></p>
                                     <h4 class="card-title">`+ person_name +`</h4>
                                     <p class="card-text">`+ dept_name +`</p>
                                     <a href="#" class="btn btn-success btn-sm">`+pose+`</i></a>
@@ -84,21 +89,47 @@ function deptwise(data){
                     </div>
                 </div>
             </div>
-            <!-- ./Team member -->`;
+            <!-- ./Team member -->`; 
+
+
+
         } 
         row.innerHTML = row_html;
     }
 
 }
 
+function loadimg(data){
+    var data = data;
+    
+    for(var i = 0;i < 11 ;i++){
+        for(var j = 0 ; j < data[i].grpMember.length ; j++){
+            var timex = 1000; 
+            var start = window.setTimeout(replace_img(i,j,data),timex);
+            window.clearTimeout(start);
+            errcheck(i,j,data)
+        }
+    }
+
+            /*src="../../images/our team/`+ img_src +`.png" alt="` + person_name + `"*/
+}
+
+function replace_img(i,j,data){
+    var i = i;
+    var data = data;
+    var j = j;
+    let person_name = data[i].grpMember[j];
+    var img_src = person_name.replace(" ","-");
+    var img = document.getElementById("img"+i+''+j+"tor");
+    img.src = "../../images/our team/"+ img_src +".png";
+}
+
+function errcheck(i,j,data){
+    var img = document.getElementById("img"+i+''+j+"tor");
+    img.onerror = function(){
+        img.src = "images/our%20team/default-team.jpg";
+    }
+}
+
 window.onload = GetXHRData;
    
-function setwidth(){
-    var width = window.innerWidth;
-    if(width > 900){
-        var cardwidth = width/4;
-    }else{
-        var cardwidth = width/2;
-    }
-    document.getElementsByClassName("cardClass").style.width = cardwidth
-}

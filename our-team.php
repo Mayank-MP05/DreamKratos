@@ -88,8 +88,7 @@
         </section>
  
         <script src="backend/our-team/card_create.js"></script>
-        <script src="backend/our-team/Navbar_list_create.js"></script>-->
-
+       
     </div>
     <?php include("footer.php"); ?>
 </body>

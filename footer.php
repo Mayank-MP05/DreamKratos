@@ -3,7 +3,7 @@
 <link rel="stylesheet" href="css/footer/foot_css.css">
 
 <footer>
-  <div class="containernbs">
+  <div class="containernbs z-indez-top">
     <div class="rounded-social-buttons left_foot text-center">
                       <a class="social-button facebook" href="https://www.facebook.com/kratosracing/" target="_blank"><i class="fab fa-facebook-f"></i></a>
                       <a class="social-button twitter" href="https://twitter.com/kratos_team" target="_blank"><i class="fab fa-twitter"></i></a>
