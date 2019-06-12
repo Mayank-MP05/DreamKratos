@@ -188,6 +188,11 @@ body{
     .bigbox{
         margin-left: 240px;
     }
+    /* Card Min Width and Hieght */
+    .col-xs-6,.col-lg-3,.frontside,.backside,.card{
+        min-width: 300px;
+        min-height: 313px;
+    }
 }
 /* Mobile CSS */
 @media only screen and (max-width: 600px) {
