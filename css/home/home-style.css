@@ -1,3 +1,7 @@
+body{
+  overflow-x: hidden;
+}
+
 .item img{
   width:100%;
 }
@@ -46,4 +50,38 @@ body{
 
 .item img{
   max-height: 700px;
+}
+
+/* Slide Show Icon Styling */
+
+.carousel-control{
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-control img{
+justify-content: center;
+top:0;
+bottom: 0;
+margin: auto;
+}
+@media (max-width:576px) {
+  .carousel-control img{
+    width: 30px;
+    height: 30px;
+  }
+}
+/* about us Width */
+
+.home-about-us{
+  width: 85%;
+  margin: 0 auto;
+}
+
+/* Sponsers Card Text Centering */
+
+.card-body{
+  left: 0;
+  right: 0;
+  padding: 0 auto;
 }

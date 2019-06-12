@@ -6,17 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Home</title>
 
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
- 
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-        
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+  
 
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"s>
     <link rel="stylesheet" href="lib/css_lib/hover.css">
     <link rel="stylesheet" href="css/home/home-style.css">
-    <!-- <link rel="stylesheet" href="css/home/bootsrap_Home.css">-->
-
+    
 </head>
 <body>
 
@@ -96,11 +97,13 @@
           
             <!-- Left and right controls -->
             <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-              <span class="glyphicon glyphicon-chevron-left"></span>
+              <div class="icon icon-left"></div>
+              <img src="images/home/SlideShow/left.png" alt="">
               <span class="sr-only">Previous</span>
             </a>
             <a class="right carousel-control" href="#myCarousel" data-slide="next">
-              <span class="glyphicon glyphicon-chevron-right"></span>
+              <div class="icon icon-right"></div>
+              <img src="images/home/SlideShow/right.png" alt="">
               <span class="sr-only">Next</span>
             </a>
           </div>
@@ -142,8 +145,8 @@
         <h3>About us</h3>
     </div>
     <hr>
-    <div class="">
-        <p>
+    <div class="row">
+        <p class="home-about-us"> 
             &nbsp &nbsp &nbsp &nbsp &nbspTeam Kratos Racing is a Formula student team of Pimpri Chinchwad College of Engineering, comprising of 35 highly dedicated and diligent undergraduate students. Putting in hours at the workshop where sleepless nights and greasy jeans became our daily routine, we design, manufacture and test a Formula 3 styled vehicle. We promote students to hone their skills and execute all tasks to perfection. We exist to race in the top echelon of motor racing starting with national level and then taking India to the world.
             <br><br>
             &nbsp &nbsp &nbsp &nbsp &nbspDriven by our motto, “TOGETHER WE RISE”,  we have successfully manufactured 3 combustion Formula-3 cars in 3 years. The genesis of the adventure began when a few passionate minds from the college set out on this journey of forming a Formula Student team. Holding spanners in their hands, chains round their neck, innovation in their minds and determination in their heart, they set out on the journey to achieve the impossible.
@@ -161,50 +164,50 @@
     <hr>
 
     <div class="Sponser_box">
-        <div class="card">
-            <img class="card-img-top img-fluid" src="images/logo_representations/competitions.png" alt="Card image cap">
+        <div class="card text-center">
+            <img class="card-img-top img-fluid" src="images/sponsers/Title/Tata-Motars.png" alt="Card image cap">
             <div class="card-body">
-                <h4 class="card-title">Competitions</h4>
-                <a href="">Sponser.com</a>
+                <h4 class="card-title">Tata Motors</h4>
+                <a href="https://www.tatamotors.com/">Read More</a>
             </div>
         </div>
-        <div class="card">
-            <img class="card-img-top img-fluid" src="images/logo_representations/competitions.png" alt="Card image cap">
+        <div class="card text-center">
+            <img class="card-img-top img-fluid" src="images/sponsers/Title/PCET-Trust.png" alt="Card image cap">
             <div class="card-body">
-                <h4 class="card-title">Competitions</h4>
-                <a href="">Sponser.com</a>
+                <h4 class="card-title">PCET Trust</h4>
+                <a href="http://www.pccoepune.com/">Read More</a>
             </div>
         </div>
-        <div class="card">
-            <img class="card-img-top img-fluid" src="images/logo_representations/competitions.png" alt="Card image cap">
+        <div class="card text-center">
+            <img class="card-img-top img-fluid" src="images/sponsers/Title/BOSCH.png" alt="Card image cap">
             <div class="card-body">
-                <h4 class="card-title">Competitions</h4>
-                <a href="">Sponser.com</a>
+                <h4 class="card-title">BOSCH</h4>
+                <a href="https://www.bosch.in/">Read More</a>
             </div>
         </div>
 
     </div>
     <div class="Sponser_box">
 
-        <div class="card">
-            <img class="card-img-top img-fluid" src="images/logo_representations/competitions.png" alt="Card image cap">
+        <div class="card text-center">
+            <img class="card-img-top img-fluid" src="images/sponsers/Gold/Matlab.png" alt="Card image cap">
             <div class="card-body">
-                <h4 class="card-title">Competitions</h4>
-                <a href="">Sponser.com</a>
+                <h4 class="card-title">Matlab</h4>
+                <a href="https://www.mathworks.com/products/matlab.html">Read More</a>
             </div>
         </div>
-        <div class="card">
-            <img class="card-img-top img-fluid" src="images/logo_representations/competitions.png" alt="Card image cap">
-            <div class="card-body">
-                <h4 class="card-title">Competitions</h4>
-                <a href="">Sponser.com</a>
+        <div class="card text-center">
+            <img class="card-img-top img-fluid" src="images/sponsers/Gold/Redbull.png" alt="Card image cap">
+            <div class="card-body ">
+                <h4 class="card-title ">Redbull</h4>
+                <a href="https://www.redbull.com/us-en/">Read More</a>
             </div>
         </div>
-        <div class="card">
-            <img class="card-img-top img-fluid" src="images/logo_representations/competitions.png" alt="Card image cap">
+        <div class="card text-center">
+            <img class="card-img-top img-fluid" src="images/sponsers/Gold/SealWings.png" alt="Card image cap">
             <div class="card-body">
-                <h4 class="card-title">Competitions</h4>
-                <a href="">Sponser.com</a>
+                <h4 class="card-title">Sealwings</h4>
+                <a href="https://www.seal-wings.com/">Read More</a>
             </div>
         </div>
     
