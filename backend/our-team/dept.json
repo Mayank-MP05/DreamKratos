@@ -4,14 +4,16 @@
       "grpMember":[
           "Shubham Patil",
           "Sanket Kamat"
-      ]
+      ],
+      "deptDescription":""
     },
     {
       "deptName": "Chasis",
       "grpMember":[
           "Vaibhav Shelke",
           "Rahul Kannavar"
-      ]
+      ],
+      "deptDescription":"A chassis is the framework of an artificial object, which supports the object in its construction and use. An example of a chassis is a vehicle frame, the underpart of a motor vehicl"
     },
 
     {
@@ -21,7 +23,9 @@
           "Shreyas Padamvar",
           "Manas Kolhe",
           "Harshal Meher"
-      ]
+      ],
+      "deptDescription":"The aspects of a vehicle's design which affect the dynamics can be grouped into drivetrain and braking, suspension and steering, distribution of mass, aerodynamics and tires."
+    
     },
 
     {
@@ -30,7 +34,8 @@
           "Rahul Awtade",
           "Vaishnavi Shejwal",
           "Tanmay Vinchavekar"
-      ]
+      ],
+      "deptDescription":"A chassis is the framework of an artificial object, which supports the object in its construction and use. An example of a chassis is a vehicle frame, the underpart of a motor vehicl"
     },
 
     {

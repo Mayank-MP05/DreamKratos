@@ -70,15 +70,14 @@ function deptwise(data){
                             <div class="card">
                                 <div class="card-body text-center mt-4">
                                     <h4 class="card-title">`+ dept_name +`</h4>
-                                    <p class="card-text">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum labore cum fugit, ipsa culpa numquam nemo facere omnis provident quas!</p>
-                                    <ul class="list-inline">
-                                        <li class="list-inline-item">
-                                            <a class="social-icon text-xs-center" target="_blank" href="kratosracing.com">
-                                                KratosRacing.com
-                                            </a>
-                                        </li>
-                                    </ul>
+                                    <p class="card-text">`
+                                    + data[i].deptDescription + 
+                                    `</p>
+                                    
+                                    <a class="social-icon text-xs-center" target="_blank" href="kratosracing.com">
+                                        KratosRacing.com
+                                    </a>
+                                        
                                 </div>
                             </div>
                         </div>
