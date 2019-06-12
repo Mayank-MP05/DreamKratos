@@ -22,7 +22,7 @@
 		<link rel="stylesheet" href="css/events/fb19-css/main.css">
 		<link rel="stylesheet" href="css/events/fb19-css/custom.css">
 		<link rel="stylesheet" href="css/events/fb19-css/nav-collapse.css">
-		
+		<link rel="stylesheet" href="css/events/events-nav.css">
 		
        	<script type="text/javascript" src="//use.typekit.net/egy0gkk.js"></script>
 		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
@@ -30,7 +30,7 @@
     </head>
     <body>
 	<?php include("headnav.php"); ?>
-			
+			<div class="bigbox">
 			 <!-- FRONT -->
 			<div class="page front-page" data-0="z-index: 1; position: fixed; top: 0; left: 0; bottom: 0; left: 0; margin: auto; height: 100%; width: 100%; " data-800="z-index: 0;">
 				<div class="container">
@@ -381,7 +381,7 @@
 						</div>  
         			</div>
 						</section>
-						
+						</div>	
 					<nav class="app-nav"><ul style="top: 192px;">
 						<li><a data-position="1500" href="#decade2010"><span>Day0</span></a></li>
 						<li><a data-position="2500" href="#decade2000"><span>Day 1</span></a></li>

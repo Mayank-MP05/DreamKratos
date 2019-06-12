@@ -979,7 +979,7 @@ input{
 		display: none; 
 	}
 	.container {
-		padding: 25px 3%;
+		padding: 0px 3%;
 	}
 	.js.skrollr .front-page .wrapper {
 		margin: -10px auto 0;

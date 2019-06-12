@@ -20,7 +20,7 @@
         <link rel="stylesheet" href="css/events/fb18-css/bootstrap.min.css">
         <link rel="stylesheet" href="css/events/fb18-css/normalize.min.css">
         <link rel="stylesheet" href="css/events/fb18-css/main.css">
-		
+		<link rel="stylesheet" href="css/events/events-nav.css">
 		
 		
        	<script type="text/javascript" src="//use.typekit.net/egy0gkk.js"></script>
@@ -30,6 +30,7 @@
     <body>
     <?php include("headnav.php"); ?>
 			 <!-- FRONT -->
+			<div class="bigbox">
 			<div class="page front-page" data-0="z-index: 1; position: fixed; top: 0; left: 0; bottom: 0; left: 0; margin: auto; height: 100%; width: 100%; " data-800="z-index: 0;">
 				<div class="container">
 					
@@ -320,7 +321,7 @@
         				
         			</div>
         		</section>
-        		
+        		</div>
 					
 			<nav class="app-nav">
 				<ul style="top: 192px;">
