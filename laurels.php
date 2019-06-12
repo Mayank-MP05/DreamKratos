@@ -10,20 +10,17 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
-    <!--<link rel="stylesheet" href="css/laurels/bootstrap_larels.css">-->
-    <link rel="stylesheet" href="lib/css_lib/hover.css">
     <link rel="stylesheet" href="css/laurels/laurel_css.css">
 
 </head>
 <body>
 <?php include("headnav.php"); ?>
-    <div class="container">
+    <div class="container bigbox">
 
         <!----Car 1 -->
 
-            <div class="row">
+            <div class="row text-center">
                 <h2 class="comp_name">FORMULA BHARAT ELECTRIC 2019</h2>
-                
             </div>
     
             <div class="row align-items-center row-fb19">
@@ -55,7 +52,7 @@
                         </li>
                     </ul>
                 </div>
-    
+            
                 <div class="col-sm-8">
                     <img class="img img-fluid" src="images/laurels/Original/img1-FB19.jpg" alt="">
                 </div>
@@ -65,7 +62,7 @@
 
         <!----Car 2 -->
 
-        <div class="row">
+        <div class="row text-center">
             <h2 class="comp_name">CONCEPT CHALLENGE 2018</h2>
             
         </div>
@@ -86,7 +83,7 @@
 
         <!----Car 3 -->
 
-        <div class="row">
+        <div class="row text-center">
                 <h2 class="comp_name">SAE SUPRA 2018</h2>
                 
             </div>
@@ -112,7 +109,7 @@
 
             <!----Car 4 -->
 
-        <div class="row">
+        <div class="row text-center">
             <h2 class="comp_name">FORMULA BHARAT 2018</h2>
             
         </div>
@@ -134,7 +131,7 @@
             <!----Car 5 -->
 
 
-            <div class="row">
+            <div class="row text-center">
                     <h2 class="comp_name">SAE SUPRA 2017</h2>
                     
                 </div>
@@ -157,7 +154,7 @@
 
             <!----Car 6 -->
 
-                <div class="row">
+                <div class="row text-center">
                         <h2 class="comp_name">FORMULA BHARAT 2017</h2>
                 </div>
             
@@ -175,7 +172,7 @@
 
             <!----Car 7 -->
 
-            <div class="row">
+            <div class="row text-center">
                     <h2 class="comp_name">SAE SUPRA 2016</h2>
                     
                 </div>
@@ -198,7 +195,7 @@
 
 
             <!----Car 8 -->
-                <div class="row">
+                <div class="row text-center">
                         <h2 class="comp_name">SAE SUPRA 2015</h2>
                         
                     </div>
