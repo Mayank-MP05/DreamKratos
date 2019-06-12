@@ -3,6 +3,7 @@ body{
     background: -webkit-linear-gradient(left, rgba(30,87,153,1) 0%,rgba(125,185,232,0.47) 53%,rgba(125,185,232,0) 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to right, rgba(30,87,153,1) 0%,rgba(125,185,232,0.47) 53%,rgba(125,185,232,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#007db9e8',GradientType=1 ); /* IE6-9 */
+    overflow-x: hidden;
 }
 
 .bigbox{
@@ -19,3 +20,70 @@ img{
 }
 
 /* Spoonsers Animation */
+
+@keyframes a1 {
+    to{
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes a2 {
+    to{
+      transform: rotate(-360deg);
+    }
+  }
+  
+  /* Align for Part 2*/
+  
+  .img-div{
+      width: 100%;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+  }
+  .foading{
+    width: 180px;
+    height: 180px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    border-top: 10px solid #e74c3c;
+    position: relative;
+    animation: a1 2s linear infinite;
+  }
+  
+  .foading::before,.foading::after{
+    content: '';
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    left: 0;
+    box-sizing: border-box;
+    border-radius: 50%;
+  }
+  
+  .foading::before{
+    border-top: 10px solid #e67e22;
+    transform: rotate(120deg);
+  }
+  
+  .foading::after{
+    border-top: 10px solid #3498db;
+    transform: rotate(240deg);
+  }
+  
+  .bard{
+    position: absolute;
+    top:0;
+    right: 0;
+    left: 0;
+    padding: 0 auto;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+    animation: a2 2s linear infinite;
+  }
+  

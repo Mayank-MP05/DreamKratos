@@ -53,10 +53,12 @@ function card_maker(data){
 
 
             card_code += `
-            <div class="col-xs-6 col-sm-6 col-md-3 loading">
+            <div class="col-xs-6 col-sm-6 col-md-3">
                 <a href="`+website+`">
                 <div class="card">
-                    <img class="card-img-top img-fluid" src="../../images/sponsers/` + cate[i] + "/" + company.replace(" ","-") + `.png" ` + `alt="`+ company +`">
+                    <div class="img-div foading">
+                      <img class="card-img-top img-fluid bard" src="../../images/sponsers/` + cate[i] + "/" + company.replace(" ","-") + `.png" ` + `alt="`+ company +`">
+                    </div>
                     <div class="card-body">
                         <h3>`+ company +`</h3>
                     </div>
