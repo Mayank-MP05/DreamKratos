@@ -164,8 +164,10 @@
     <hr>
 
     <div class="Sponser_box">
-        <div class="card text-center">
-            <img class="card-img-top img-fluid" src="images/sponsers/Title/Tata-Motars.png" alt="Card image cap">
+        <div class="card text-center foading">
+            <div class="bard">
+                <img class="card-img-top img-fluid" src="images/sponsers/Title/Tata-Motars.png" alt="Card image cap">
+            </div>
             <div class="card-body">
                 <h4 class="card-title">Tata Motors</h4>
                 <a href="https://www.tatamotors.com/">Read More</a>

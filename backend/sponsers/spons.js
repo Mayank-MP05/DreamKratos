@@ -13,7 +13,7 @@ function row_maker(data){
 
         title_code += `
                         <hr/><div class="row text-center align-self-center" id="`+ data[i].category +`">
-                            <h1 class="align-self-center">` + data[i].category + ` Sponsers</h1>
+                            <h1 class="align-self-center batman">` + data[i].category + ` Sponsers</h1>
                         </div><hr/>
                         `;
 
