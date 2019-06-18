@@ -23,44 +23,56 @@
                
                 <li class="left-nav-item">
                     <a class="left-nav-link" href="#Team-Leads">Team Leads</a>
+                    <span class="hover"></span>
                 </li>
                 <li class="left-nav-item">
                     <a class="left-nav-link" href="#Vehicle-Dynamics">Vehicle Dynamics</a>
+                    <span class="hover"></span>
                 </li>
     
                 <li class="left-nav-item">
                     <a class="left-nav-link" href="#Drivertrain">Drivetrain System</a>
+                    <span class="hover"></span>
                 </li>
     
                 <li class="left-nav-item">
                     <a class="left-nav-link" href="#Brakes">Brakes System</a>
+                    <span class="hover"></span>
                 </li>
     
                 <li class="left-nav-item">
                     <a class="left-nav-link" href="#Chasis">Chassis System</a>
+                    <span class="hover"></span>
                 </li>
+
     
                 <li class="left-nav-item">
                     <a class="left-nav-link" href="#Marketing">Marketing Team</a>
+                    <span class="hover"></span>
                 </li>
     
                 <li class="left-nav-item">
                     <a class="left-nav-link" href="#Composites">Composites System</a>
+                    <span class="hover"></span>
                 </li>
     
                 <li class="left-nav-item">
                     <a class="left-nav-link" href="#Electric-Powertrain">Electric Powertrain</a>
+                    <span class="hover"></span>
                 </li>
     
                 <li class="left-nav-item">
                     <a class="left-nav-link" href="#Ground-Low Voltage and Data Aquisitions">GLV and DAQ</a>
+                    <span class="hover"></span>
                 </li>
     
                 <li class="left-nav-item">
                     <a class="left-nav-link" href="#Team-2K18">Team 2K18</a>
+                    <span class="hover"></span>
                 </li>
                 <li class="left-nav-item" href="#Alumnis">
                     <a class="left-nav-link">Alumnis</a>
+                    <span class="hover"></span>
                 </li>
             </ul>
         </div>
@@ -79,6 +91,6 @@
        
     </div>
     <?php include("footer.php"); ?>
-    
+
 </body>
 </html>

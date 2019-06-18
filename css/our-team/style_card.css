@@ -9,7 +9,9 @@ body{
     background: linear-gradient(to bottom , rgb(0,0,0,0.7),rgb(0,0,0,0.2));
 }
 
-
+h5,.section-title{
+    font-family: "Batman",Arial, sans-serif;
+}
 /* Bootstrap Navbar */
 
 .navbar-header {
@@ -197,17 +199,4 @@ body{
 /* Mobile CSS */
 @media only screen and (max-width: 600px) {
     
-}
-
-/* Row Font Change */
-h5{
-    clear: all;
-}
-
-.section-title{
-    font-family: "Batman",Arial, sans-serif;
-}
-
-h5{
-    font-family: "Batman",Arial, sans-serif;
 }

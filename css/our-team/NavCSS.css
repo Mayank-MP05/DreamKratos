@@ -7,7 +7,10 @@ body{
     z-index: 0;
 }
 
-
+.left-navbar-nav{
+    padding-left: 0;
+    margin-left: 0;
+}
 
 .left-nav-link{
     text-decoration: none;
@@ -17,11 +20,86 @@ body{
 }
 
 .left-nav-link:hover{
-    color: black;
-    background-color: rgb(105, 115, 164);
-    text-decoration: none;
-    text-transform: capitalize;
+    font-weight: bold;
+    color: white;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
+
+/* Hover Effect */
+
+ /* Bounce To Right */
+ .left-nav-item {
+     padding: 10px 5px;
+     font-size: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+  }
+  .left-nav-item:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #2098D1;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.99s;
+    transition-duration: 0.99s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  .left-nav-item:hover, .left-nav-item:focus, .left-nav-item:active {
+    color: white;
+  }
+  .left-nav-item:hover:before, .left-nav-item:focus:before, .left-nav-item:active:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+    transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+  }
+
+  .left-nav-item:nth-child(4n):hover, .left-nav-item:nth-child(4n):focus, .left-nav-item:nth-child(4n):active {
+    background: #4285F4;
+}
+  
+.left-nav-item:nth-child(4n+1):hover, .left-nav-item:nth-child(4n+1):focus, .left-nav-item:nth-child(4n+1):active {
+    background: #DB4437;
+}
+  
+.left-nav-item:nth-child(4n+2):hover, .left-nav-item:nth-child(4n+2):focus, .left-nav-item:nth-child(4n+2):active {
+    background: #F4B400;
+}
+  
+
+.left-nav-item:nth-child(4n+3):hover, .left-nav-item:nth-child(4n+3):focus, .left-nav-item:nth-child(4n+3):active {
+    background: #0F9D58;
+}
+  
+
+/* Hover Styling Ends Here */ 
+
+.left-navbar-nav li{
+    display: flex;
+    flex-direction: row;
+    padding: 0%;
+    margin: 0%;
+}
+
 
 .left-nav-item{
     margin: 10px auto;
@@ -58,4 +136,18 @@ body{
         padding-top: 0px;
     }
     
+}
+
+.left-nav-link {
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.left-nav-link:hover {
+  cursor: pointer;
+}
+
+.left-nav-link:active {
+  box-shadow: none;
+  top: 5px;
 }
