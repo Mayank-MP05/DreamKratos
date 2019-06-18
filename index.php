@@ -110,7 +110,7 @@
 
     <!-- 3 Cards With Counter -->
     <div class="row text-center padding10">
-            <h3>Welcome to Team Kratos Official Website.</h3>
+            <h3 class="batman">Welcome to Team Kratos Official Website.</h3>
     </div>
     <hr>
     <div class="row text-center">
@@ -142,11 +142,11 @@
     <!-- About u -->
     <hr>
     <div class="text-center padding10">
-        <h3>About us</h3>
+        <h3 class="batman">About us</h3>
     </div>
     <hr>
     <div class="row">
-        <p class="home-about-us"> 
+        <p class="home-about-us normal"> 
             &nbsp &nbsp &nbsp &nbsp &nbspTeam Kratos Racing is a Formula student team of Pimpri Chinchwad College of Engineering, comprising of 35 highly dedicated and diligent undergraduate students. Putting in hours at the workshop where sleepless nights and greasy jeans became our daily routine, we design, manufacture and test a Formula 3 styled vehicle. We promote students to hone their skills and execute all tasks to perfection. We exist to race in the top echelon of motor racing starting with national level and then taking India to the world.
             <br><br>
             &nbsp &nbsp &nbsp &nbsp &nbspDriven by our motto, “TOGETHER WE RISE”,  we have successfully manufactured 3 combustion Formula-3 cars in 3 years. The genesis of the adventure began when a few passionate minds from the college set out on this journey of forming a Formula Student team. Holding spanners in their hands, chains round their neck, innovation in their minds and determination in their heart, they set out on the journey to achieve the impossible.
@@ -158,7 +158,7 @@
     <!-- Sponsers -->
 
     <div class="text-center padding10">
-        <h3>Proud Sponsers</h3>
+        <h3 class="batman">Proud Sponsers</h3>
     </div>
 
     <hr>

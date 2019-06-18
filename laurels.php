@@ -27,28 +27,28 @@
                 <div class="col-sm-4 bg-dark" id="particle1">
                     <ul class="list-group">
                         <li class="list-group-item right-grp-item">
-                            <p>1st - Overall Ranking</p>
+                            1st - Overall Ranking
                         </li>
                         <li class="list-group-item">  
-                            <p>1st - Endurance</p>
+                            1st - Endurance
                         </li>
                         <li class="list-group-item">
-                            <p>1st - Autocross</p>
+                            1st - Autocross
                         </li>
                         <li class="list-group-item">
-                            <p>1st - Skidpad</p>
+                            1st - Skidpad
                         </li>
                         <li class="list-group-item">
-                            <p>1st - Acceleration</p>
+                            1st - Acceleration
                         </li>
                         <li class="list-group-item">
-                            <p>1st - Energy Efficiency</p>
+                            1st - Energy Efficiency
                         </li>
                         <li class="list-group-item">
-                            <p>2nd - Business Plan</p>
+                            2nd - Business Plan
                         </li>
                         <li class="list-group-item">
-                            <p>3rd - Cost And  Manufacturing Report</p>
+                            3rd - Cost And  Manufacturing Report
                         </li>
                     </ul>
                 </div>

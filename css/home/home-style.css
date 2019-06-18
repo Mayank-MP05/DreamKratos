@@ -1,5 +1,20 @@
+@font-face {
+  font-family: "Batman";
+  src:
+  url("../../font/batman.ttf") format("truetype");
+}
+
 body{
   overflow-x: hidden;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.normal,h4,a{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.batman{
+  font-family: "Batman",Arial, sans-serif;
 }
 
 .item img{
@@ -18,7 +33,7 @@ body{
 }
 
 .card img{
-  max-width: 50%;
+  max-width: 30%;
 }
 
 body{
