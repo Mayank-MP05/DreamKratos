@@ -58,12 +58,13 @@ function card_maker(data){
                 <div class="card">
                     <div class="img-div foading">
                       <img class="card-img-top img-fluid bard" src="../../images/sponsers/` + cate[i] + "/" + company.replace(" ","-") + `.png" ` + `alt="`+ company +`">
-                    </div>
+                    </div></a><a href="`+website+`" class="hidelink">
                     <div class="card-body">
                         <h3>`+ company +`</h3>
                     </div>
+                    </a>
                 </div>
-                </a>
+                
             </div>
             `;
 

@@ -17,22 +17,21 @@ body{
     border-radius: 50%;
 }
 
-/* Spoonsers Animation 
+/* Spoonsers Animation Rotate 360*/
 
-@keyframes a1 {
-    to{
-      transform: rotate(360deg);
-    }
-  }
-  
-  @keyframes a2 {
-    to{
-      transform: rotate(-360deg);
-    }
-  }
-  */
   /* Align for Part 2*/
-  
+    
+@keyframes a1 {
+  to{
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes a2 {
+  to{
+    transform: rotate(-360deg);
+  }
+}
   .img-div{
       width: 100%;
       left: 0;
@@ -46,7 +45,6 @@ body{
     border-radius: 50%;
     border-top: 10px solid #e74c3c;
     position: relative;
-    animation: a1 2s linear infinite;
   }
   
   .foading::before,.foading::after{
@@ -68,7 +66,11 @@ body{
     border-top: 10px solid #3498db;
     transform: rotate(240deg);
   }
-  
+  /*
+  .foading img:hover{
+    animation: a1 2s linear infinite;
+  }
+*/
   .bard{
     position: absolute;
     top:0;
@@ -82,13 +84,22 @@ body{
     margin: 0 auto;
     color: #fff;
     text-align: center;
-    animation: a2 2s linear infinite;
   }
-  
-  a , .card-body h3 , .card-body h3:hover {
+
+.img-div:hover{
+  width: 190px;
+  height: 190px;
+}
+
+ .card-body h3 , .card-body h3:hover {
     text-decoration: none;
   }
 
   .batman{
     font-family: "Batman",Arial, sans-serif;
   }
+
+  .hidelink:hover{
+    text-decoration: none;
+  }
+
