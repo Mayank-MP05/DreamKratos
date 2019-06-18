@@ -6,9 +6,6 @@
 @media only screen and (min-width: 950px) {
 /* Desktop CSS */
 
-body{
-   background: linear-gradient(to Right,#3090C7,rgb(0,0,0,0));
-}
 .bg-dark{
     background-color: black;
 }
@@ -27,9 +24,14 @@ body{
     position: relative;
 }
 
-.parallax img{
-    filter: blur(3px);
+.normal{
+    font-family: 'Open Sans', sans-serif;
 }
+
+.parallax img{
+    opacity: 0.35;
+}
+
 .onimage{
     padding-left: 10px;
     position: absolute;
@@ -38,7 +40,6 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
 }
-  
 .color-white{
     color: white;
 }
@@ -121,9 +122,6 @@ body{
      position: relative;
  }
  
- .parallax img{
-     filter: blur(3px);
- }
  .onimage{
      position: absolute;
      width:100%;

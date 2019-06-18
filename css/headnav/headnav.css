@@ -4,6 +4,12 @@
   url("../../font/batman.ttf") format("truetype");
 }
 
+.nav li a{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  color: #fff;
+}
+
 .navbar-brand-title{
   font-family: "Batman",Arial, sans-serif;
   font-size: 20px;
@@ -30,7 +36,6 @@
   .nav{
     margin-bottom:0px;
     a{
-      font:500 11px Lato;
       letter-spacing:2px;
       padding:16px !important;
       color:#a3bfc6 !important;
