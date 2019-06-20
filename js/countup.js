@@ -10,7 +10,7 @@ var i = 1 ;
 while( i < 8){
 setTimeout(function() {
   Cars.innerHTML = "Cars : "+ i ;
-  Comp.innerHTML = "Competitions : "+ i ;
+  Comp.innerHTML = "Events : "+ i ;
   i++;
 }, delayCars);
 }

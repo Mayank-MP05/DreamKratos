@@ -97,7 +97,8 @@
           "Shivkumar Mirajgave",
           "Mohit Maru",
           "Shubham Patil"
-      ]
+      ],
+      "deptDescription":"(DAQ) is the process of measuring an electrical or physical phenomenon such as voltage, current, temperature, pressure, or sound with a computer. A DAQ system consists of sensors, DAQ measurement hardware, and a computer with programmable software."
     },
     {
       "deptName": "Alumni",
@@ -108,6 +109,7 @@
           "Prafull Bhosale",	
           "Shweta Khonde",
           "Shubham.Patil"
-      ]
+      ],
+      "deptDescription":"(DAQ) is the process of measuring an electrical or physical phenomenon such as voltage, current, temperature, pressure, or sound with a computer. A DAQ system consists of sensors, DAQ measurement hardware, and a computer with programmable software."
     }
 ]

@@ -117,24 +117,21 @@
             <div class="card-deck">
             <div class="card">
                 <img class="card-img-top img-fluid" src="images/logo_representations/cars.png" alt="Card image cap">
-                <div class="card-body">
-                    <h4 class="card-title">Cars</h4>
+                <div class="card-body fcd">
                     <h5 id="Cars_count"></h5>
                 </div>
                 </div>
                 <div class="card">
                 <img class="card-img-top img-fluid" src="images/logo_representations/award.png" alt="Card image cap">
-                <div class="card-body">
-                    <h4 class="card-title">Awards</h4>
+                <div class="card-body scd">
                     <h5 id="Awards_count"></h5>
                     </div>
                 </div>
                 <div class="card">
                 <img class="card-img-top img-fluid" src="images/logo_representations/competitions.png" alt="Card image cap">
-                <div class="card-body">
-                    <h4 class="card-title">Competitions</h4>
+                <div class="card-body tcd">
                     <h5 id="Competitions_count"></h5>
-                    </div>
+                </div>
                 </div>
             </div>
     </div>
@@ -222,7 +219,7 @@
 </div>
 </div>
 <?php include("footer.php"); ?>
-<script>
+<script src="js/countup.js">/*
     cars = document.getElementById("Cars_count");
     awards = document.getElementById("Awards_count");
     comps = document.getElementById("Competitions_count");
@@ -246,7 +243,7 @@
             award++;
         }
     }, 200);
-    
+    */
 </script>
 
 </body>
