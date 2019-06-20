@@ -1,5 +1,7 @@
-.img-fluid{
-    width: 70%;
+@font-face {
+    font-family: "Batman";
+    src:
+    url("../font/batman.ttf") format("truetype");
 }
 
 table tr td:nth-child(odd){
@@ -10,7 +12,25 @@ table tr td:nth-child(even){
     width: 60%;
 }
 
+h2{
+    font-family: "Batman",Arial, sans-serif;
+}
 
 table{
     min-width: 100%;
+}
+
+/* Desktop CSS */
+@media only screen and (min-width: 600px) {
+    .img-fluid{
+        width: 70%;
+        z-index: 100;
+    }
+}
+
+/* Mobile CSS */
+@media only screen and (max-width: 600px) {
+    .img-background img{
+        width: 100%;
+    }
 }

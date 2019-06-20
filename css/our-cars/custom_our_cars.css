@@ -9,6 +9,9 @@ center{
     width: 100%;
 }
 
+#i40,#i31,#i30,#i21,#i20,#i10,button{
+    font-family: 'Open Sans', sans-serif;
+}
 
 .optionbox{
     display: flex;
