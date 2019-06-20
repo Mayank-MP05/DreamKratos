@@ -1,4 +1,3 @@
-
 var animalContainer = document.getElementById("animal-info");
 
 function GetXHRData(){
