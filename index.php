@@ -219,7 +219,7 @@
 </div>
 </div>
 <?php include("footer.php"); ?>
-<script src="js/countup.js">/*
+<script>
     cars = document.getElementById("Cars_count");
     awards = document.getElementById("Awards_count");
     comps = document.getElementById("Competitions_count");
@@ -232,7 +232,7 @@
         if(car < 8){
             cars.innerHTML = "Cars : " + car;
             car++;
-            comps.innerHTML = "Competitions : " + comp;
+            comps.innerHTML = "Events : " + comp;
             comp++;
         }
     }, 200);
@@ -243,7 +243,6 @@
             award++;
         }
     }, 200);
-    */
 </script>
 
 </body>

@@ -1,5 +1,5 @@
 textarea {
-    resize: none;
+  resize: none;
 }
 
 .text {
@@ -123,6 +123,12 @@ textarea {
 .right_foot{
   float: right;
   background: transparent;
+}
+
+.fa-facebook-f{
+  width: 32px;
+  height: 32px;
+  background: url(../../images/home/SlideShow/left.png);
 }
 
 @media only screen and (max-width: 600px) {
