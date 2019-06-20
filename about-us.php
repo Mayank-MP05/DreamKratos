@@ -1,4 +1,4 @@
-<!DOCTYPE html>S
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -17,16 +17,15 @@
 <?php include("headnav.php"); ?>
 <div class="container bigbox">
         <div class="row align-items-center img1">
-            <div class="col-sm-5 p1 vcenter">
+            <div class="row">
+                <img src="images/about-us/team-kratos-racing-whole-team-p1.jpg" alt="Whole Team" class="img-fluid">
+            </div>
+            <div class="row p1 vcenter">
             <p class="normal">
                 &nbsp    &nbsp   &nbsp   &nbsp    
                 Team Kratos Racing is a Formula student team of PCCOE, comprising of 35 highly dedicated and diligent undergraduate students. Putting in hours at the workshop where sleepless nights and greasy jeans became our daily routine, we design, manufacture and test a Formula 3 styled vehicle. We promote students to hone their skills and execute all tasks to perfection. We exist to race in the top echelon of motor racing starting with national level and then taking India to the world.
             </p>
             </div>
-            <div class="col-sm-7">
-                <img src="images/about-us/team-kratos-racing-whole-team-p1.jpg" alt="Whole Team" class="img-fluid">
-            </div>
-
         </div>
 
         <hr/>
