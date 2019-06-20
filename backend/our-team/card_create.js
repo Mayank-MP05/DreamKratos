@@ -29,7 +29,7 @@ function create_div(data){
     for(var m = 0;m < data.length ;m++){
     var dept_name = data[m].deptName;
 
-    str1 += `<h5 class="section-title h1">`+ dept_name +`</h5>
+    str1 += `<h5 class="section-title h1 batman">`+ dept_name +`</h5>
     <div class="row" id="`+dept_name.replace(" ","-")+`"></div>`;
     }
     document.getElementById("whole").innerHTML = str1;
@@ -48,7 +48,7 @@ function deptwise(data){
             var img_src = person_name.replace(" ","-");
 
             if(j == 0){
-                var pose = "Dept Head"; 
+                var pose = "System Head"; 
                 row_html += "<div class='row'>";
             }else{
                 pose = "";
@@ -117,8 +117,6 @@ function loadimg(data){
             errcheck(i,j,data)
         }
     }
-
-            /*src="../../images/our team/`+ img_src +`.png" alt="` + person_name + `"*/
 }
 
 function replace_img(i,j,data){
