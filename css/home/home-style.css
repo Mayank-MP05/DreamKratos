@@ -96,12 +96,15 @@ margin: auto;
     width: 30px;
     height: 30px;
   }
+  .bodybox{
+    margin-bottom: 8px;
+  }
 }
 
 @media (min-width : 600px){
   /* Desktop CSS */
   .card img{
-    max-width: 40%;
+    max-width: 80%;
   }
 
   .fcd h5,.scd h5,.tcd h5{
@@ -125,6 +128,9 @@ margin: auto;
   }
   .tcd{
     background-color: #0F9D58;
+  }
+  .bodybox{
+    margin-bottom: 15px;
   }
 }
 
@@ -173,3 +179,40 @@ margin: auto;
 }
 
 /* Sponsers Card Animation Styling */
+@media (min-width : 600px){
+  /* Desktop CSS */
+.foading{
+  width: 100%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.foading{
+width: 180px;
+height: 180px;
+box-sizing: border-box;
+border-radius: 50%;
+border-top: 10px solid #e74c3c;
+position: relative;
+}
+
+.foading::before,.foading::after{
+content: '';
+width: 180px;
+height: 180px;
+position: absolute;
+left: 0;
+box-sizing: border-box;
+border-radius: 50%;
+}
+
+.foading::before{
+border-top: 10px solid #e67e22;
+transform: rotate(120deg);
+}
+
+.foading::after{
+border-top: 10px solid #3498db;
+transform: rotate(240deg);
+}
+}

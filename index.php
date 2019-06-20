@@ -161,25 +161,27 @@
     <hr>
 
     <div class="Sponser_box">
-        <div class="card text-center foading">
-            <div class="bard">
+        <div class="card text-centerg">
+        <div class="foading">
                 <img class="card-img-top img-fluid" src="images/sponsers/Title/Tata-Motars.png" alt="Card image cap">
-            </div>
+        </div>
             <div class="card-body">
                 <h4 class="card-title">Tata Motors</h4>
                 <a href="https://www.tatamotors.com/">Read More</a>
             </div>
         </div>
         <div class="card text-center">
+        <div class="foading">
             <img class="card-img-top img-fluid" src="images/sponsers/Title/PCET-Trust.png" alt="Card image cap">
-            <div class="card-body">
+            </div><div class="card-body">
                 <h4 class="card-title">PCET Trust</h4>
                 <a href="http://www.pccoepune.com/">Read More</a>
             </div>
         </div>
         <div class="card text-center">
+        <div class="foading">
             <img class="card-img-top img-fluid" src="images/sponsers/Title/BOSCH.png" alt="Card image cap">
-            <div class="card-body">
+            </div><div class="card-body">
                 <h4 class="card-title">BOSCH</h4>
                 <a href="https://www.bosch.in/">Read More</a>
             </div>
@@ -189,22 +191,26 @@
     <div class="Sponser_box">
 
         <div class="card text-center">
-            <img class="card-img-top img-fluid" src="images/sponsers/Gold/Matlab.png" alt="Card image cap">
+            <div class="foading">
+                <img class="card-img-top img-fluid" src="images/sponsers/Gold/Matlab.png" alt="Card image cap">
+            </div>
             <div class="card-body">
                 <h4 class="card-title">Matlab</h4>
                 <a href="https://www.mathworks.com/products/matlab.html">Read More</a>
             </div>
         </div>
         <div class="card text-center">
+        <div class="foading">
             <img class="card-img-top img-fluid" src="images/sponsers/Gold/Redbull.png" alt="Card image cap">
-            <div class="card-body ">
+            </div><div class="card-body ">
                 <h4 class="card-title ">Redbull</h4>
                 <a href="https://www.redbull.com/us-en/">Read More</a>
             </div>
         </div>
         <div class="card text-center">
+        <div class="foading">
             <img class="card-img-top img-fluid" src="images/sponsers/Gold/SealWings.png" alt="Card image cap">
-            <div class="card-body">
+            </div><div class="card-body">
                 <h4 class="card-title">Sealwings</h4>
                 <a href="https://www.seal-wings.com/">Read More</a>
             </div>
