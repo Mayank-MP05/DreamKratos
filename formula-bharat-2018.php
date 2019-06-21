@@ -7,7 +7,6 @@
         <title>Formula Bharat 2018</title>
 		<meta name="description" content="Formula Bharat 2018">
         <meta name="viewport" content="width=device-width">
-		<link rel="stylesheet" href="css/events/fb18-css/custom.css">
 		<!-- MS -->
 		<meta name="application-name" content="Formula Bharat 2018">
 		<meta name="msapplication-TileColor" content="#ffffff">
@@ -71,9 +70,9 @@
 								<h3></h3>
 								<p></p>
 							</div>
-							<img src="images/formula-bharat-18/Day1.jpeg" alt="2010: Mobile devices, Windows 8 and cloud devices">
+							<img src="images/formula-bharat-18/Day1.jpeg" alt="" class="mp5-img-top-right">
 							
-							<div class="fact bottom-right" data-1300="opacity: 0;" data-1500="opacity: 1;">
+							<div class="mp5-p-bottom-full m-top-300" data-1300="opacity: 0;" data-1500="opacity: 1;">
 								<h3></h3>
 								<p>
 									We then had a few issues with our wire-locking that we had used for the brake disc followed by issues with the scatter shield, firewall sealing, and hose- clamps. With these issues turning up on Day 1, we could not clear our technical inspection.
@@ -100,7 +99,7 @@
         					<h2><span>DAY 2</span></h2>
         				</header>
         				<div class="inner" data-1800="top: -100px;" data-2000="top: 190px;" data-2700="opacity: 1;" data-3000="opacity: 0;">
-							<div class="fact top-left" data-2100="opacity: 0;" data-2300="opacity: 1;">
+							<div class="mp5-p-right-half p-top" data-2100="opacity: 0;" data-2300="opacity: 1;">
 								<h3></h3>
 								<p>With all the dynamic events lined up on day 3, we were determined to clear the technical inspection on Day 2. Day 2 was the Static Day, the presentation team was all set to showcase their Design, Cost and Business Plan to the panel. We got the Fireblade ready for Cost and Manufacturing event, where the judges evaluate the team’s ability to present and explain BOM, C-BOM and Cost Understanding. The Cost Event went pretty good as the judges gave us a Positive feedback.</p>
 								</div>
@@ -114,7 +113,7 @@
 							
         					<img src="images/formula-bharat-18/day2-1.jpeg" alt="2000: Desktop computers, launch of BlackBerry and iPhones">
         					
-							<div class="fact bottom-right" data-2300="opacity: 0;" data-2500="opacity: 1;">
+							<div class="mp5-p-right-half p-bottom m-top-150" data-2300="opacity: 0;" data-2500="opacity: 1;">
 								<h3></h3>
 								<p>The Business Plan Presentation was to follow, an event where the B-plan team has to demonstrate how their product can become an effective business model. The Judges are considered as your potential investors/ partners and you are expected to present your business case presentation. They highlighted our good knowledge of finances and the perfect coordination among the presenters. We cleared the Tech Inspection just after the Business Plan Presentation. We were among the Top 4 teams to clear the Technical Inspection. The Fireblade was then taken for the Tilt test (the vehicle is inclined at an angle of 60 degrees)</p>
 									</div>
@@ -154,9 +153,9 @@
 							
 								</div>
 							
-							<img src="images/formula-bharat-18/day2-2.jpeg" alt="1990: Common to see desktop computers in homes. Uptake of world wide web">
+							<img src="images/formula-bharat-18/day2-2.jpeg" alt="" class="mp5-img-right">
 							
-							<div class="fact bottom-right" data-3300="opacity: 0;" data-3500="opacity: 1;">
+							<div class="mp5-p-left-half m-top-220" data-3300="opacity: 0;" data-3500="opacity: 1;">
 								<h3></h3>
 								<p>This year at Formula Bharat we had almost nil compliance in our wheel assemblies and the judges were satisfied with that. The last sticker of clearing the Brakes test gave our Fireblade its final touch.</p>
 							</div>
@@ -181,7 +180,7 @@
         					<h2><span>DAY 3</span></h2>
         				</header>
         				<div class="inner" data-3800="top: -100px;" data-4000="top: 190px;" data-4700="opacity: 1;" data-5000="opacity: 0;">
-							<div class="fact top-left" data-4100="opacity: 0;" data-4300="opacity: 1;">
+							<div class="mp5-p-right-half" data-4100="opacity: 0;" data-4300="opacity: 1;">
 								<h3>Inspection by Rounds</h3>
 								<p>The Fireblade was all fuelled up, the drivers pumped up and the team was determined to GET, SET, GO. With the dynamic run, the Fireblade was ready to get up with it.
 									<ul style="text-align:left">
@@ -208,9 +207,9 @@
 								</p>
 							</div>
 						
-							<img src="images/formula-bharat-18/day3-1.jpeg" alt="1980: CDROM and Floppy Disks, ZX80 Sinclair. Tetris">
+							<img src="images/formula-bharat-18/day3-1.jpeg" alt="">
 							
-							<div class="fact bottom-right" data-4300="opacity: 0;" data-4500="opacity: 1;">        					
+							<div class="mp5-p-bottom-full" data-4300="opacity: 0;" data-4500="opacity: 1;">        					
 								<h3></h3>
 								<p>1st place in AutoCross
 									2nd in SkidPad 
@@ -249,9 +248,9 @@
 								<p></p>
 							</div>
 							
-							<img src="images/formula-bharat-18/day3-2.jpeg" alt="1970: Launch of Microsoft, Apple, Commodeore PET">
+							<img src="images/formula-bharat-18/day3-2.jpeg" alt="" class="img-full-right">
 							
-							<div class="fact bottom-right" data-5300="opacity: 0;" data-5500="opacity: 1;">
+							<div class="mp5-p-left-half m-top-180" data-5300="opacity: 0;" data-5500="opacity: 1;">
 								<h3></h3>
 								<p>We had an engine issue during the driver change and thus could not complete the endurance run. With a great set of scores in all the other dynamic and static events, we managed to achieve an Overall Rank 6th.
 								</p>
@@ -276,7 +275,7 @@
         					<h2>(26th Jan)<span>Day 4</span></h2>
         				</header>
         				<div class="inner" data-5800="top: -100px;" data-6000="top: 190px;" data-6700="opacity: 1;" data-7000="opacity: 0;">
-							<div class="fact top-left" data-6100="opacity: 0;" data-6300="opacity: 1;">
+							<div class="mp5-p-right-half" data-6100="opacity: 0;" data-6300="opacity: 1;">
 								<h3></h3>
 								<p>
 									<ul style="text-align: left">

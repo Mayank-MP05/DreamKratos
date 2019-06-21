@@ -118,3 +118,27 @@
         margin-top: 300px;
     }
 }
+
+@media (min-width:900px) {
+    /* Formula Bharat 2018 */
+    .m-top-300{
+        margin-top: 300px;
+    }
+    .p-top{
+        position: absolute;
+        top: 0;
+    }
+    .p-bottom{
+        position: absolute;
+    }
+    .m-top-150{
+        margin-top: 150px;
+    }
+    .img-full-right{
+        margin-top: -200px;
+        right: 0;
+        z-index: -1;
+        position: absolute;
+        
+    }
+}
