@@ -158,7 +158,7 @@
         					<h2>(14th Jan)<span>DAY 3</span></h2>
 						</header>
 						
-        				<div class="inner" data-2800="top: -100px;" data-3000="top: 190px;" data-3700="opacity: 1;" data-4000="opacity: 0;">
+        				<div class="inner px80" data-2800="top: -100px;" data-3000="top: 190px;" data-3700="opacity: 1;" data-4000="opacity: 0;">
         					<div class="fact top-left" data-3100="opacity: 0;" data-3300="opacity: 1;">
 								<h3>Magnificent Performance</h3>
 								<p>It’s Statics Day..!
@@ -242,7 +242,7 @@
 							<img src="images/sae-supra-18/day3-2.jpg" alt="1980: CDROM and Floppy Disks, ZX80 Sinclair. Tetris">
 							
 							<div class="mp5-p-bottom-full" data-4300="opacity: 0;" data-4500="opacity: 1;">        					
-								<h3>Q and A</h3>
+						
 								<p>
 									Innovations never lacked in any system. Take it from brakes where advanced topics like Computational Fluid Dynamics (CFD) was validated to the composites system where carbon fiber was coming in use with the dome, side pods, steering wheel and the track rods manufactured and analyzed in our very innovation center. Even the Data Acquisition System(DAQ) took a major leap by introducing telemetry which recorded various on-track live data. Judges were quite impressed by our efforts put in each system. Thus we had significantly more time explaining our engineering concepts that we applied in the car to all the gathered esteemed judges.
 								</p>
@@ -422,13 +422,13 @@
 						
 							<div class="mp5-p-bottom-full" data-8300="opacity: 0;" data-8500="opacity: 1;">
 									
-									<p class="batman">
+									<h3>
 										We are known as CHAMPIONS.<br>
 
 										2016              2017                2018<br>
 										
 										THREE CONSECUTIVE YEARS.
-									</p>	
+									</h3>	
 								</ul>
 								</div>
 						</div>  

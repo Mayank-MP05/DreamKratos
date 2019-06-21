@@ -41,15 +41,15 @@
 						</header>
 						<p style="text-align: center">What’s in the name?  Well, It’s the event which comes once in a year for across 100+ teams in India who are very much excited to showcase their talent in every possible way. In other words, it’s a dream destination for upcoming engineers to Design, Develop and test a Formula 3 type race car prototype.
 
-							<br><br>Formula Bharat since then has been a platform for every aspiring engineer and with the course of time, Formula Bharat, this year organized its First ever ‘EV’ category for teams. Formula Bharat 2019 witnessed across 120 teams competing in CV whereas 19 teams competing in ‘EV’.
+							Formula Bharat since then has been a platform for every aspiring engineer and with the course of time, Formula Bharat, this year organized its First ever ‘EV’ category for teams. Formula Bharat 2019 witnessed across 120 teams competing in CV whereas 19 teams competing in ‘EV’.
 							
-							<br><br>	Formula Bharat 2019 was indeed a historic moment for the team as the team had shifted to an Electric vehicle (E.V) after competing in CV for the past 2 years at Formula Bharat.
+							Formula Bharat 2019 was indeed a historic moment for the team as the team had shifted to an Electric vehicle (E.V) after competing in CV for the past 2 years at Formula Bharat.
 
 							<br><br>	The journey of the team shifting from CV to EV was quite enthralling for all the members associated with the team. During this span, the team managed not only to design the first prototype but also manufactured, tested and validated some important parameters in just 8 months. All that the team left, to be conquered last year had all eyes set on that destiny, i.e. to cross the finish line of endurance.
 
-							<br><br>	Thus, Team Kratos racing electric came up with its first E.V prototype race car 
+							Thus, Team Kratos racing electric came up with its first E.V prototype race car 
 
-							<br><br>	<span>‘THUNDERBLADE V 1.0’</span></p>
+							<span class="batman">‘THUNDERBLADE V 1.0’</span></p>
 						<div class="hide-if-js"><p>Bookmark this page to view on a larger, JavaScript-enabled device.</p></div>
 					</div>
 					<div class="scroll-arrow" data-7000="opacity: 1;" data-8000="opacity: 0;"></div>

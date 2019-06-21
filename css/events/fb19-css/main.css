@@ -165,7 +165,7 @@ textarea {
 	display: block; 
 }
 .front-page .wrapper{
-	max-width: 90%; 
+	max-width: 75%; 
 	margin: 0 auto; 
 }
 .front-page h1{
@@ -284,7 +284,6 @@ textarea {
 	margin-top: 185px;
 }
 .decades .fact p{
-	font-family: 'ff-tisa-web-pro', serif;
 	font-weight: 400;
 	font-style: italic; 
 	font-size: 18px;
