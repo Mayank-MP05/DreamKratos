@@ -269,9 +269,9 @@ textarea {
 }
 .decades .fact.bottom-right{
 	top: 50%;
-	margin-top: 185px;
-	left: auto;
-	right: 0;
+	margin-top: 25px;
+	left: 0;
+	right: auto;
 	text-align: left; 
 }
 .decades .fact.top-right{
@@ -300,7 +300,7 @@ textarea {
 }
 .decades .decade1950 .fact.bottom-right{
 	margin-top: 90px;
-	padding-left: 200px;
+	padding-left: 0px;
 }
 .decades .decadepre1950 .fact{
 	max-width: 100%;
@@ -572,11 +572,7 @@ textarea {
 
 .decade .inner img{
 	position: absolute;
-	right: 0;
-	left: 0;
-	margin: auto;
 	top: 0;
-	bottom: 0;
 	max-width: 100%;
 }
 
@@ -992,7 +988,7 @@ input{
 		line-height: 38px;
 	}
 	.front-page p {
-		padding: 20px;
+		padding: 8px;
 	}
 	.decades > .decade header:after{ 
 		display: none; 
@@ -1019,7 +1015,7 @@ input{
 		max-width: 48%; 
 	}
 	.js.skrollr .decades .decade1980 .fact.top-left{
-		max-width: 38%; 
+		max-width: 48%; 
 	}
 	.js.skrollr .decades .decade1970 .fact.top-left{
 		max-width: 42%; 
@@ -1032,15 +1028,15 @@ input{
 	}
 	.js.skrollr .decades .fact.bottom-left, 
 	.js.skrollr .decades .fact.bottom-right{
-		margin-top: 105px;
+		margin-top: 8px;
 	}
 	.js.skrollr .decades .decade1980 .fact.bottom-left, 
 	.js.skrollr .decades .decade1980 .fact.bottom-right{
-		margin-top: 123px
+		margin-top: 8px
 	}
 	.js.skrollr .decades .decade1950 .fact.bottom-left, 
 	.js.skrollr .decades .decade1950 .fact.bottom-right{
-		margin-top: 70px;
+		margin-top: 8px;
 	}
 	.js.skrollr .decades .decadepre1950 .fact{
 		max-width: 22%;

@@ -1,3 +1,14 @@
+@font-face {
+    font-family: "Batman";
+    src:
+    url("../../font/batman.ttf") format("truetype");
+}
+
+.batman{
+    font-family: "Batman",Arial, sans-serif;
+    font-size: 20px;
+}
+
 @media (min-width:768px) {
     .page .container{
         top : 60px;
@@ -9,8 +20,58 @@
     .bigbox{
         margin-top:100px;
     }
+
+    .hide-if-js{
+        display: none;
+    }
 }
 
 @media (min-width:900px) {
     /* MP5 Framework */
+    /* Styling for Images */
+    .mp5-img-left{
+        left : 0;
+        top : 0;
+        bottom: 0;
+    }
+    .mp5-img-right{
+        right: 0;
+        top: 0;
+        bottom: 0;
+    }
+    .mp5-img-top-left{
+        left: 0;
+        top: 0;
+        bottom: auto;
+    }
+    .mp5-img-top-right{
+        right: 0;
+        top: 0;
+        bottom: auto;
+    }
+    /* Styling for Paragraphs  */
+    .mp5-p-left-half{
+        max-width: 48%;
+        left: 0;
+        top: 0;
+    }
+    .mp5-p-right-half{
+        max-width: 48%;
+        right: 0;
+        top: 0;
+    }
+    .mp5-p-bottom-full{
+        margin: 0 auto;
+        margin-top: 320px;
+        color: #fff;
+        width: 96%;
+    }
+    .max100{
+        max-width: 96%;
+        margin: 0 auto;
+    }
+    .list-div-vic{
+        margin-left: 200px;
+        
+    }
 }

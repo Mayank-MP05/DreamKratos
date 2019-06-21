@@ -59,19 +59,19 @@
         					<h2>(12th June)<span>Day 1</span></h2>
         				</header>
         				<div class="inner" data-800="top: -100px;" data-1000="top: 190px;" data-1700="opacity: 1;" data-2000="opacity: 0;">
- 							<div class="fact top-left" data-1100="opacity: 0;" data-1300="opacity: 1;">
+ 							<div class="fact top-left " data-1100="opacity: 0;" data-1300="opacity: 1;">
 								<h3>Arrival</h3>
 								<p>And the Day 1 of SAE Supra started with teams rushing to line up their vehicle for the Technical Inspection. Fortunately, there were total 8 bays for the Technical Inspection. So there was a smooth movement for the Technical Inspection. The first attempt of the Technical Inspection for all the teams went long as the Judges went on with a detailed safety check of the vehicle. It took almost an hour for the teams who entered the TI bay for their first attempt. In our first attempt, we had a few changes coming in from the judges.  
 									</p>
 								</div>
 						
-							<div class="dot" id="decade2010Left" rel="popover" data-1300="opacity: 0;" data-1500="opacity: 1;" data-title="Mobile in the workplace" data-content="With over 50% of employees using mobile technology in the workplace, companies must work harder to balance risk, complexity and cost." data-placement="bottom"></div>
+							<div class="dot " id="decade2010Left" rel="popover" data-1300="opacity: 0;" data-1500="opacity: 1;" data-title="Mobile in the workplace" data-content="With over 50% of employees using mobile technology in the workplace, companies must work harder to balance risk, complexity and cost." data-placement="bottom"></div>
 							
  							<div class="fact top-right hide-if-js">
 								<h3></h3>
 								<p></p>
 							</div>
-							<img src="images/sae-supra-18/day1.jpg" alt="2010: Mobile devices, Windows 8 and cloud devices">
+							<img src="images/sae-supra-18/day1.jpg" alt="" class="mp5-img-right">
 							
 							<div class="fact bottom-right" data-1300="opacity: 0;" data-1500="opacity: 1;">
 								<h3></h3>
@@ -127,7 +127,7 @@
 							
         					<img src="images/sae-supra-18/day2-team.jpg" alt="2000: Desktop computers, launch of BlackBerry and iPhones">
         					
-							<div class="fact bottom-right" data-2300="opacity: 0;" data-2500="opacity: 1;">
+							<div class="mp5-p-bottom-full" data-2300="opacity: 0;" data-2500="opacity: 1;">
 								<h3></h3>
 								<p> Just after the noise test, the car went for engine inspection and in no time, it was ready for the final brakes test which would give all the Three stickers and get the car into dynamic events.
 
@@ -183,7 +183,7 @@
 							
 							<img src="images/sae-supra-18/day3-1.jpg" alt="1990: Common to see desktop computers in homes. Uptake of world wide web">
 							
-							<div class="fact bottom-right" data-3300="opacity: 0;" data-3500="opacity: 1;">
+							<div class="mp5-p-bottom-full" data-3300="opacity: 0;" data-3500="opacity: 1;">
 								<h3></h3>
 								<p>
 									There were some minute things which got overlooked and it did not favor us in the Acceleration event.
@@ -241,14 +241,14 @@
 						
 							<img src="images/sae-supra-18/day3-2.jpg" alt="1980: CDROM and Floppy Disks, ZX80 Sinclair. Tetris">
 							
-							<div class="fact bottom-right" data-4300="opacity: 0;" data-4500="opacity: 1;">        					
+							<div class="mp5-p-bottom-full" data-4300="opacity: 0;" data-4500="opacity: 1;">        					
 								<h3>Q and A</h3>
 								<p>
 									Innovations never lacked in any system. Take it from brakes where advanced topics like Computational Fluid Dynamics (CFD) was validated to the composites system where carbon fiber was coming in use with the dome, side pods, steering wheel and the track rods manufactured and analyzed in our very innovation center. Even the Data Acquisition System(DAQ) took a major leap by introducing telemetry which recorded various on-track live data. Judges were quite impressed by our efforts put in each system. Thus we had significantly more time explaining our engineering concepts that we applied in the car to all the gathered esteemed judges.
 								</p>
 								</div>
 						
-							<div class="dot" id="decade1980Right" rel="popover" data-4400="opacity: 0;" data-4600="opacity: 1;" data-title="The development of Tetris" data-content="Tetris was released on 6 June 1984 and was the first entertainment software to be exported from the USSR to the US. Whilst initially launched for 1980’s home computer platforms, it was the Game Boy version launched in 1989 that helped the game achieve its huge success." data-placement="top"></div>
+							<div class="dot" id="decade1980Right" rel="popover" data-4400="opacity: 0;" data-4600="opacity: 1;" data-title="" data-placement="top"></div>
 							
 							<div class="fact bottom-left hide-if-js">        					
 								<h3></h3>
@@ -399,7 +399,7 @@
         					<h2>Victory Day<span>Success</span></h2>
         				</header>
         				<div class="inner" data-7800="top: -100px;" data-8000="top: 190px;" data-8700="opacity: 1;" data-9000="opacity: 0;">
-							<div class="fact top-left" data-8100="opacity: 0;" data-8300="opacity: 1;">
+							<div class="fact top-left list-div-vic" data-8100="opacity: 0;" data-8300="opacity: 1;">
 								<h3 style="text-align: left">Static Event Awards-</h3>
 								<p>
 									<ul style="text-align: left">
@@ -420,9 +420,9 @@
 							
 							<img src="images/sae-supra-18/day-6-victory.jpg" alt="Pre 1950: COLOSSUS and other elecontronic and non electronic computers ">
 						
-							<div class="fact bottom-right" data-8300="opacity: 0;" data-8500="opacity: 1;">
-									<h3>Hattrick</h3><br>
-									<p>
+							<div class="mp5-p-bottom-full" data-8300="opacity: 0;" data-8500="opacity: 1;">
+									
+									<p class="batman">
 										We are known as CHAMPIONS.<br>
 
 										2016              2017                2018<br>
