@@ -64,7 +64,7 @@
         					<h2>(22nd Jan) <span>Day 0</span></h2>
         				</header>
         				<div class="inner" data-800="top: -100px;" data-1000="top: 190px;" data-1700="opacity: 1;" data-2000="opacity: 0;">
- 							<div class="fact top-left" data-1100="opacity: 0;" data-1300="opacity: 1;">
+ 							<div class="mp5-p-top-full" data-1100="opacity: 0;" data-1300="opacity: 1;">
 								<h3>Arrival</h3>
 								<p> This year, Day 0 was the day when the team arrived in Coimbatore early morning with the pre-registrations scheduled in the evening. Thus, there was no time for teams to assemble their vehicle on Day 1.</p>
 							</div>
@@ -75,9 +75,9 @@
 								<h3></h3>
 								<p></p>
 							</div>
-							<img src="images/formula-bharat-19/Day0-Pegasus.jpg" alt="2010: Mobile devices, Windows 8 and cloud devices">
+							<img src="images/formula-bharat-19/Day0-Pegasus.jpg" alt="" class="auto-center-img">
 							
-							<div class="fact bottom-right" data-1300="opacity: 0;" data-1500="opacity: 1;">
+							<div class="mp5-p-bottom-full m-top-180" data-1300="opacity: 0;" data-1500="opacity: 1;">
 								<h3>Let the Game Begins</h3>
 								<p>Keeping the fact in mind, Thunderblade was assembled in the workshop itself and taken to the venue in Coimbatore. On the day of arrival in Coimbatore, few team members carried out a local market survey of the industrial area in order to avoid any kind of emergency during the event.</p>
 							</div>
@@ -98,7 +98,7 @@
         					<h2>(23rd Jan)<span>DAY 1</span></h2>
         				</header>
         				<div class="inner" data-1800="top: -100px;" data-2000="top: 190px;" data-2700="opacity: 1;" data-3000="opacity: 0;">
-							<div class="fact top-left" data-2100="opacity: 0;" data-2300="opacity: 1;">
+							<div class="mp5-p-right-half" data-2100="opacity: 0;" data-2300="opacity: 1;">
 								<h3>the Rush </h3>
 								<p>There was a significant change in Formula Bharat as the Technical inspection was scheduled on Day 1 itself. Thus, teams had to be ready for the tech inspection on day 1 itself. The schedule was quite tight.</p>
 							</div>
@@ -132,7 +132,7 @@
         					<h2>(24th Jan)<span>DAY 2</span></h2>
         				</header>
         				<div class="inner" data-2800="top: -100px;" data-3000="top: 190px;" data-3700="opacity: 1;" data-4000="opacity: 0;">
-        					<div class="fact top-left" data-3100="opacity: 0;" data-3300="opacity: 1;">
+        					<div class="mp5-p-right-half" data-3100="opacity: 0;" data-3300="opacity: 1;">
 								<h3>The Begining </h3>
 								<p>Day 2 began with the team lining in for the electrical inspection. The team also had a business Plan presentation scheduled at 2:30 pm. This year the judges who were our investors were impressed by our finances, overall idea, market research, presentation following our presentation skills.</p>
 							</div>
@@ -175,7 +175,7 @@
         					<h2>(25th Jan)<span>DAY 3</span></h2>
         				</header>
         				<div class="inner" data-3800="top: -100px;" data-4000="top: 190px;" data-4700="opacity: 1;" data-5000="opacity: 0;">
-							<div class="fact top-left" data-4100="opacity: 0;" data-4300="opacity: 1;">
+							<div class="mp5-p-right-half" data-4100="opacity: 0;" data-4300="opacity: 1;">
 								<h3>Inspection by Rounds</h3>
 								<p>Day 3 it was at Formula Bharat 2019. This was one of the most important days as major static events were scheduled which included the Design event, Cost event and also Fabheads Finals.
 
@@ -194,9 +194,9 @@
 								</p>
 							</div>
 						
-							<img src="images/formula-bharat-19/day3-inspection.jpeg" alt="1980: CDROM and Floppy Disks, ZX80 Sinclair. Tetris">
+							<img src="images/formula-bharat-19/day3-inspection.jpeg" alt="" >
 							
-							<div class="fact bottom-right" data-4300="opacity: 0;" data-4500="opacity: 1;">        					
+							<div class="mp5-p-bottom-full m-top-220" data-4300="opacity: 0;" data-4500="opacity: 1;">        					
 								<h3>Q and A</h3>
 								<p>Right after the design presentation was the cost and manufacturing event from 11 am to 12 noon. Cost and manufacturing event started with the judges having a look at the vehicle and asking questions related to the BOM. Right after BOM judges asked some questions about CBOM of chassis and body works and tested the manufacturing knowledge and depth of understanding of various manufacturing process. Followed by CBOM judges asked a few points about cost understanding before concluding the session. Cost and manufacturing event overall went good with certain areas of improvement such as accuracy of BOM, etc.</p>
 							</div>
@@ -231,10 +231,10 @@
 								<p></p>
 							</div>
 							
-							<img src="images/formula-bharat-19/Day4.jpeg" alt="1970: Launch of Microsoft, Apple, Commodeore PET">
+							<img src="images/formula-bharat-19/Day4.jpeg" alt="" class="mp5-img-right hieght">
 							
 							<div class="fact bottom-right" data-5300="opacity: 0;" data-5500="opacity: 1;">
-								<h3>Together We Rise </h3>
+								<h3></h3>
 								<p></p>
 							</div>
 						
@@ -257,13 +257,12 @@
         					<h2>(26th Jan)<span>Day 4</span></h2>
         				</header>
         				<div class="inner" data-5800="top: -100px;" data-6000="top: 190px;" data-6700="opacity: 1;" data-7000="opacity: 0;">
-							<div class="fact top-left" data-6100="opacity: 0;" data-6300="opacity: 1;">
+							<div class="mp5-p-right-half" data-6100="opacity: 0;" data-6300="opacity: 1;">
 								<h3></h3>
 								<p>Day 4 was a busy day for the team. As the team aimed to clear the brakes and attempt 3 of the dynamic events today. The team lined up for brakes and got them cleared in the very first attempt. The team was very happy to complete with the technical inspection and now it was ready for the dynamic events.
-				 As soon as the brakes were cleared, the team quickly had a short testing session in the testing area before it lined up for Skid Pad event on the other side.
 				 It was a very proud moment for the team and everyone out there as Thunderblade V 1.0 was ready to go on its wheels for the very first time.
-				 By the afternoon the team had done with skidpan with the best timing of 5.8 sec and 6.3 seconds in acceleration.
-				For any dynamic event, the car should be technically and electrically clear (for safety), here we were the only team who cleared the inspections and attempted the autocross. The whole team was present to see the car take a lap for the first time.
+				 By the afternoon the team had done with skidpad with the best timing of 5.8 sec and 6.3 seconds in acceleration.
+				here we were the only team who cleared the inspections and attempted the autocross. The whole team was present to see the car take a lap for the first time.
 								</p>
 							</div>
 							
@@ -276,7 +275,7 @@
 						
 							<img src="images/formula-bharat-19/day6.jpeg" alt="1960: Launch of Intel, HP and BASIC programming language">
 						
-							<div class="fact bottom-right" data-6300="opacity: 0;" data-6500="opacity: 1;">
+							<div class="mp5-p-bottom-full m-top-250" data-6300="opacity: 0;" data-6500="opacity: 1;">
 								<h3></h3>
 								<p>Our team was the only team lined up and ready for autocross. The THUNDERBLADE proved itself, given a belief of all the efforts put in by the students this year as it stood first not only in electric vehicles but also in combustion cars, beating the fastest combustion car by 11secs and creating a benchmark.
 
@@ -301,7 +300,7 @@
         					<h2>(27th  Jan)<span>Day 5</span></h2>
         				</header>
         				<div class="inner" data-6800="top: -100px;" data-7000="top: 190px;" data-7700="opacity: 1;" data-8000="opacity: 0;">
-							<div class="fact top-left" data-7100="opacity: 0;" data-7300="opacity: 1;">
+							<div class="mp5-p-right-half" data-7100="opacity: 0;" data-7300="opacity: 1;">
 								<h3></h3>
 								<p>The day had arrived-the final day, what we left behind the previous year we were ready to conquer it this year. The team was already having anxiety along with confidence and yes, it was our turn arrived, leaving everyone in mere awe! Everything just came down to this one moment, where all the hardships and pain was felt. It wasn’t only a chance to prove our worth but also a chance to write a legacy along as the first 
 									EV team to ever cross the finish line of endurance.  Abhishek Patil was our first driver and Shubhaang Digge drove the latter half and every effort, every brainstorming session, all the pain was justified when the THUNDERBLADE crossed the chequered flag and the team broke down in tears, tears of happiness! The track witnessed its first run of an ELECTRIC RACE CAR where the tracks and pits echoed “KRATOS” and “THUNDERBLADE”. Moment of gratification!
@@ -311,14 +310,14 @@
 							<div class="dot" id="decade1950Left" rel="popover" data-7300="opacity: 0;" data-7500="opacity: 1;" data-title="The first commercial application of computers" data-content="J. Lyons & Co. was a pioneer in introducing computers to business. Between 1951 and 1963, the company manufactured and sold a range of LEO (Lyons Electronic Office) computers." data-placement="bottom"></div>
 							
 							<div class="fact top-right hide-if-js">
-								<h3>"No Journey is complete Without Friends"</h3>
+								<h3></h3>
 								<p>
 								</p>
 								</div>
 						
 							<img src="images/formula-bharat-19/day5-Friends.jpeg" alt="1950: UNIVAC in production. Lyons tea employs computers for first commercial application. Alan Turing publishes intelligence paper">
 						
-							<div class="fact bottom-right" data-7300="opacity: 0;" data-7500="opacity: 1;">
+							<div class="mp5-p-bottom-full m-top-300" data-7300="opacity: 0;" data-7500="opacity: 1;">
 								<h3></h3>
 								<p> “No journey is complete without friends” we made several new friends there with our fellow teams and competitors many experiences were shared and new memories were created.
 
@@ -360,16 +359,16 @@
 									<ul style="text-align: left">
 										<li>Skid-pad- 1st</li>
 										<li>Autocross- 1st</li>
-										<li>	Acceleration- 1st</li>
+										<li>Acceleration- 1st</li>
 										<li>Endurance- 1st</li>
-										<li>	Energy Efficiency- 1st</li>
+										<li>Energy Efficiency- 1st</li>
 									</ul>
 								</p>
 								</div>
 							
-							<img src="images/formula-bharat-19/day6-vistory.jpeg" alt="Pre 1950: COLOSSUS and other elecontronic and non electronic computers ">
+							<img src="images/formula-bharat-19/day6-vistory.jpeg" alt="" class="right-img">
 						
-							<div class="fact bottom-right" data-8300="opacity: 0;" data-8500="opacity: 1;">
+							<div class="mp5-p-right-half m-top-180" data-8300="opacity: 0;" data-8500="opacity: 1;">
 									<h3>EVENT HIGHLIGHTS:</h3><br>
 
 									<ul>

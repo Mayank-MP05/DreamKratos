@@ -35,6 +35,7 @@
         bottom: 0;
     }
     .mp5-img-right{
+        position: absolute;
         right: 0;
         top: 0;
         bottom: 0;
@@ -56,15 +57,36 @@
         top: 0;
     }
     .mp5-p-right-half{
+        position: absolute;
         max-width: 48%;
         right: 0;
         top: 0;
+        color: #fff;
+        z-index: 10;
+    }
+    .inner img{
+        max-width: 50%;
     }
     .mp5-p-bottom-full{
         margin: 0 auto;
         margin-top: 320px;
         color: #fff;
         width: 96%;
+    }
+    .mp5-p-top-full{
+        width:96%;
+        color: #fff;
+        margin: 0 auto;
+    }
+
+    .m-top-180{
+        margin-top: 180px;
+        color: #fff;
+    }
+
+    .m-top-220{
+        margin-top: 220px;
+        color: #fff;
     }
     .max100{
         max-width: 96%;
@@ -73,5 +95,26 @@
     .list-div-vic{
         margin-left: 200px;
         
+    }
+}
+
+@media (min-width:900px) {
+    /* Formula Bharat 2019 */
+    .auto-center-img{
+        margin: 0 auto;
+    }
+    .hieght{
+        height: 200px;
+    }
+    .right-img{
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .m-top-250{
+        margin-top: 250px;
+    }
+    .m-top-300{
+        margin-top: 300px;
     }
 }
