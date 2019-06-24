@@ -194,8 +194,11 @@ h5,.section-title{
     }
     /* Card Min Width and Hieght */
     .col-xs-6,.col-lg-3,.frontside,.backside,.card{
-        min-width: 300px;
+        min-width: 230px;
         min-height: 313px;
+    }
+    .col-xs-6{
+        max-width: 22%;
     }
 }
 /* Mobile CSS */

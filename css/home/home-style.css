@@ -105,6 +105,7 @@ margin: auto;
   /* Desktop CSS */
   .card img{
     max-width: 80%;
+    border-radius: 50%;
   }
 
   .fcd h5,.scd h5,.tcd h5{
@@ -132,9 +133,14 @@ margin: auto;
   .bodybox{
     margin-bottom: 15px;
   }
+  .foading img{
+    border-radius: 50%;
+    border-radius:50 vh;
+  }
 }
 
 @media (max-width : 600px){
+  /* mobile CSS*/
   .card img{
     max-width: 60%;
   }

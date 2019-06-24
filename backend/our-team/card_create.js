@@ -85,7 +85,7 @@ function deptwise(data){
                                     + data[i].deptDescription + 
                                     `</p>
                                     
-                                    <a class="social-icon text-xs-center" target="_blank" href="kratosracing.com">
+                                    <a class="social-icon text-xs-center" target="_blank" href="www.kratosracing.com">
                                         KratosRacing.com
                                     </a>
                                         

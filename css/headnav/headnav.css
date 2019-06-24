@@ -14,6 +14,17 @@
   font-size: 20px;
 }
 
+.dropdown-menu{
+  background-color: #000000;
+}
+
+.dropdown-item{
+  padding: 5px auto;
+  color: #9d9d9d;
+}
+.dropdown-item:hover{
+  color: #fff;
+}
 @media only screen and (max-width: 600px){
   .navbar-brand-title{
     font-size: 17px;
