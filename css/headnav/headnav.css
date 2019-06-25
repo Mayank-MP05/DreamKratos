@@ -29,6 +29,10 @@
   .navbar-brand-title{
     font-size: 17px;
   }
+  .dropdown-item{
+    display: block;
+    padding-left: 20px;
+  }
 }
 .navbar-inverse{
     background:#222B31 !important;

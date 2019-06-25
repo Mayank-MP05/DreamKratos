@@ -335,7 +335,7 @@
   transition: .5s ease;
   opacity: 0;
   position: absolute;
-  top: 0;
+  top: 20px;
   left: 0;
   right:0;
   width: 100%;
@@ -374,9 +374,9 @@
 
 .middle .text{
   font-family: "Batman",Arial, sans-serif;
-  background: linear-gradient(to bottom,black,75%,rgb(0,0,0,0));
+  background: linear-gradient(to bottom,rgb(105, 115, 164)ack,75%,rgb(0,0,0,0));
 }
 
 .fiddle .text{
-  background: linear-gradient(to top,black,75%,rgb(0,0,0,0));
+  background: linear-gradient(to top,rgb(105, 115, 164),75%,rgb(0,0,0,0));
 }
