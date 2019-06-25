@@ -4,7 +4,7 @@
     	<!-- Meta -->
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Formula Bharat 2018</title>
+        <title>Formula Bharat 2018 - TKR</title>
 		<meta name="description" content="Formula Bharat 2018">
         <meta name="viewport" content="width=device-width">
 		<!-- MS -->
@@ -14,8 +14,20 @@
 		<!-- Apple -->
 		<meta name="apple-mobile-web-app-status-bar-style" content="white">
 		
-		<!-- OG -->
-				
+		<!-- SEO Files -->
+		<meta property="og:locale" content="en_US">
+		<meta property="og:type" content="article">
+		<meta property="og:title" content="Team Kratos Racing">
+		<meta property="og:description" content= Team Kratos Racing is a Formula student team of Pimpri Chinchwad College of Engineering, comprising of 35 highly dedicated and diligent undergraduate students. Putting in hours at the workshop where sleepless nights and greasy jeans became our daily routine, we design, manufacture and test a Formula 3 styled vehicle. We promote students to hone their skills and execute all tasks to perfection. We exist to race in the top echelon of motor racing starting &hellip; Continue reading &quot;About Us&quot;">
+		<meta property="og:site_name" content="Team Kratos Racing">
+		<meta property="article:publisher" content="https://www.facebook.com/kratosracing/">
+		<meta name="twitter:description" content="About us  Team Kratos Racing is a Formula student team of Pimpri Chinchwad College of Engineering, comprising of 35 highly dedicated and diligent undergraduate students. Putting in hours at the workshop where sleepless nights and greasy jeans became our daily routine, we design, manufacture and test a Formula 3 styled vehicle. We promote students to hone their skills and execute all tasks to perfection. We exist to race in the top echelon of motor racing starting &hellip; Continue reading &quot;About Us&quot;">
+		<meta name="twitter:title" content="Team Kratos Racing">
+		<meta name="twitter:site" content="@kratos_team">
+		<meta name="twitter:creator" content="@kratos_team"	
+		<!-- ICON - Favcon Code -->
+		<link rel="shortcut icon" href="images/logos/wheel.ico" />
+						
         <link rel="stylesheet" href="css/events/fb18-css/bootstrap.min.css">
         <link rel="stylesheet" href="css/events/fb18-css/normalize.min.css">
         <link rel="stylesheet" href="css/events/fb18-css/main.css">
@@ -111,7 +123,7 @@
 						
 							<div class="dot" id="decade2000Left" rel="popover" data-2300="opacity: 0;" data-2500="opacity: 1;" data-title="Introduction of the iPhone" data-content="Apple released the first generation iPhone on 29 June 2007, the phone was later released in November 2007 in the UK. Development began in 2004, comprised of a team of 1000 people and cost $150m over thirty months." data-placement="bottom"></div>
 							
-        					<img src="images/formula-bharat-18/day2-1.jpeg" alt="2000: Desktop computers, launch of BlackBerry and iPhones">
+        					<img src="images/formula-bharat-18/day2-1.jpeg" alt="">
         					
 							<div class="mp5-p-right-half p-bottom m-top-150" data-2300="opacity: 0;" data-2500="opacity: 1;">
 								<h3></h3>
@@ -300,7 +312,7 @@
 								<p></p>
 							</div>
 						
-							<img src="images/formula-bharat-18/day4-1.jpeg" alt="1960: Launch of Intel, HP and BASIC programming language">
+							<img src="images/formula-bharat-18/day4-1.jpeg" alt="">
 						
 							<div class="fact bottom-right" data-6300="opacity: 0;" data-6500="opacity: 1;">
 								<h3></h3>

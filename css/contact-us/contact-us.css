@@ -46,6 +46,10 @@ body{
 hr{
     margin-bottom: 8px;
 }
+.optionbox button div{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
 
 /* Iframe Styling */
 
@@ -84,6 +88,13 @@ hr{
         border:1px solid #777777;
         background:#ffffff;
         box-shadow:0px 0px 10px #777777;
+    }
+    .optionbox{
+        background: linear-gradient(black,rgb(0,0,0,0));
+    }
+    .optionbox button{
+        transform: skew(-15deg);
+        border-radius: 10px;
     }
 }
 @media screen and (max-width: 480px) {

@@ -15,7 +15,20 @@
 		<!-- Apple -->
 		<meta name="apple-mobile-web-app-status-bar-style" content="white">
 		
-		<!-- OG -->
+		<!-- SEO Files -->
+		<meta property="og:locale" content="en_US">
+		<meta property="og:type" content="article">
+		<meta property="og:title" content="Team Kratos Racing">
+		<meta property="og:description" content= Team Kratos Racing is a Formula student team of Pimpri Chinchwad College of Engineering, comprising of 35 highly dedicated and diligent undergraduate students. Putting in hours at the workshop where sleepless nights and greasy jeans became our daily routine, we design, manufacture and test a Formula 3 styled vehicle. We promote students to hone their skills and execute all tasks to perfection. We exist to race in the top echelon of motor racing starting &hellip; Continue reading &quot;About Us&quot;">
+		<meta property="og:site_name" content="Team Kratos Racing">
+		<meta property="article:publisher" content="https://www.facebook.com/kratosracing/">
+		<meta name="twitter:description" content="About us  Team Kratos Racing is a Formula student team of Pimpri Chinchwad College of Engineering, comprising of 35 highly dedicated and diligent undergraduate students. Putting in hours at the workshop where sleepless nights and greasy jeans became our daily routine, we design, manufacture and test a Formula 3 styled vehicle. We promote students to hone their skills and execute all tasks to perfection. We exist to race in the top echelon of motor racing starting &hellip; Continue reading &quot;About Us&quot;">
+		<meta name="twitter:title" content="Team Kratos Racing">
+		<meta name="twitter:site" content="@kratos_team">
+		<meta name="twitter:creator" content="@kratos_team">
+
+		<!-- ICON - Favcon Code -->
+		<link rel="shortcut icon" href="images/logos/wheel.ico" />
 				
         <link rel="stylesheet" href="css/events/sae-2018-css/bootstrap.min.css">
         <link rel="stylesheet" href="css/events/sae-2018-css/normalize.min.css">
@@ -125,7 +138,7 @@
 						
 							<div class="dot" id="decade2000Left" rel="popover" data-2300="opacity: 0;" data-2500="opacity: 1;" data-title="Introduction of the iPhone" data-content="Apple released the first generation iPhone on 29 June 2007, the phone was later released in November 2007 in the UK. Development began in 2004, comprised of a team of 1000 people and cost $150m over thirty months." data-placement="bottom"></div>
 							
-        					<img src="images/sae-supra-18/day2-team.jpg" alt="2000: Desktop computers, launch of BlackBerry and iPhones">
+        					<img src="images/sae-supra-18/day2-team.jpg" alt="">
         					
 							<div class="mp5-p-bottom-full" data-2300="opacity: 0;" data-2500="opacity: 1;">
 								<h3></h3>
@@ -181,7 +194,7 @@
 									</p>
 								</div>
 							
-							<img src="images/sae-supra-18/day3-1.jpg" alt="1990: Common to see desktop computers in homes. Uptake of world wide web">
+							<img src="images/sae-supra-18/day3-1.jpg" alt="">
 							
 							<div class="mp5-p-bottom-full" data-3300="opacity: 0;" data-3500="opacity: 1;">
 								<h3></h3>
@@ -239,7 +252,7 @@
 								</p>
 							</div>
 						
-							<img src="images/sae-supra-18/day3-2.jpg" alt="1980: CDROM and Floppy Disks, ZX80 Sinclair. Tetris">
+							<img src="images/sae-supra-18/day3-2.jpg" alt="">
 							
 							<div class="mp5-p-bottom-full" data-4300="opacity: 0;" data-4500="opacity: 1;">        					
 						
@@ -285,7 +298,7 @@
 								<p></p>
 							</div>
 							
-							<img src="images/sae-supra-18/day4-1.jpg" alt="1970: Launch of Microsoft, Apple, Commodeore PET">
+							<img src="images/sae-supra-18/day4-1.jpg" alt="">
 							
 							<div class="fact bottom-right" data-5300="opacity: 0;" data-5500="opacity: 1;">
 								<h3></h3>
@@ -328,7 +341,7 @@
 								<p></p>
 							</div>
 						
-							<img src="images/sae-supra-18/day4-2.jpg" alt="1960: Launch of Intel, HP and BASIC programming language">
+							<img src="images/sae-supra-18/day4-2.jpg" alt="">
 						
 							<div class="fact bottom-right" data-6300="opacity: 0;" data-6500="opacity: 1;">
 								<h3></h3>
@@ -374,7 +387,7 @@
 								</p>
 								</div>
 						
-							<img src="images/sae-supra-18/day5.jpg" alt="1950: UNIVAC in production. Lyons tea employs computers for first commercial application. Alan Turing publishes intelligence paper">
+							<img src="images/sae-supra-18/day5.jpg" alt="">
 						
 							<div class="fact bottom-right" data-7300="opacity: 0;" data-7500="opacity: 1;">
 								<h3></h3>
@@ -418,7 +431,7 @@
 								</p>
 								</div>
 							
-							<img src="images/sae-supra-18/day-6-victory.jpg" alt="Pre 1950: COLOSSUS and other elecontronic and non electronic computers ">
+							<img src="images/sae-supra-18/day-6-victory.jpg" alt="">
 						
 							<div class="mp5-p-bottom-full" data-8300="opacity: 0;" data-8500="opacity: 1;">
 									
