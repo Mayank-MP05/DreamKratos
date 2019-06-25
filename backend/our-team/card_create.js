@@ -28,7 +28,7 @@ function create_div(data){
     for(var m = 0;m < data.length ;m++){
     var dept_name = data[m].deptName;
 
-    str1 += `<h5 class="section-title h1 batman">`+ dept_name +`</h5>
+    str1 += `<h5 class="section-title h1 batman" id="title_`+dept_name.replace(" ","-")+`">`+ dept_name +`</h5>
     <div class="row" id="`+dept_name.replace(" ","-")+`"></div>`;
     }
     document.getElementById("whole").innerHTML = str1;
@@ -42,10 +42,20 @@ function deptwise(data){
         var dept_name = data[i].deptName;
         var row = document.getElementById(dept_name.replace(" ","-"));
         var row_html = "";
+        
         for(var j = 0 ; j < data[i].grpMember.length ; j++){
             var person_name = data[i].grpMember[j];
             var img_src = person_name.replace(" ","-");
+            if(dept_name == "Captain"){
+                dept_name = "Vice-Captain";
+            }
+            if(dept_name == "Team-Leads"){
+                if(j == 0){
+                    dept_name = "Captain";
+                }
+            }
 
+            
             if(j == 0){
                 var pose = "System Head"; 
                 row_html += "<div class='row'>";
@@ -53,7 +63,6 @@ function deptwise(data){
                 pose = "";
             }
 
-            /*src="../../images/our team/`+ img_src +`.png" alt="` + person_name + `"*/
             if(window.innerHeight > 600){
                 if(j == 4 || j == 8){
                     row_html += "</div><div class='row'>";
@@ -63,6 +72,8 @@ function deptwise(data){
                     row_html += "</div><div class='row'>";
                 }
             }
+
+      
             row_html += `<!-- Team member ` + i + ` -->
             <div class="col-xs-6 col-lg-3">
                 <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
@@ -81,11 +92,12 @@ function deptwise(data){
                             <div class="card">
                                 <div class="card-body text-center mt-4">
                                     <h4 class="card-title">`+ dept_name +`</h4>
+                                    <img src="images/logos/logo_black.png" class="tkr-logo">
                                     <p class="card-text">`
                                     + data[i].deptDescription + 
                                     `</p>
                                     
-                                    <a class="social-icon text-xs-center" target="_blank" href="www.kratosracing.com">
+                                    <a class="social-icon text-xs-center" target="_blank" href="http://kratosracing.com">
                                         KratosRacing.com
                                     </a>
                                         

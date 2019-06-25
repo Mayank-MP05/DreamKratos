@@ -1,0 +1,154 @@
+.pos-f-t{
+    background-color: rgb(34, 43, 49);
+    border-bottom: 5px solid rgb(105, 115, 164);
+    z-index: 99999;
+}
+
+.navbar{
+    margin-bottom: 0;
+}
+
+.ourTeamnav{
+    z-index: 100000;
+}
+
+.fixed-left{
+    z-index: 0;
+}
+
+button{
+    background: rgb(0, 0, 0,0);
+    border: 0;
+    margin-top: 8px;
+}
+
+.dots{
+    height: 32px;
+    width: 32px;
+}
+
+/* Headnav Code Edit */
+@font-face {
+    font-family: "Batman";
+    src:
+    url("../../font/batman.ttf") format("truetype");
+  }
+  
+  .ourTeamnav ul li a{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #9d9d9d;
+  }
+  .ourTeamnav ul li a:hover{
+    color: #fff;
+    background: #000;
+  }
+  
+  .navbar-brand-title{
+    font-family: "Batman",Arial, sans-serif;
+    font-size: 20px;
+  }
+  
+  .dropdown-menu{
+    background-color: #000000;
+  }
+  
+  .dropdown-item{
+    padding: 5px auto;
+    color: #9d9d9d;
+  }
+  .dropdown-item:hover{
+    color: #fff;
+  }
+  @media only screen and (max-width: 600px){
+    .navbar-brand-title{
+      font-size: 17px;
+    }
+    .dropdown-item{
+      display: block;
+      padding-left: 20px;
+    }
+  }
+  .navbar-inverse{
+      background:#222B31 !important;
+      border-bottom:4px solid #6973A4 !important;
+    }
+    
+    .navbar-brand{
+      font:12px Lato !important;
+      text-transform:uppercase;
+      color:#FFF !important;
+      letter-spacing:2px;
+      margin-top:2px;
+    }
+    
+    .nav{
+      margin-bottom:0px;
+      a{
+        letter-spacing:2px;
+        padding:16px !important;
+        color:#a3bfc6 !important;
+        text-transform:uppercase;
+        position:relative;
+        z-index:1000;
+      }
+      a:hover{
+        color:#FFF !important;
+      }
+      li{
+        position:relative;
+      }
+    }
+    
+    .navbar-inverse .navbar-toggle{
+      border:none;
+    }
+    
+    .navbar-collapse{
+      box-shadow:none !important;
+      border:none !important;
+    }
+    
+    .navbar-inverse .navbar-toggle:hover{
+      background:transparent !important;
+    }
+    
+    .navbar-inverse .navbar-toggle:focus{
+      background:transparent !important;
+    }
+    
+    .navbar-inverse .navbar-toggle:active{
+      background:transparent !important;
+    }
+    
+    .icon-bar{
+      background:#a3bfc6 !important;
+    }
+    
+    .hover{
+      display:block;
+      position:absolute;
+      width:0%;
+      height:100%;
+      top:0px;
+      left:0px;
+      background:#6973A4 !important;
+      z-index:-1;
+      opacity:0;
+    }
+    
+    @media (max-width: 767px) {
+    .nav{
+      padding-bottom:20px;
+      a{
+        padding:12px !important;
+      }
+    }
+    }
+    
+    @media (max-width: 480px) {
+      .nav{
+        padding-bottom:20px;
+      }
+    }
+    

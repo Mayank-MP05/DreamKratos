@@ -248,7 +248,7 @@
 								<p></p>
 							</div>
 							
-							<img src="images/formula-bharat-18/day3-2.jpeg" alt="" class="img-full-right">
+							<img src="images/formula-bharat-18/day3-2.jpeg" alt="" class="img-full-right img-full-size">
 							
 							<div class="mp5-p-left-half m-top-180" data-5300="opacity: 0;" data-5500="opacity: 1;">
 								<h3></h3>

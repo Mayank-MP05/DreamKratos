@@ -1396,3 +1396,7 @@ input{
         page-break-after: avoid;
     }
 }
+
+.mp5-middle-img{
+	top: 300px;
+}

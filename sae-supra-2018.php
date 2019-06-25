@@ -71,9 +71,9 @@
 								<h3></h3>
 								<p></p>
 							</div>
-							<img src="images/sae-supra-18/day1.jpg" alt="" class="mp5-img-right">
+							<img src="images/sae-supra-18/day1.jpg" alt="" class="mp5-img-right mp5-middle-img">
 							
-							<div class="fact bottom-right" data-1300="opacity: 0;" data-1500="opacity: 1;">
+							<div class="fact bottom-right welch1" data-1300="opacity: 0;" data-1500="opacity: 1;">
 								<h3></h3>
 								<p><br>Issues faced during the 1st TI attempt:
 								

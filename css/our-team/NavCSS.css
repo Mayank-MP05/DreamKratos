@@ -114,9 +114,10 @@ body{
         list-style: none;
         display: flex;
         flex-direction: column;
-        padding-top: 80px;
     }
-    
+    .fixed-left{
+        margin-top: 65px;
+    }
 }
 @media (max-width:600px) {
     /* Mobile CSS */
@@ -124,6 +125,7 @@ body{
         z-index: -1;
     }    
     .fixed-left{
+        display: none;
         margin-top:70px;
         position: fixed;
         color: white;

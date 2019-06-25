@@ -2,6 +2,12 @@
    HTML5 Boilerplate
    ========================================================================== */
 
+/* Custom CSS */
+
+.img-full-size{
+	height: 350px;
+}
+
 html,
 body,
 button,

@@ -10,7 +10,7 @@
 </head>
 
 <body>
-<?php include("headnav.php"); ?>
+<?php include("ourTeamNav.php"); ?>
     <nav class="navbar navbar-expand-md navbar-dark bg-primary fixed-left">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
                 aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,57 +21,60 @@
             <ul class="left-navbar-nav" id="links_list">
                
                 <li class="left-nav-item">
-                    <a class="left-nav-link" href="#Team-Leads">Team Leads</a>
+                    <a class="left-nav-link" href="#title_Team-Leads">Team Leads</a>
                     <span class="hover"></span>
                 </li>
                 <li class="left-nav-item">
-                    <a class="left-nav-link" href="#Vehicle-Dynamics">Vehicle Dynamics</a>
-                    <span class="hover"></span>
-                </li>
-    
-                <li class="left-nav-item">
-                    <a class="left-nav-link" href="#Drivertrain">Drivetrain System</a>
+                    <a class="left-nav-link" href="#title_Vehicle-Dynamics">Vehicle Dynamics</a>
                     <span class="hover"></span>
                 </li>
     
                 <li class="left-nav-item">
-                    <a class="left-nav-link" href="#Brakes">Brakes System</a>
+                    <a class="left-nav-link" href="#title_Drivertrain">Drivetrain System</a>
                     <span class="hover"></span>
                 </li>
     
                 <li class="left-nav-item">
-                    <a class="left-nav-link" href="#Chasis">Chassis System</a>
+                    <a class="left-nav-link" href="#title_Brakes">Brakes System</a>
+                    <span class="hover"></span>
+                </li>
+    
+                <li class="left-nav-item">
+                    <a class="left-nav-link" href="#title_Chasis">Chassis System</a>
                     <span class="hover"></span>
                 </li>
 
     
                 <li class="left-nav-item">
-                    <a class="left-nav-link" href="#Marketing">Marketing Team</a>
+                    <a class="left-nav-link" href="#title_Marketing">Marketing Team</a>
                     <span class="hover"></span>
                 </li>
     
                 <li class="left-nav-item">
-                    <a class="left-nav-link" href="#Composites">Composites System</a>
+                    <a class="left-nav-link" href="#title_Composites">Composites System</a>
                     <span class="hover"></span>
                 </li>
     
                 <li class="left-nav-item">
-                    <a class="left-nav-link" href="#Electric-Powertrain">Electric Powertrain</a>
+                    <a class="left-nav-link" href="#title_Electric-Powertrain">Electric Powertrain</a>
                     <span class="hover"></span>
                 </li>
     
                 <li class="left-nav-item">
-                    <a class="left-nav-link" href="#Ground-Low Voltage and Data Aquisitions">GLV and DAQ</a>
+                    <a class="left-nav-link" href="#title_Ground-Low%20Voltage%20and%20Data%20Aquisitions">GLV and DAQ</a>
                     <span class="hover"></span>
                 </li>
     
                 <li class="left-nav-item">
-                    <a class="left-nav-link" href="#Team-2K18">Team 2K18</a>
+                    <a class="left-nav-link" href="#title_Team-2k18">Team 2K18</a>
                     <span class="hover"></span>
                 </li>
-                <li class="left-nav-item" href="#Alumnis">
+                <li class="left-nav-item" href="#title_Alumni">
                     <a class="left-nav-link">Alumnis</a>
                     <span class="hover"></span>
+                </li>
+                <li class="left-nav-item" href="#title_Alumni">
+                    
                 </li>
             </ul>
         </div>

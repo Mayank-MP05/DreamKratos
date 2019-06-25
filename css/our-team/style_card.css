@@ -58,7 +58,7 @@ h5,.section-title{
         
     section
     {
-        padding: 60px 0;
+        padding: 0px 0;
     }
         
         section .section-title
@@ -200,8 +200,14 @@ h5,.section-title{
     .col-xs-6{
         max-width: 22%;
     }
+    .tkr-logo{
+        width: 200px;
+        height: auto;
+    }
 }
 /* Mobile CSS */
 @media only screen and (max-width: 600px) {
-    
+    .tkr-logo{
+        display: none;
+    }
 }
