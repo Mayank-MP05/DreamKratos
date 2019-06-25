@@ -165,7 +165,6 @@ textarea {
 	display: block; 
 }
 .front-page .wrapper{
-	max-width: 75%; 
 	margin: 0 auto; 
 }
 .front-page h1{
@@ -576,9 +575,17 @@ textarea {
 	margin: auto;
 	top: 0;
 	bottom: 0;*/
-	max-width: 50%;
 }
-
+@media (max-width:600px) {
+	.decade .inner img{
+		max-width: 100%;
+	}
+}
+@media (min-width:600px) {
+	.decade .inner img{
+		max-width: 50%;
+	}
+}
 
 
 .page-footer h2{

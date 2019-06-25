@@ -41,10 +41,10 @@
 						<p style="text-align: center">This was the 4th time Team Kratos Racing was participating in SAE SUPRA
 							The team had earlier managed to win consecutive titles of SAE Supra in 2016 and 2017 respectively.
 							So even this year, the expectations were running high as there was a lot to expect from a team of this caliber. And even due to the unavoidable mistakes which were caused at the last event, the team was indeed pumped up and was back with vengeance.
-							This year the team had launched its fourth prototype project of the Fireblade series named FIREBLADE 4.0.
+							This year the team had launched its fourth prototype project of the Fireblade series named 
 							<br><br>
 							
-							<span>‘FIREBLADE 4.0.’</span></p>
+							<span class="batman">FIREBLADE 4.0.</span></p>
 
 					<div class="scroll-arrow" data-7000="opacity: 1;" data-8000="opacity: 0;"></div>
 				</div>
@@ -73,7 +73,7 @@
 							</div>
 							<img src="images/sae-supra-18/day1.jpg" alt="" class="mp5-img-right mp5-middle-img">
 							
-							<div class="fact bottom-right welch1" data-1300="opacity: 0;" data-1500="opacity: 1;">
+							<div class="mp5-p-bottom-full" data-1300="opacity: 0;" data-1500="opacity: 1;">
 								<h3></h3>
 								<p><br>Issues faced during the 1st TI attempt:
 								

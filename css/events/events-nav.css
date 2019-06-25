@@ -6,15 +6,26 @@
 
 .inner > div > h3{
     font-family: "Batman",Arial, sans-serif;
+    color: #fff;
+}
+
+div ul li{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .inner > div > p{
     font-family: 'Open Sans', sans-serif;
+    color: #fff;
 }
 
 .batman,header > h1{
     font-family: "Batman",Arial, sans-serif;
     font-size: 20px;
+}
+
+@media (max-width:600px) {
+
 }
 @media (min-width:768px) {
     .page .container{
@@ -71,9 +82,13 @@
         color: #fff;
         z-index: 10;
     }
+    
     .inner img{
         max-width: 50%;
         height: 250px;
+    }
+    .img-full-size {
+        height: 350px;
     }
     .mp5-p-bottom-full{
         margin: 0 auto;
