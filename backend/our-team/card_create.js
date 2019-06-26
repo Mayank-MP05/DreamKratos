@@ -64,11 +64,11 @@ function deptwise(data){
             }
 
             if(window.innerHeight > 600){
-                if(j == 4 || j == 8){
+                if(j % 4 == 0){
                     row_html += "</div><div class='row'>";
                 }
             }else{
-                if(j == 2 || j == 4 || j == 6 || j == 8){
+                if(j % 2 == 0){
                     row_html += "</div><div class='row'>";
                 }
             }

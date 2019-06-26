@@ -137,6 +137,17 @@ margin: auto;
     border-radius: 50%;
     border-radius:50 vh;
   }
+  .Sponser_box .card a .card-body{
+    width: 60%;
+    height: 40px;
+    color: #fff;
+    margin-top:8px;
+    margin-bottom: 8px;
+  }
+  .Sponser_box .card a .card-body h4{
+    color: #000000;
+    padding-top: 5px;
+  }
 }
 
 @media (max-width : 600px){

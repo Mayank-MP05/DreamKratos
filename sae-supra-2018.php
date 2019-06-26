@@ -78,7 +78,6 @@
 									</p>
 								</div>
 						
-							<div class="dot " id="decade2010Left" rel="popover" data-1300="opacity: 0;" data-1500="opacity: 1;" data-title="Mobile in the workplace" data-content="With over 50% of employees using mobile technology in the workplace, companies must work harder to balance risk, complexity and cost." data-placement="bottom"></div>
 							
  							<div class="fact top-right hide-if-js">
 								<h3></h3>
@@ -98,8 +97,6 @@
 							</p>
 								</div>
 						
-							<div class="dot" id="decade2010Right" rel="popover" data-1400="opacity: 0;" data-1600="opacity: 1;" data-title="Working in the cloud" data-content="In 2012, over 75% of SMEs had moved to cloud services, the biggest growth area is Infrastructure as a service, followed by Platform as a service. The biggest drive for moving to cloud computing is cost savings." data-placement="top"></div>
-							
 							<div class="fact bottom-left hide-if-js">
 								<h3></h3>
 								<p></p>
@@ -136,9 +133,7 @@
 								<p></p>
 							</div>
 						
-							<div class="dot" id="decade2000Left" rel="popover" data-2300="opacity: 0;" data-2500="opacity: 1;" data-title="Introduction of the iPhone" data-content="Apple released the first generation iPhone on 29 June 2007, the phone was later released in November 2007 in the UK. Development began in 2004, comprised of a team of 1000 people and cost $150m over thirty months." data-placement="bottom"></div>
-							
-        					<img src="images/sae-supra-18/day2-team.jpg" alt="">
+							<img src="images/sae-supra-18/day2-team.jpg" alt="">
         					
 							<div class="mp5-p-bottom-full" data-2300="opacity: 0;" data-2500="opacity: 1;">
 								<h3></h3>
@@ -152,8 +147,6 @@
 								</p>
 								</div>
 						
-							<div class="dot" id="decade2000Right" rel="popover" data-2400="opacity: 0;" data-2600="opacity: 1;" data-title="PC uptake hits 1 billion" data-content="Between the mid-1970s and the release of Windows XP, roughly 1 billion PCs had been shipped worldwide." data-placement="top"></div>
-							
 							<div class="fact bottom-left hide-if-js">
 								<h3></h3>
 								<p></p>
@@ -186,9 +179,7 @@
 								</p>
 								</div>
 						
-							<div class="dot" id="decade1990Left" rel="popover" data-3300="opacity: 0;" data-3500="opacity: 1;" data-title="Multiplayer PC games evolved" data-content="Broadly considered to be one of the most influential titles in gaming history, Doom was released on 10 December 1993. Within two years it was estimated that the game was played by 10 million people." data-placement="bottom"></div>
-							
-        					<div class="fact top-right hide-if-js">
+							<div class="fact top-right hide-if-js">
 								<h3></h3>
 								<p>
 									</p>
@@ -208,9 +199,6 @@
 									We headed straight back to the crank area and made sure that all the air gaps are fixed. 
 								</p>
 							</div>
-							
-							<div class="dot" id="decade1990Right" rel="popover" data-3400="opacity: 0;" data-3600="opacity: 1;" data-title="Computers increasingly used at work and home" data-content="Worldwide shipments of computers surpassed the 100-million mark in 1999. It is estimated that 75% of computers sold were sold for business use, with the remainder for personal or home use." data-placement="top"></div>
-							
 							<div class="fact bottom-left hide-if-js">
 								<h3></h3>
 								<p>
@@ -244,7 +232,6 @@
 								</p>
 								</div>
 						
-							<div class="dot" id="decade1980Left" rel="popover" data-4300="opacity: 0;" data-4500="opacity: 1;" data-title="3½ inch floppy disk" data-content="Following the initial launch of various new disk formats in the early 1970's, 1982 saw the launch of the then-standard 3½ inch floppy disk, first manufactured by Sony." data-placement="bottom"></div>
 							
 							<div class="fact top-right hide-if-js">
 								<h3></h3>
@@ -261,7 +248,6 @@
 								</p>
 								</div>
 						
-							<div class="dot" id="decade1980Right" rel="popover" data-4400="opacity: 0;" data-4600="opacity: 1;" data-title="" data-placement="top"></div>
 							
 							<div class="fact bottom-left hide-if-js">        					
 								<h3></h3>
@@ -291,7 +277,6 @@
 								</p>
 								</div>
 						
-							<div class="dot" id="decade1970Left" rel="popover" data-5300="opacity: 0;" data-5500="opacity: 1;" data-title="The Commodore PET" data-content="The Commodore Personal Electronic Translator was a personal computer produced in 1977. The first model, the PET 2001 came with either 4 kb or 8 kb of 8-bit RAM. Due to huge demand of the computer, and backed up orders, the 4 kb version was quickly dropped." data-placement="bottom"></div>
 							
 							<div class="fact top-right hide-if-js">
 								<h3> </h3>
@@ -305,7 +290,6 @@
 								<p>So one needed to be very composed and thorough with the autocross track before driving which what exactly our both drivers did. They took time, time and time to analyze the track very well. And it’s indeed a proud moment for us to say that both of our drivers finished autocross event with unbeatable timings and that too with ‘No Penalties’. Both of our drivers finished the autocross event with unbeatable timings of 1:49 minutes( Abhishek Patil) and 1:53 (Shubhaang Digge) respectively.</p>
 							</div>
 						
-							<div class="dot" id="decade1970Right" rel="popover" data-5400="opacity: 0;" data-5600="opacity: 1;" data-title="First portable calculator introduced" data-content="The first portable calculators were introduced in Japan in 1970. These included the Sanyo Mini Calculator, the Canon Pocketronic and the Sharp Micro Compet. " data-placement="top"></div>
 							
 							<div class="fact bottom-left hide-if-js">
 								<h3></h3>
@@ -334,7 +318,6 @@
 								</p>
 							</div>
 							
-							<div class="dot" id="decade1960Left" rel="popover" data-6300="opacity: 0;" data-6500="opacity: 1;" data-title="Hewlett Packard enter the industry" data-content="Hewlett Packard entered the desktop computer business in 1968 with the introduction of the 9100A. The desktop was referred to as a calculator to stop it being rejected by the market as it didn’t look like an IBM, who were at the time dominating the market. The 9100A weighted 18 kg and cost around $5000." data-placement="bottom"></div>
 							
 							<div class="fact top-right hide-if-js">
 								<h3></h3>
@@ -353,8 +336,7 @@
 								</p>
 								</div>
 						
-							<div class="dot" id="decade1960Right" rel="popover" data-6400="opacity: 0;" data-6600="opacity: 1;" data-title="ARPANET developed by the US military" data-content="In 1969 the Advanced Research Projects Agency Network (ASPANET) was introduced as one of the world’s first operational packet switching networks, the first to implement TCP/IP making it the progenitor of the modern internet." data-placement="top"></div>
-						
+							
 							<div class="fact bottom-left hide-if-js">
 								<h3></h3>
 								<p></p>
@@ -379,8 +361,6 @@
 								</p>
 								</div>
 							
-							<div class="dot" id="decade1950Left" rel="popover" data-7300="opacity: 0;" data-7500="opacity: 1;" data-title="The first commercial application of computers" data-content="J. Lyons & Co. was a pioneer in introducing computers to business. Between 1951 and 1963, the company manufactured and sold a range of LEO (Lyons Electronic Office) computers." data-placement="bottom"></div>
-							
 							<div class="fact top-right hide-if-js">
 								<h3></h3>
 								<p>
@@ -395,8 +375,7 @@
 								</p>
 								</div>
 						
-							<div class="dot" id="decade1950Right" rel="popover" data-7400="opacity: 0;" data-7600="opacity: 1;" data-title="Worldwide computers reach 100" data-content="It is estimated that in 1953 there was 100 computers in the world. Magazine Popular Mechanics quoted ‘Computers in the future may weigh no more than 1.5 tons’, the equivalent of 1,360 kg." data-placement="top"></div>
-						
+							
 							<div class="fact bottom-left hide-if-js">
 								<h3></h3>
 								<p>

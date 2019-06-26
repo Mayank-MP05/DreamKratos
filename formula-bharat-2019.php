@@ -82,7 +82,6 @@
 								<p> This year, Day 0 was the day when the team arrived in Coimbatore early morning with the pre-registrations scheduled in the evening. Thus, there was no time for teams to assemble their vehicle on Day 1.</p>
 							</div>
 						
-							<div class="dot" id="decade2010Left" rel="popover" data-1300="opacity: 0;" data-1500="opacity: 1;" data-title="Mobile in the workplace" data-content="With over 50% of employees using mobile technology in the workplace, companies must work harder to balance risk, complexity and cost." data-placement="bottom"></div>
 							
  							<div class="fact top-right hide-if-js">
 								<h3></h3>
@@ -95,7 +94,6 @@
 								<p>Keeping the fact in mind, Thunderblade was assembled in the workshop itself and taken to the venue in Coimbatore. On the day of arrival in Coimbatore, few team members carried out a local market survey of the industrial area in order to avoid any kind of emergency during the event.</p>
 							</div>
 						
-							<div class="dot" id="decade2010Right" rel="popover" data-1400="opacity: 0;" data-1600="opacity: 1;" data-title="Working in the cloud" data-content="In 2012, over 75% of SMEs had moved to cloud services, the biggest growth area is Infrastructure as a service, followed by Platform as a service. The biggest drive for moving to cloud computing is cost savings." data-placement="top"></div>
 							
 							<div class="fact bottom-left hide-if-js">
 								<h3></h3>
@@ -121,7 +119,6 @@
 								<p></p>
 							</div>
 						
-							<div class="dot" id="decade2000Left" rel="popover" data-2300="opacity: 0;" data-2500="opacity: 1;" data-title="Introduction of the iPhone" data-content="Apple released the first generation iPhone on 29 June 2007, the phone was later released in November 2007 in the UK. Development began in 2004, comprised of a team of 1000 people and cost $150m over thirty months." data-placement="bottom"></div>
 							
         					<img src="images/formula-bharat-19/day1-inspection.jpeg" alt="">
         					
@@ -130,7 +127,6 @@
 								<p> On day 1, as soon as the car got unloaded, the pit was arranged and the team went in for accumulator inspection. There was so much efficiency and quickness in the team that we were the first team to go out for the accumulator inspection.</p>
 							</div>
 						
-							<div class="dot" id="decade2000Right" rel="popover" data-2400="opacity: 0;" data-2600="opacity: 1;" data-title="PC uptake hits 1 billion" data-content="Between the mid-1970s and the release of Windows XP, roughly 1 billion PCs had been shipped worldwide." data-placement="top"></div>
 							
 							<div class="fact bottom-left hide-if-js">
 								<h3></h3> </h3>
@@ -150,7 +146,6 @@
 								<p>Day 2 began with the team lining in for the electrical inspection. The team also had a business Plan presentation scheduled at 2:30 pm. This year the judges who were our investors were impressed by our finances, overall idea, market research, presentation following our presentation skills.</p>
 							</div>
 						
-							<div class="dot" id="decade1990Left" rel="popover" data-3300="opacity: 0;" data-3500="opacity: 1;" data-title="Multiplayer PC games evolved" data-content="Broadly considered to be one of the most influential titles in gaming history, Doom was released on 10 December 1993. Within two years it was estimated that the game was played by 10 million people." data-placement="bottom"></div>
 							
         					<div class="fact top-right hide-if-js">
 								<h3>Done with Basics </h3>
@@ -168,7 +163,6 @@
 								</ul></p>
 							</div>
 							
-							<div class="dot" id="decade1990Right" rel="popover" data-3400="opacity: 0;" data-3600="opacity: 1;" data-title="Computers increasingly used at work and home" data-content="Worldwide shipments of computers surpassed the 100-million mark in 1999. It is estimated that 75% of computers sold were sold for business use, with the remainder for personal or home use." data-placement="top"></div>
 							
 							<div class="fact bottom-left hide-if-js">
 								<h3></h3>
@@ -199,8 +193,6 @@
 									Followed by the technical inspection, the team had no time to waste as the car went into the design bay for the design presentations scheduled at 10 am.</p>
 							</div>
 						
-							<div class="dot" id="decade1980Left" rel="popover" data-4300="opacity: 0;" data-4500="opacity: 1;" data-title="3½ inch floppy disk" data-content="Following the initial launch of various new disk formats in the early 1970's, 1982 saw the launch of the then-standard 3½ inch floppy disk, first manufactured by Sony." data-placement="bottom"></div>
-							
 							<div class="fact top-right hide-if-js">
 								<h3></h3>
 								<p>
@@ -214,7 +206,6 @@
 								<p>Right after the design presentation was the cost and manufacturing event from 11 am to 12 noon. Cost and manufacturing event started with the judges having a look at the vehicle and asking questions related to the BOM. Right after BOM judges asked some questions about CBOM of chassis and body works and tested the manufacturing knowledge and depth of understanding of various manufacturing process. Followed by CBOM judges asked a few points about cost understanding before concluding the session. Cost and manufacturing event overall went good with certain areas of improvement such as accuracy of BOM, etc.</p>
 							</div>
 						
-							<div class="dot" id="decade1980Right" rel="popover" data-4400="opacity: 0;" data-4600="opacity: 1;" data-title="The development of Tetris" data-content="Tetris was released on 6 June 1984 and was the first entertainment software to be exported from the USSR to the US. Whilst initially launched for 1980’s home computer platforms, it was the Game Boy version launched in 1989 that helped the game achieve its huge success." data-placement="top"></div>
 							
 							<div class="fact bottom-left hide-if-js">        					
 								<h3></h3>
@@ -237,7 +228,6 @@
 									</p>
 								</div>
 						
-							<div class="dot" id="decade1970Left" rel="popover" data-5300="opacity: 0;" data-5500="opacity: 1;" data-title="The Commodore PET" data-content="The Commodore Personal Electronic Translator was a personal computer produced in 1977. The first model, the PET 2001 came with either 4 kb or 8 kb of 8-bit RAM. Due to huge demand of the computer, and backed up orders, the 4 kb version was quickly dropped." data-placement="bottom"></div>
 							
 							<div class="fact top-right hide-if-js">
 								<h3> </h3>
@@ -251,7 +241,6 @@
 								<p></p>
 							</div>
 						
-							<div class="dot" id="decade1970Right" rel="popover" data-5400="opacity: 0;" data-5600="opacity: 1;" data-title="First portable calculator introduced" data-content="The first portable calculators were introduced in Japan in 1970. These included the Sanyo Mini Calculator, the Canon Pocketronic and the Sharp Micro Compet. " data-placement="top"></div>
 							
 							<div class="fact bottom-left hide-if-js">
 								<h3></h3>
@@ -279,7 +268,6 @@
 								</p>
 							</div>
 							
-							<div class="dot" id="decade1960Left" rel="popover" data-6300="opacity: 0;" data-6500="opacity: 1;" data-title="Hewlett Packard enter the industry" data-content="Hewlett Packard entered the desktop computer business in 1968 with the introduction of the 9100A. The desktop was referred to as a calculator to stop it being rejected by the market as it didn’t look like an IBM, who were at the time dominating the market. The 9100A weighted 18 kg and cost around $5000." data-placement="bottom"></div>
 							
 							<div class="fact top-right hide-if-js">
 								<h3></h3>
@@ -297,8 +285,7 @@
 				 The day ended with the distribution of statics awards. That day, that moment, our first event objective was achieved as the team bagged a 1st place in Design event followed by a runner-up place in Business plan and 3rd place in Cost and manufacturing. A day to remember before the final day as the team called off the day after charging the accumulator.</p>
 							</div>
 						
-							<div class="dot" id="decade1960Right" rel="popover" data-6400="opacity: 0;" data-6600="opacity: 1;" data-title="ARPANET developed by the US military" data-content="In 1969 the Advanced Research Projects Agency Network (ASPANET) was introduced as one of the world’s first operational packet switching networks, the first to implement TCP/IP making it the progenitor of the modern internet." data-placement="top"></div>
-						
+							
 							<div class="fact bottom-left hide-if-js">
 								<h3></h3>
 								<p></p>
@@ -320,7 +307,6 @@
 								</p>
 								</div>
 							
-							<div class="dot" id="decade1950Left" rel="popover" data-7300="opacity: 0;" data-7500="opacity: 1;" data-title="The first commercial application of computers" data-content="J. Lyons & Co. was a pioneer in introducing computers to business. Between 1951 and 1963, the company manufactured and sold a range of LEO (Lyons Electronic Office) computers." data-placement="bottom"></div>
 							
 							<div class="fact top-right hide-if-js">
 								<h3></h3>
@@ -340,8 +326,7 @@
 								</p>
 								</div>
 						
-							<div class="dot" id="decade1950Right" rel="popover" data-7400="opacity: 0;" data-7600="opacity: 1;" data-title="Worldwide computers reach 100" data-content="It is estimated that in 1953 there was 100 computers in the world. Magazine Popular Mechanics quoted ‘Computers in the future may weigh no more than 1.5 tons’, the equivalent of 1,360 kg." data-placement="top"></div>
-						
+							
 							<div class="fact bottom-left hide-if-js">
 								<h3></h3>
 								<p>
