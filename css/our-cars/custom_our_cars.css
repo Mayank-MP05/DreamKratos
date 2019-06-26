@@ -37,9 +37,9 @@ center{
     background: linear-gradient(black,rgb(105, 115, 164));
 }
 
-body{
+body,html{
     overflow-x: hidden;
-}
+ }
 
 .bigbox{
     width: 100%;

@@ -3,7 +3,9 @@
     src:
     url("../../font/batman.ttf") format("truetype");
 }
-
+body,html{
+    overflow-x: hidden;
+}
 .inner > div > h3{
     font-family: "Batman",Arial, sans-serif;
     color: #fff;

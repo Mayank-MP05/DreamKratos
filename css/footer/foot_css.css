@@ -1,7 +1,9 @@
 textarea {
   resize: none;
 }
-
+body,html{
+  overflow-x: hidden;
+}
 .text {
   color: white;
   font-size: 20px;
@@ -150,7 +152,7 @@ textarea {
   .containernbs{
     display: flex;
     flex-direction: column;
-    height: 100px;
+    height: 120px;
   }
   .right_foot p{
     padding: 0;

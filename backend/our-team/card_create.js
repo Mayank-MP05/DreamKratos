@@ -58,59 +58,74 @@ function deptwise(data){
             
             if(j == 0){
                 var pose = "System Head"; 
-                row_html += "<div class='row'>";
             }else{
                 pose = "";
             }
 
-            if(window.innerHeight > 600){
-                if(j % 4 == 0){
+            if(window.innerWidth > 600){
+                if(j%4 == 0){
                     row_html += "</div><div class='row'>";
                 }
             }else{
-                if(j % 2 == 0){
+                if(j%2 == 0){
                     row_html += "</div><div class='row'>";
                 }
             }
-
-      
-            row_html += `<!-- Team member ` + i + ` -->
-            <div class="col-xs-6 col-lg-3">
-                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
-                    <div class="mainflip">
-                        <div class="frontside">
-                            <div class="card">
-                                <div class="card-body text-center">
-                                    <p><img class="profile_pic" id="img`+i+''+j+`tor" src="images/our%20team/default-team.jpg" alt="` + person_name + `"></p>
-                                    <h4 class="card-title">`+ person_name +`</h4>
-                                    <p class="card-text">`+ dept_name +`</p>
-                                    <a href="#" class="btn btn-success btn-sm">`+pose+`</i></a>
+            if(innerWidth > 600){
+                row_html += `<!-- Team member ` + i + ` -->
+                    <div class="col-xs-6 col-lg-3">
+                        <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                            <div class="mainflip">
+                                <div class="frontside">
+                                    <div class="card">
+                                        <div class="card-body text-center">
+                                            <p><img class="profile_pic" id="img`+i+''+j+`tor" src="images/our%20team/default-team.jpg" alt="` + person_name + `"></p>
+                                            <h4 class="card-title">`+ person_name +`</h4>
+                                            <p class="card-text">`+ dept_name +`</p>
+                                            <a href="#" class="btn btn-success btn-sm">`+pose+`</i></a>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="backside">
-                            <div class="card">
-                                <div class="card-body text-center mt-4">
-                                    <h4 class="card-title">`+ dept_name +`</h4>
-                                    <img src="images/logos/logo_black.png" class="tkr-logo">
-                                    <p class="card-text">`
-                                    + data[i].deptDescription + 
-                                    `</p>
-                                    
-                                    <a class="social-icon text-xs-center" target="_blank" href="http://kratosracing.com">
-                                        KratosRacing.com
-                                    </a>
-                                        
+                                <div class="backside">
+                                    <div class="card">
+                                        <div class="card-body text-center mt-4">
+                                            <h4 class="card-title">`+ dept_name +`</h4>
+                                            <img src="images/logos/logo_black.png" class="tkr-logo">
+                                            <p class="card-text">`
+                                            + data[i].deptDescription + 
+                                            `</p>
+                                            
+                                            <a class="social-icon text-xs-center" target="_blank" href="http://kratosracing.com">
+                                                KratosRacing.com
+                                            </a>
+                                                
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <!-- ./Team member -->`; 
-
-
-
+                <!-- ./Team member -->`; 
+            }else{
+                row_html += `<!-- Team member ` + i + ` -->
+                    <div class="col-xs-6 col-lg-3">
+                        <div class="image-flip">
+                            <div class="mainflip">
+                                <div class="frontside">
+                                    <div class="card">
+                                        <div class="card-body text-center">
+                                            <p><img class="profile_pic" id="img`+i+''+j+`tor" src="images/our%20team/default-team.jpg" alt="` + person_name + `"></p>
+                                            <h4 class="card-title">`+ person_name +`</h4>
+                                            <p class="card-text">`+ dept_name +`</p>
+                                            <a href="#" class="btn btn-success btn-sm">`+pose+`</i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <!-- ./Team member -->`; 
+            }
         } 
         row.innerHTML = row_html;
     }

@@ -3,7 +3,9 @@
     src:
     url("../../font/batman.ttf") format("truetype");
 }
-
+body,html{
+    overflow-x: hidden;
+ }
 /* Code for Cards */
 body{
     background: linear-gradient(to bottom , rgb(0,0,0,0.7),rgb(0,0,0,0.2));
@@ -75,26 +77,7 @@ h5,.section-title{
         border: none;
         background: #ffffff;
     }
-        
-    .image-flip:hover .backside,
-    .image-flip.hover .backside
-    {
-        -webkit-transform: rotateY(0deg);
-        -moz-transform: rotateY(0deg);
-        -o-transform: rotateY(0deg);
-        -ms-transform: rotateY(0deg);
-        transform: rotateY(0deg);
-        border-radius: .25rem;
-    }
-        
-    .image-flip:hover .frontside,
-    .image-flip.hover .frontside
-    {
-        -webkit-transform: rotateY(180deg);
-        -moz-transform: rotateY(180deg);
-        -o-transform: rotateY(180deg);
-        transform: rotateY(180deg);
-    }
+
         
     .mainflip
     {
@@ -134,7 +117,8 @@ h5,.section-title{
         -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
         box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
     }
-        
+                
+    
     .frontside,
     .backside
     {
@@ -204,6 +188,25 @@ h5,.section-title{
         width: 200px;
         height: auto;
     }
+    .image-flip:hover .backside,
+    .image-flip.hover .backside
+    {
+        -webkit-transform: rotateY(0deg);
+        -moz-transform: rotateY(0deg);
+        -o-transform: rotateY(0deg);
+        -ms-transform: rotateY(0deg);
+        transform: rotateY(0deg);
+        border-radius: .25rem;
+    }
+        
+    .image-flip:hover .frontside,
+    .image-flip.hover .frontside
+    {
+        -webkit-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+        -o-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+    } 
 }
 /* Mobile CSS */
 @media only screen and (max-width: 600px) {

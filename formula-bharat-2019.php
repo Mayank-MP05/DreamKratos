@@ -89,7 +89,7 @@
 							</div>
 							<img src="images/formula-bharat-19/Day0-Pegasus.jpg" alt="" class="auto-center-img">
 							
-							<div class="mp5-p-bottom-full m-top-180" data-1300="opacity: 0;" data-1500="opacity: 1;">
+							<div class="mp5-p-right-half m-top-180" data-1300="opacity: 0;" data-1500="opacity: 1;">
 								<h3>Let the Game Begins</h3>
 								<p>Keeping the fact in mind, Thunderblade was assembled in the workshop itself and taken to the venue in Coimbatore. On the day of arrival in Coimbatore, few team members carried out a local market survey of the industrial area in order to avoid any kind of emergency during the event.</p>
 							</div>
