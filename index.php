@@ -128,21 +128,21 @@
     </div>
     <hr>
     <div class="row text-center">
-            <div class="card-deck">
+            <div class="card-deck ">
                 <div class="card">
-                <img class="card-img-top img-fluid" src="images/logo_representations/cars.png" alt="Card image cap">
+                <img class="card-img-top count" src="images/logo_representations/cars.png" alt="Card image cap">
                 <div class="card-body fcd">
                     <h5 id="Cars_count"></h5>
                 </div>
                 </div>
                 <div class="card">
-                <img class="card-img-top img-fluid" src="images/logo_representations/award.png" alt="Card image cap">
+                <img class="card-img-top count" src="images/logo_representations/award.png" alt="Card image cap">
                 <div class="card-body scd">
                     <h5 id="Awards_count"></h5>
                     </div>
                 </div>
                 <div class="card">
-                <img class="card-img-top img-fluid" src="images/logo_representations/competitions.png" alt="Card image cap">
+                <img class="card-img-top count" src="images/logo_representations/competitions.png" alt="Card image cap">
                 <div class="card-body tcd">
                     <h5 id="Competitions_count"></h5>
                 </div>
@@ -178,7 +178,7 @@
         <div class="card text-centerg">
         <a href="https://www.tatamotors.com/">
         <div class="foading">
-                <img class="card-img-top img-fluid" src="images/sponsers/Title/Tata-Motars.png" alt="Card image cap">
+                <img class="card-img-top spons-img" src="images/sponsers/Title/Tata-Motars.png" alt="Card image cap">
         </div>
             <div class="card-body">
                 <h4 class="card-title">Tata Motors</h4>
@@ -188,7 +188,7 @@
         <div class="card text-center">
         <a href="http://www.pccoepune.com/">
         <div class="foading">
-            <img class="card-img-top img-fluid" src="images/sponsers/Title/PCET-Trust.png" alt="Card image cap">
+            <img class="card-img-top spons-img" src="images/sponsers/Title/PCET-Trust.png" alt="Card image cap">
             </div><div class="card-body">
                 <h4 class="card-title">PCET Trust</h4>
             </div>
@@ -197,7 +197,7 @@
         <div class="card text-center">
         <a href="https://www.bosch.in/">
         <div class="foading">
-            <img class="card-img-top img-fluid" src="images/sponsers/Title/BOSCH.png" alt="Card image cap">
+            <img class="card-img-top spons-img" src="images/sponsers/Title/BOSCH.png" alt="Card image cap">
             </div><div class="card-body">
                 <h4 class="card-title">BOSCH</h4>
             </div>
@@ -210,7 +210,7 @@
         <div class="card text-center">
             <a href="https://www.mathworks.com/products/matlab.html">
             <div class="foading">
-                <img class="card-img-top img-fluid" src="images/sponsers/Gold/Matlab.png" alt="Card image cap">
+                <img class="card-img-top spons-img" src="images/sponsers/Gold/Matlab.png" alt="Card image cap">
             </div>
             <div class="card-body">
                 <h4 class="card-title">Matlab</h4>
@@ -220,7 +220,7 @@
         <div class="card text-center">
         <a href="https://www.redbull.com/us-en/">
         <div class="foading">
-            <img class="card-img-top img-fluid" src="images/sponsers/Gold/Redbull.png" alt="Card image cap">
+            <img class="card-img-top spons-img" src="images/sponsers/Gold/Redbull.png" alt="Card image cap">
             </div><div class="card-body"> 
                 <h4 class="card-title">Redbull</h4>
             </div>
@@ -229,7 +229,7 @@
         <div class="card text-center">
         <a href="https://www.seal-wings.com/">
         <div class="foading">
-            <img class="card-img-top img-fluid" src="images/sponsers/Gold/SealWings.png" alt="Card image cap">
+            <img class="card-img-top spons-img" src="images/sponsers/Gold/SealWings.png" alt="Card image cap">
             </div><div class="card-body">
                 <h4 class="card-title">Sealwings</h4>
             </div>
