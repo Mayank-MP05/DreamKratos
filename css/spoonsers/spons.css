@@ -14,7 +14,7 @@ body,html{
 .card-img-top{
     border-radius: 50%;
 }
-
+@media (min-width:600px){
 /* Spoonsers Animation Rotate 360*/
 
   /* Align for Part 2*/
@@ -83,12 +83,81 @@ body,html{
     color: #fff;
     text-align: center;
   }
-
+/*
 .img-div:hover{
   width: 190px;
   height: 190px;
 }
+*/
+}
 
+@media (max-width: 600px){
+      
+@keyframes a1 {
+  to{
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes a2 {
+  to{
+    transform: rotate(-360deg);
+  }
+}
+  .img-div{
+      width: 100%;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+  }
+  .foading{
+    width: 150px;
+    height: 150px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    border-top: 10px solid #e74c3c;
+    position: relative;
+  }
+  
+  .foading::before,.foading::after{
+    content: '';
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 0;
+    box-sizing: border-box;
+    border-radius: 50%;
+  }
+  
+  .foading::before{
+    border-top: 10px solid #e67e22;
+    transform: rotate(120deg);
+  }
+  
+  .foading::after{
+    border-top: 10px solid #3498db;
+    transform: rotate(240deg);
+  }
+  /*
+  .foading img:hover{
+    animation: a1 2s linear infinite;
+  }
+*/
+  .bard{
+    position: absolute;
+    top:0;
+    right: 0;
+    left: 0;
+    padding: 0 auto;
+    align-content: center;
+    justify-content: center;
+    width: 95%;
+    height: 100%;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+  }
+}
  .card-body h3 , .card-body h3:hover {
     text-decoration: none;
   }

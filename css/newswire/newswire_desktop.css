@@ -255,7 +255,7 @@ body,html{
 
 
 .margin50{
-  margin-top: 50px;
+  margin-top: 60px;
   margin-bottom: 50px;
 }
 
@@ -298,10 +298,14 @@ body,html{
   }
 }
 
+h3{
+  margin: 0 auto;
+}
+
 /* Final Hover */
 .card {
   position: relative;
-  width: 50%;
+  width: 100%;
 }
 
 .image {

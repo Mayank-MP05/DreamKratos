@@ -41,7 +41,7 @@ function card_maker(data){
             let company = data[i].list[j].sponsName;
             let website = data[i].list[j].sponsWebsite;
             
-            if(window.innerHeight > 600){
+            if(window.innerWidth > 600){
               if(j % 4 == 0){
                 card_code += "</div><div class='row'>";
               }

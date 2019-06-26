@@ -31,7 +31,6 @@
 <body>
 <?php include("headnav.php"); ?>
 <div class="container margin50">
-    <h3 class="newswire_title">Newswire :</h3>
 <!-- Card Deck 1 -->
 <div class="card-deck">
 
