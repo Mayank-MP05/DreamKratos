@@ -1,16 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Belgrano|Julius+Sans+One|Kanit|Titillium+Web&display=swap');
+
 html, body {
     max-width: 100%;
     overflow-x: hidden;
 }
-body{
-    overflow-x:hidden;
+#hr40{
+    color: #fff;
+    background: #fff;
+    margin: 0 auto;
+    margin-top: 7px;
+    width: 10%;
+    display: none;
+    margin-bottom: 0;
+    height: 5px;
+    border-radius: 2.5px;
 }
 center{
     width: 100%;
 }
-
+#i40:hover{
+    hr{
+        display: block;
+    }
+}
 #i40,#i31,#i30,#i21,#i20,#i10,button{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Kanit', sans-serif;
 }
 
 .optionbox{
@@ -18,7 +32,6 @@ center{
     flex-direction: row;
     width:100%;
     text-align: center;
-    background: linear-gradient(black,rgb(0,0,0,0));
 }
 
 .optionbox button{
@@ -26,7 +39,7 @@ center{
     min-width: 12%;
     padding: 1.5%;
     margin: 1%;
-    border: 5px solid rgb(105, 115, 164);
+    border-top: none;
     background-color: black;
     color: white;
     text-transform: uppercase;
@@ -47,7 +60,7 @@ body,html{
 }
 
 .optionbox button div{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Kanit', sans-serif;
     font-weight: bold;
 }
 
@@ -60,10 +73,6 @@ body,html{
         height: 2500px;
         overflow: hidden;
     }
-    .optionbox button{
-        transform: skew(-15deg);
-        border-radius: 10px;
-    }
 }
 @media screen and (max-width: 480px) {
     #our-cars-iframe , .framebox{
@@ -73,4 +82,74 @@ body,html{
         overflow: hidden;
     }
     
+}
+
+/* OptionBox Styling */
+
+@media screen and (min-width: 1000px) {
+    .optionbox{
+        background: black;
+        padding-bottom: 0;
+    }
+    .optionbox button{
+        width: 16%;
+        margin: 0 1px;
+        border: none;
+        background-color: black;
+    }
+    .optionbox button:focus{
+        background: white;
+        color: black;
+        font-size: 16px;
+        padding: none;
+        border: none;
+        font-weight: bold;
+    }
+}
+
+/* Ipad View Same as Above */
+
+/* Mobile View 480px */
+@media (min-width:450px) and (max-width:1000px) {
+    .optionbox{
+        background: black;
+        padding-bottom: 0;
+    }
+    .optionbox button{
+        width: 30%;
+        margin: 0 1px;
+        border: none;
+        background-color: black;
+    }
+    .optionbox button:focus{
+        background: white;
+        color: black;
+        font-size: 16px;
+        padding: none;
+        border: none;
+        font-weight: bold;
+    }
+}
+
+/* Iphone view Issue */
+
+@media (min-width:300px) and (max-width:450px) {
+    .optionbox{
+        background: black;
+        padding-bottom: 0;
+    }
+    .optionbox button{
+        width: 48%;
+        margin: 0 1px;
+        border: none;
+        background-color: black;
+    }
+    .optionbox button:focus{
+        background: white;
+        color: black;
+        font-size: 16px;
+        padding: none;
+        border: none;
+        font-weight: bold;
+    }
 }

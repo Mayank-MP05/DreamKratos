@@ -27,8 +27,7 @@
     <div class="bigbox">
     <div class="optionbox">
     <center>
-        <button onclick="printName(40)"><div id="40">Fireblade 4.0</div></button>
-
+        <button onclick="printName(40)"><div id="40">Fireblade 4.0</div><hr id="hr40"></button>
         <button onclick="printName(31)"><div id="31">Fireblade 3.1</div></button>
         <button onclick="printName(30)"><div id="30">Fireblade 3.0</div></button>
         <button onclick="printName(21)"><div id="21">Fireblade 2.1</div></button>
