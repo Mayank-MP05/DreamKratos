@@ -42,7 +42,7 @@ function deptwise(data){
         var dept_name = data[i].deptName;
         var row = document.getElementById(dept_name.replace(" ","-"));
         var row_html = "";
-        
+        var deptDesc = data[i].deptDescription; 
         for(var j = 0 ; j < data[i].grpMember.length ; j++){
             var person_name = data[i].grpMember[j];
             var img_src = person_name.replace(" ","-");
@@ -71,6 +71,15 @@ function deptwise(data){
                     row_html += "</div><div class='row'>";
                 }
             }
+
+            /* Check if Mayank Pachpande */
+            if(dept_name == "Marketing"){
+                if(person_name == "Mayank Pachpande"){
+                    dept_name = "Web-Master";
+                    deptDesc = "Web-Master Manages the Digital presence. Manages Data , Media and Most Importantatly our Marketing Handle i.e. Our Website";
+                }
+            }
+
             if(innerWidth > 600){
                 row_html += `<!-- Team member ` + i + ` -->
                     <div class="col-xs-6 col-lg-3">
@@ -92,7 +101,7 @@ function deptwise(data){
                                             <h4 class="card-title">`+ dept_name +`</h4>
                                             <img src="images/logos/logo_black.png" class="tkr-logo">
                                             <p class="card-text">`
-                                            + data[i].deptDescription + 
+                                            + deptDesc + 
                                             `</p>
                                             
                                             <a class="social-icon text-xs-center" target="_blank" href="http://kratosracing.com">
@@ -127,6 +136,11 @@ function deptwise(data){
                         </div>
                     </div>
                 <!-- ./Team member -->`; 
+            }
+
+            if(dept_name == "web-master"){
+                dept_name = "Marketing";
+                deptDesc = data[i].deptDescription;
             }
         } 
         row.innerHTML = row_html;
