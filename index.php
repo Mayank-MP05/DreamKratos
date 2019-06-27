@@ -54,7 +54,7 @@
                 <div class="carousel-inner">
             
                 <div class="item active">
-                    <img src="images/home/slides/slide_1.jpeg" alt="Team Kratos Racing Electric">
+                    <img src="images/home/slides/slide_5.jpeg" alt="Team Kratos Racing Electric">
                     <div class="carousel-caption">
                     <h3>Team Kratos Racing</h3>
                     <p></p>
@@ -86,7 +86,7 @@
                 </div>
 
                 <div class="item">
-                    <img src="images/home/slides/slide_5.jpeg" alt="Team Kratos Racing Electric">
+                    <img src="images/home/slides/slide_1.jpeg" alt="Team Kratos Racing Electric">
                     <div class="carousel-caption">
                     <h3>Team Kratos Racing</h3>
                     <p></p>
@@ -161,7 +161,7 @@
             &nbsp &nbsp &nbsp &nbsp &nbspTeam Kratos Racing is a Formula student team of Pimpri Chinchwad College of Engineering, comprising of 35 highly dedicated and diligent undergraduate students. Putting in hours at the workshop where sleepless nights and greasy jeans became our daily routine, we design, manufacture and test a Formula 3 styled vehicle. We promote students to hone their skills and execute all tasks to perfection. We exist to race in the top echelon of motor racing starting with national level and then taking India to the world.
             <br><br>
             &nbsp &nbsp &nbsp &nbsp &nbspDriven by our motto, “TOGETHER WE RISE”,  we have successfully manufactured 3 combustion Formula-3 cars in 3 years. The genesis of the adventure began when a few passionate minds from the college set out on this journey of forming a Formula Student team. Holding spanners in their hands, chains round their neck, innovation in their minds and determination in their heart, they set out on the journey to achieve the impossible.
-            <a href="/about-us.html">Read More ...</a>
+            <a href="/about-us.php">Read More ...</a>
         </p>
     </div>
     <hr>
@@ -252,16 +252,16 @@
     
     setInterval(function(){ 
         if(car < 8){
-            cars.innerHTML = "Cars : " + car;
+            cars.innerHTML =  car + " Cars";
             car++;
-            comps.innerHTML = "Events : " + comp;
+            comps.innerHTML = comp + " Events";
             comp++;
         }
     }, 200);
 
     setInterval(function(){ 
         if(award < 30){
-            awards.innerHTML = "Awards : " + award;
+            awards.innerHTML = award + " Awards";
             award++;
         }
     }, 200);

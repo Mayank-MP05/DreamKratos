@@ -29,8 +29,8 @@ body,html{
   display: inline-block;
   position: relative;
   cursor: pointer;
-  width: 48px;
-  height: 48px;
+  width: 32px;
+  height: 32px;
   border: 0.125rem solid transparent;
   padding: 0;
   text-decoration: none;
@@ -141,8 +141,8 @@ body,html{
 }
 
 .social-button img{
-  width: 48px;
-  height: 48px;
+  width: 32px;
+  height: 32px;
 }
 .right_foot p{
   padding: 0;
