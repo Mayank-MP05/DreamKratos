@@ -20,7 +20,7 @@
     <!-- ICON - Favcon Code -->
     <link rel="shortcut icon" href="images/logos/wheel.ico" />
     
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/laurels/bs3.4.0.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
@@ -40,28 +40,28 @@
             <div class="row align-items-center row-fb19">
                 <div class="col-sm-4 bg-dark" id="particle1">
                     <ul class="list-group">
-                        <li class="list-group-item right-grp-item">
+                        <li class="mp5-list-group-item">
                             1st - Overall Ranking
                         </li>
-                        <li class="list-group-item">  
+                        <li class="mp5-list-group-item">  
                             1st - Endurance
                         </li>
-                        <li class="list-group-item">
+                        <li class="mp5-list-group-item">
                             1st - Autocross
                         </li>
-                        <li class="list-group-item">
+                        <li class="mp5-list-group-item">
                             1st - Skidpad
                         </li>
-                        <li class="list-group-item">
+                        <li class="mp5-list-group-item">
                             1st - Acceleration
                         </li>
-                        <li class="list-group-item">
+                        <li class="mp5-list-group-item">
                             1st - Energy Efficiency
                         </li>
-                        <li class="list-group-item">
+                        <li class="mp5-list-group-item">
                             2nd - Business Plan
                         </li>
-                        <li class="list-group-item">
+                        <li class="mp5-list-group-item">
                             3rd - Cost And  Manufacturing Report
                         </li>
                     </ul>
@@ -87,10 +87,10 @@
             </div>
             <div class="col-sm-4 bg-dark align-middle" id="particle2">
                 <ul class="list-group">
-                    <li class="list-group-item">1st - Overall</li>
-                    <li class="list-group-item">1st - Best Procurement Report</li>
-                    <li class="list-group-item">1st - Best Team Management Strategy</li>
-                    <li class="list-group-item">1st - Best Battery Design</li>
+                    <li class="mp5-list-group-item">1st - Overall</li>
+                    <li class="mp5-list-group-item">1st - Best Procurement Report</li>
+                    <li class="mp5-list-group-item">1st - Best Team Management Strategy</li>
+                    <li class="mp5-list-group-item">1st - Best Battery Design</li>
                 </ul>
             </div>
         </div>
@@ -105,19 +105,19 @@
             <div class="row align-items-center sae18">
                 <div class="col-sm-4 bg-dark" id="particle7">
                     <ul class="list-group">
-                        <li class="list-group-item">1st - Overall Ranking</li>
-                        <li class="list-group-item">1st - AutoCross</li>
-                        <li class="list-group-item">1st - SkidPad</li>
-                        <li class="list-group-item">1st - Engineering Design</li>
-                        <li class="list-group-item">1st - CAE</li>
-                        <li class="list-group-item">1st - Business Plan</li>
-                        <li class="list-group-item">1st - Engineering Excellence</li>
-                        <li class="list-group-item">1st - Endurance</li>
+                        <li class="mp5-list-group-item">1st - Overall Ranking</li>
+                        <li class="mp5-list-group-item">1st - AutoCross</li>
+                        <li class="mp5-list-group-item">1st - SkidPad</li>
+                        <li class="mp5-list-group-item">1st - Engineering Design</li>
+                        <li class="mp5-list-group-item">1st - CAE</li>
+                        <li class="mp5-list-group-item">1st - Business Plan</li>
+                        <li class="mp5-list-group-item">1st - Engineering Excellence</li>
+                        <li class="mp5-list-group-item">1st - Endurance</li>
                     </ul>
                 </div>
     
                 <div class="col-sm-8">
-                    <img class="img img-fluid" src="images/laurels/Original/img3-Fireblade-4.0.jpg" alt="">
+                    <img class="img img-fluid" src="images/laurels/Original/img7.jpg" alt="">
                 </div>
             </div>
 
@@ -130,13 +130,13 @@
 
         <div class="row align-items-center fb18">
             <div class="col-sm-8">
-                <img class="img img-fluid" src="images/laurels/Original/img4-Fireblade-3.1-1.jpg" alt="">
+                <img class="img img-fluid" src="images/laurels/Original/img7.jpg" alt="">
             </div>
             <div class="col-sm-4 bg-dark" id="particle3">
                 <ul class="list-group align-middle">
-                    <li class="list-group-item">6th - Overall Ranking</li>
-                    <li class="list-group-item">1st - AutoCross</li>
-                    <li class="list-group-item">2nd - SkidPad</li>
+                    <li class="mp5-list-group-item">6th - Overall Ranking</li>
+                    <li class="mp5-list-group-item">1st - AutoCross</li>
+                    <li class="mp5-list-group-item">2nd - SkidPad</li>
                 </ul>
             </div>
         </div>
@@ -153,11 +153,11 @@
                 <div class="row align-items-center sae17">
                     <div class="col-sm-4 bg-dark" id="particle4">
                         <ul class="list-group">
-                            <li class="list-group-item">1st - Overall Ranking</li>
-                            <li class="list-group-item">1st - Business Plan</li>
-                            <li class="list-group-item">2nd - SkidPad</li>
-                            <li class="list-group-item">2nd - Endurance</li>
-                            <li class="list-group-item">2nd - Acceleration</li>
+                            <li class="mp5-list-group-item">1st - Overall Ranking</li>
+                            <li class="mp5-list-group-item">1st - Business Plan</li>
+                            <li class="mp5-list-group-item">2nd - SkidPad</li>
+                            <li class="mp5-list-group-item">2nd - Endurance</li>
+                            <li class="mp5-list-group-item">2nd - Acceleration</li>
                         </ul>
                     </div>
         
@@ -178,8 +178,8 @@
                         </div>
                         <div class="col-sm-4 bg-dark" id="particle5">
                                 <ul class="list-group">
-                                    <li class="list-group-item">5th - Overall Ranking</li>
-                                    <li class="list-group-item">2nd - AutoCross</li>
+                                    <li class="mp5-list-group-item">5th - Overall Ranking</li>
+                                    <li class="mp5-list-group-item">2nd - AutoCross</li>
                                 </ul>
                         </div>
                     </div>
@@ -194,16 +194,16 @@
                 <div class="row align-items-center sae16">
                     <div class="col-sm-4 bg-dark"  id="particle6">
                         <ul class="list-group">
-                            <li class="list-group-item">1st - Overall Ranking</li>
-                            <li class="list-group-item">1st - SkidPad</li>
-                            <li class="list-group-item">1st - AutoCross</li>
-                            <li class="list-group-item">1st - Endurance</li>
-                            <li class="list-group-item">1st- Fuel Economy</li>
+                            <li class="mp5-list-group-item">1st - Overall Ranking</li>
+                            <li class="mp5-list-group-item">1st - SkidPad</li>
+                            <li class="mp5-list-group-item">1st - AutoCross</li>
+                            <li class="mp5-list-group-item">1st - Endurance</li>
+                            <li class="mp5-list-group-item">1st- Fuel Economy</li>
                         </ul>
                     </div>
         
                     <div class="col-sm-8">
-                        <img class="img img-fluid" src="images/laurels/Original/img7.jpg" alt="">
+                        <img class="img img-fluid" src="images/laurels/Original/img3-Fireblade-4.0.jpg" alt="">
                     </div>
                 </div>
 
@@ -219,7 +219,7 @@
                         </div>
                         <div class="col-sm-4 bg-dark" id="particle8">
                                 <ul class="list-group">
-                                    <li class="list-group-item">32st - Overall Ranking</li>
+                                    <li class="mp5-list-group-item">32st - Overall Ranking</li>
                                 </ul>
                         </div>
                     </div>
