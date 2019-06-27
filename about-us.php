@@ -60,7 +60,7 @@
         <hr/>
        <!----Row 3 : full Screen Image with Quote On It -->
 
-       <div class="parallax">
+       <div class="parallax first-pax">
             <img src="images/about-us/thunderblade-in-race.jpg" alt="Whole Team" class="img-fluid">
             <div class="row text-center bg-dark onimage">
                 <h3 class="quote statement color-white">“WE DIDN’T KNOW IT WAS IMPOSSIBLE, SO WE DID IT”.</h3>
@@ -80,7 +80,7 @@
        <hr/>
         <!----Row 6 : Quote -->
 
-        <div class="parallax">
+        <div class="parallax last-pax">
             <img src="images/about-us/last-quote.jpg" alt="Whole Team" class="img-fluid">
             <div class="row text-center bg-dark onimage">
                 <h3 class="quote statement color-white">Keeping up with the legacy that our mentors started we are on a quest of becoming the epitome of hard work , team spirit  and FORMULA STUDENT SUCCESS.</h3>
