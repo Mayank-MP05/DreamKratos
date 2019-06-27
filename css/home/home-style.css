@@ -1,10 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Belgrano|Julius+Sans+One|Kanit|Titillium+Web&display=swap');
+
 @font-face {
   font-family: "Batman";
   src:
   url("../../font/batman.ttf") format("truetype");
 }
-
-@import url('https://fonts.googleapis.com/css?family=Belgrano|Julius+Sans+One|Kanit|Titillium+Web&display=swap');
 
 body,html{
   overflow-x: hidden;
@@ -15,6 +15,19 @@ font-family: 'Kanit', sans-serif;
 font-family: 'Julius Sans One', sans-serif;
 font-family: 'Belgrano', serif;
 */
+
+.kanit{
+  font-family: 'Kanit', sans-serif;
+}
+
+.count{
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+.belgrano{
+  font-family: 'Belgrano', serif;
+}
+
 h5{
   padding: 0;
   margin: 0;
@@ -39,6 +52,7 @@ h4,a{
 
 .normal{
   font-family: 'Titillium Web', sans-serif;
+  font-size: 18px;
 }
 
 .batman{
@@ -85,7 +99,6 @@ body{
 .bodybox{
   width: 100%;
   height: auto;
-  margin-top:10px;
 }
 
 .item img{
@@ -105,6 +118,10 @@ top:0;
 bottom: 0;
 margin: auto;
 }
+
+.card a:hover{
+  text-decoration: none;
+}
 @media (max-width:576px) {
   /* mobile css */
   .carousel-control img{
@@ -113,13 +130,13 @@ margin: auto;
   }
   .bodybox{
     margin-bottom: 8px;
+    margin-top: 50px;
   }
 }
 
 @media (min-width : 600px){
   /* Desktop CSS */
   .card img{
-    border-radius: 50%;
   }
 
   .fcd h5,.scd h5,.tcd h5{
@@ -130,9 +147,9 @@ margin: auto;
   
   .fcd,.scd,.tcd{
      width: 200px;
-     height: 50px;
+     height: 40px;
      transform: skew(-15deg);
-     padding: 2.5px 0;
+     padding: 1px 0;
   }
   
   .fcd{
@@ -146,6 +163,7 @@ margin: auto;
   }
   .bodybox{
     margin-bottom: 15px;
+    margin-top: 50px;
   }
   .foading img{
     border-radius: 50%;

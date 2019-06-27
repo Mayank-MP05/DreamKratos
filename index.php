@@ -56,7 +56,7 @@
                 <div class="item active">
                     <img src="images/home/slides/slide_5.jpeg" alt="Team Kratos Racing Electric">
                     <div class="carousel-caption">
-                    <h3>Team Kratos Racing</h3>
+                    <h3></h3>
                     <p></p>
                     </div>
                 </div>
@@ -64,7 +64,7 @@
                 <div class="item">
                         <img src="images/home/slides/slide_2.jpeg" alt="Team Kratos Racing Electric">
                         <div class="carousel-caption">
-                        <h3>Together We Rise</h3>
+                        <h3></h3>
                         <p></p>
                         </div>
                 </div>
@@ -72,7 +72,7 @@
                 <div class="item">
                         <img src="images/home/slides/slide_3.jpeg" alt="Team Kratos Racing Electric">
                         <div class="carousel-caption">
-                        <h3>Team Kratos Racing</h3>
+                        <h3></h3>
                         <p></p>
                         </div>
                     </div>
@@ -80,7 +80,7 @@
                 <div class="item">
                     <img src="images/home/slides/slide_4.jpeg" alt="Team Kratos Racing Electric">
                     <div class="carousel-caption">
-                    <h3>Together We Rise</h3>
+                    <h3></h3>
                     <p></p>
                     </div>
                 </div>
@@ -88,14 +88,14 @@
                 <div class="item">
                     <img src="images/home/slides/slide_1.jpeg" alt="Team Kratos Racing Electric">
                     <div class="carousel-caption">
-                    <h3>Team Kratos Racing</h3>
+                    <h3></h3>
                     <p></p>
                     </div>
                 </div>
                 <div class="item">
                         <img src="images/home/slides/slide_6.jpeg" alt="Team Kratos Racing Electric">
                         <div class="carousel-caption">
-                        <h3>Together We Rise</h3>
+                        <h3></h3>
                         <p></p>
                         </div>
                 </div>
@@ -103,7 +103,7 @@
                 <div class="item">
                     <img src="images/home/slides/slide_7.jpeg" alt="Team Kratos Racing Electric">
                     <div class="carousel-caption">
-                    <h3>Team Kratos Racing</h3>
+                    <h3></h3>
                     <p></p>
                     </div>
                 </div>
@@ -124,7 +124,7 @@
 
     <!-- 3 Cards With Counter -->
     <div class="row text-center padding10">
-            <h3 class="batman">Welcome to Team Kratos Official Website.</h3>
+            <h3 class="belgrano">Welcome to Team Kratos Official Website.</h3>
     </div>
     <hr>
     <div class="row text-center">
@@ -153,7 +153,7 @@
     <!-- About u -->
     <hr>
     <div class="text-center padding10">
-        <h3 class="batman">About us</h3>
+        <h3 class="belgrano">About us</h3>
     </div>
     <hr>
     <div class="row">
@@ -169,7 +169,7 @@
     <!-- Sponsers -->
 
     <div class="text-center padding10">
-        <h3 class="batman">Proud Sponsers</h3>
+        <h3 class="belgrano">Proud Sponsers</h3>
     </div>
 
     <hr>
@@ -181,7 +181,7 @@
                 <img class="card-img-top spons-img" src="images/sponsers/Title/Tata-Motars.png" alt="Card image cap">
         </div>
             <div class="card-body">
-                <h4 class="card-title">Tata Motors</h4>
+                <h4 class="card-title kanit">Tata Motors</h4>
             </div>
             </a>
         </div>
@@ -190,7 +190,7 @@
         <div class="foading">
             <img class="card-img-top spons-img" src="images/sponsers/Title/PCET-Trust.png" alt="Card image cap">
             </div><div class="card-body">
-                <h4 class="card-title">PCET Trust</h4>
+                <h4 class="card-title kanit">PCET Trust</h4>
             </div>
             </a>
         </div>
@@ -199,7 +199,7 @@
         <div class="foading">
             <img class="card-img-top spons-img" src="images/sponsers/Title/BOSCH.png" alt="Card image cap">
             </div><div class="card-body">
-                <h4 class="card-title">BOSCH</h4>
+                <h4 class="card-title kanit">BOSCH</h4>
             </div>
             </a>
         </div>
@@ -213,7 +213,7 @@
                 <img class="card-img-top spons-img" src="images/sponsers/Gold/Matlab.png" alt="Card image cap">
             </div>
             <div class="card-body">
-                <h4 class="card-title">Matlab</h4>
+                <h4 class="card-title kanit">Matlab</h4>
             </div>
             </a>
         </div>
@@ -222,7 +222,7 @@
         <div class="foading">
             <img class="card-img-top spons-img" src="images/sponsers/Gold/Redbull.png" alt="Card image cap">
             </div><div class="card-body"> 
-                <h4 class="card-title">Redbull</h4>
+                <h4 class="card-title kanit">Redbull</h4>
             </div>
             </a>
         </div>
@@ -231,7 +231,7 @@
         <div class="foading">
             <img class="card-img-top spons-img" src="images/sponsers/Gold/SealWings.png" alt="Card image cap">
             </div><div class="card-body">
-                <h4 class="card-title">Sealwings</h4>
+                <h4 class="card-title kanit">Sealwings</h4>
             </div>
             </a>
         </div>
