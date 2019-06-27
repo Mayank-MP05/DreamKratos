@@ -14,8 +14,13 @@ body{
 }
 
 /* Typography */
-.
+.card-title,.card-text{
+    font-family: 'Titillium Web', sans-serif;
+}
 
+.btn-success{
+    font-family: 'Kanit', sans-serif;
+}
 
 .left-nav-link{
     font-family: 'Kanit', sans-serif;
