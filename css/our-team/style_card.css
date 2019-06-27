@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Belgrano|Julius+Sans+One|Kanit|Titillium+Web&display=swap');
+
 @font-face {
     font-family: "Batman";
     src:
@@ -8,12 +10,15 @@ body,html{
  }
 /* Code for Cards */
 body{
-    background: linear-gradient(to bottom , rgb(0,0,0,0.7),rgb(0,0,0,0.2));
+    background: #fff;
 }
 
-h5,.section-title{
-    font-family: "Batman",Arial, sans-serif;
-    color: white;
+/* Typography */
+.
+
+
+.left-nav-link{
+    font-family: 'Kanit', sans-serif;
 }
 /* Bootstrap Navbar */
 
@@ -65,9 +70,9 @@ h5,.section-title{
         
         section .section-title
         {
-            font-family: "Batman",Arial, sans-serif;
+            font-family: 'Belgrano', serif;;
             text-align: center;
-            color: #fff;
+            color: #000000;
             margin-bottom: 50px;
             text-transform: uppercase;
         }
@@ -174,7 +179,7 @@ h5,.section-title{
 /* Desktop CSS */
 @media only screen and (min-width: 600px) {
     .bigbox{
-        margin-left: 240px;
+        margin-left: 260px;
     }
     /* Card Min Width and Hieght */
     .col-xs-6,.col-lg-3,.frontside,.backside,.card{
@@ -212,5 +217,14 @@ h5,.section-title{
 @media only screen and (max-width: 600px) {
     .tkr-logo{
         display: none;
+    }
+    .img-holder{
+        overflow: hidden;
+    }
+    .img-holder img{
+        transition: all 1s ease;
+    }
+    .img-holder img:hover{
+        transform: scale(1.2);
     }
 }

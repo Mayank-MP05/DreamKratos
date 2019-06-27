@@ -65,14 +65,20 @@ body{
   }
   .left-nav-item:hover, .left-nav-item:focus, .left-nav-item:active {
     color: white;
+    text-decoration: none;
   }
+
+  .left-nav-link:hover{
+      text-decoration: none;
+  }
+
   .left-nav-item:hover:before, .left-nav-item:focus:before, .left-nav-item:active:before {
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
     -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
     transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
   }
-
+/*
   .left-nav-item:nth-child(4n):hover, .left-nav-item:nth-child(4n):focus, .left-nav-item:nth-child(4n):active {
     background: #4285F4;
 }
@@ -89,7 +95,7 @@ body{
 .left-nav-item:nth-child(4n+3):hover, .left-nav-item:nth-child(4n+3):focus, .left-nav-item:nth-child(4n+3):active {
     background: #0F9D58;
 }
-  
+  */
 
 /* Hover Styling Ends Here */ 
 

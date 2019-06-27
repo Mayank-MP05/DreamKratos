@@ -114,8 +114,10 @@ function deptwise(data){
                                 <div class="frontside">
                                     <div class="card">
                                         <div class="card-body text-center">
-                                            <p><img class="profile_pic" id="img`+i+''+j+`tor" src="images/our%20team/default-team.jpg" alt="` + person_name + `"></p>
-                                            <h4 class="card-title">`+ person_name +`</h4>
+                                            <p>
+                                            <div class="img-hold">
+                                                <img class="profile_pic" id="img`+i+''+j+`tor" src="images/our%20team/default-team.jpg" alt="` + person_name + `"></p>
+                                            </div><h4 class="card-title">`+ person_name +`</h4>
                                             <p class="card-text">`+ dept_name +`</p>
                                             <a href="#" class="btn btn-success btn-sm">`+pose+`</i></a>
                                         </div>
