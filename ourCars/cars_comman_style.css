@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Belgrano|Julius+Sans+One|Kanit|Titillium+Web&display=swap');
+
 @font-face {
     font-family: "Batman";
     src:
     url("../font/batman.ttf") format("truetype");
 }
-
+h4{
+    font-family: 'Belgrano', serif;
+}
 table tr td:nth-child(odd){
     width: 40%;
 }
@@ -13,11 +17,15 @@ table tr td:nth-child(even){
 }
 
 h2{
-    font-family: "Batman",Arial, sans-serif;
+    font-family: 'Belgrano', serif;
+    font-weight: bold;
 }
-
+tr{
+    font-family: 'Titillium Web', sans-serif;
+}
 table{
     min-width: 100%;
+  
 }
 
 /* Desktop CSS */
