@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Belgrano|Julius+Sans+One|Kanit|Titillium+Web&display=swap');
+
 html, body {
     max-width: 100%;
     overflow-x: hidden;
@@ -18,21 +20,23 @@ center{
 }
 
 .optionbox button{
-    max-width: 50%;
-    min-width: 12%;
-    padding: 1.5%;
-    margin: 1%;
-    border: 5px solid rgb(105, 115, 164);
+    max-width: 48%;
+    padding: auto;
+    margin-left: 2px;
+    margin-right: 2px;
     background-color: black;
     color: white;
     text-transform: uppercase;
+    font-family: 'Belgrano', serif;
 }
 
 .optionbox button:hover{
     color: #fff;
     background: linear-gradient(black,rgb(105, 115, 164));
 }
-
+.belgrano{
+    font-family: 'Belgrano', serif;
+}
 body{
     overflow-x: hidden;
 }
@@ -46,10 +50,7 @@ body{
 hr{
     margin-bottom: 8px;
 }
-.optionbox button div{
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
-}
+
 
 /* Iframe Styling */
 
@@ -93,8 +94,7 @@ hr{
         background: linear-gradient(black,rgb(0,0,0,0));
     }
     .optionbox button{
-        transform: skew(-15deg);
-        border-radius: 10px;
+        padding: 15px 18%;
     }
 }
 @media screen and (max-width: 480px) {
@@ -133,5 +133,74 @@ hr{
         border:1px solid #777777;
         background:#ffffff;
         box-shadow:0px 0px 10px #777777;
+    }
+}
+
+
+/* OptionBox Styling */
+
+@media screen and (min-width: 1000px) {
+    .optionbox{
+        background: black;
+        padding-bottom: 0;
+    }
+    .optionbox button{
+        margin: 0 1px;
+        border: none;
+        background-color: black;
+    }
+    .optionbox button:focus{
+        background: #F0F0F0;
+        color: black;
+        font-size: 16px;
+        padding: none;
+        border: none;
+        font-weight: bold;
+    }
+}
+
+/* Ipad View Same as Above */
+
+/* Mobile View 480px */
+@media (min-width:450px) and (max-width:1000px) {
+    .optionbox{
+        background: black;
+        padding-bottom: 0;
+    }
+    .optionbox button{
+        width: 30%;
+        margin: 0 1px;
+        border: none;
+        background-color: black;
+    }
+    .optionbox button:focus{
+        background: white;
+        color: black;
+        font-size: 16px;
+        border: none;
+        font-weight: bold;
+    }
+}
+
+/* Iphone view Issue */
+
+@media (min-width:300px) and (max-width:450px) {
+    .optionbox{
+        background: black;
+        padding-bottom: 0;
+    }
+    .optionbox button{
+        width: 48%;
+        margin: 0 1px;
+        border: none;
+        background-color: black;
+        padding: 5px 10%;
+    }
+    .optionbox button:focus{
+        background: white;
+        color: black;
+        font-size: 16px;
+        border: none;
+        font-weight: bold;
     }
 }

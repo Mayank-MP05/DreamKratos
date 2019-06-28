@@ -40,7 +40,7 @@
         </div>
       </li>
       
-      <li><a href="#">Gallery</a><span class="hover"></span></li>
+      <li><a href="https://photos.app.goo.gl/NcHyEQw5SZyRyZ8o6" target="_blank">Gallery</a><span class="hover"></span></li>
       <li><a href="/newswire.php">News</a><span class="hover"></span></li>
       <li><a href="/sponsers.php">Sponsers</a><span class="hover"></span></li>
       <li><a href="/contact-us.php">Contact</a><span class="hover"></span></li>
