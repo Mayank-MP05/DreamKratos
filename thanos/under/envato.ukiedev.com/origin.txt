@@ -1,0 +1,120 @@
+Uri: https://envato.ukiedev.com/ukiewatch/car/
+File Name: D:\xampp\htdocs\thanos\under\envato.ukiedev.com\ukiewatch\car\index.html
+Content Type: text/html
+
+Uri: https://envato.ukiedev.com/ukiewatch/car/assets/fonts/font-awesome/css/font-awesome.min.css
+File Name: D:\xampp\htdocs\thanos\under\envato.ukiedev.com\ukiewatch\car\assets\fonts\font-awesome\css\font-awesome.min.css
+Content Type: text/css
+
+Uri: https://envato.ukiedev.com/ukiewatch/car/assets/boostrap-files/css/bootstrap.min.css
+File Name: D:\xampp\htdocs\thanos\under\envato.ukiedev.com\ukiewatch\car\assets\boostrap-files\css\bootstrap.min.css
+Content Type: text/css
+
+Uri: https://envato.ukiedev.com/ukiewatch/car/assets/css/style.css
+File Name: D:\xampp\htdocs\thanos\under\envato.ukiedev.com\ukiewatch\car\assets\css\style.css
+Content Type: text/css
+
+Uri: https://envato.ukiedev.com/ukiewatch/car/assets/css/respons.css
+File Name: D:\xampp\htdocs\thanos\under\envato.ukiedev.com\ukiewatch\car\assets\css\respons.css
+Content Type: text/css
+
+Uri: https://envato.ukiedev.com/ukiewatch/car/assets/img/favicons/apple-touch-icon-144x144.png
+File Name: D:\xampp\htdocs\thanos\under\envato.ukiedev.com\ukiewatch\car\assets\img\favicons\apple-touch-icon-144x144.png
+Content Type: image/png
+
+Uri: https://envato.ukiedev.com/ukiewatch/car/assets/img/favicons/apple-touch-icon-114x114.png
+File Name: D:\xampp\htdocs\thanos\under\envato.ukiedev.com\ukiewatch\car\assets\img\favicons\apple-touch-icon-114x114.png
+Content Type: image/png
+
+Uri: https://envato.ukiedev.com/ukiewatch/car/assets/img/favicons/apple-touch-icon-72x72.png
+File Name: D:\xampp\htdocs\thanos\under\envato.ukiedev.com\ukiewatch\car\assets\img\favicons\apple-touch-icon-72x72.png
+Content Type: image/png
+
+Uri: https://envato.ukiedev.com/ukiewatch/car/assets/img/favicons/apple-touch-icon.png
+File Name: D:\xampp\htdocs\thanos\under\envato.ukiedev.com\ukiewatch\car\assets\img\favicons\apple-touch-icon.png
+Content Type: image/png
+
+Uri: https://envato.ukiedev.com/ukiewatch/car/assets/img/favicons/favicon.png
+File Name: D:\xampp\htdocs\thanos\under\envato.ukiedev.com\ukiewatch\car\assets\img\favicons\favicon.png
+Content Type: image/png
+
+Uri: https://envato.ukiedev.com/ukiewatch/car/assets/js/jquery-1.11.2.min.js
+File Name: D:\xampp\htdocs\thanos\under\envato.ukiedev.com\ukiewatch\car\assets\js\jquery-1.11.2.min.js
+Content Type: application/javascript
+
+Uri: https://envato.ukiedev.com/ukiewatch/car/assets/boostrap-files/js/bootstrap.min.js
+File Name: D:\xampp\htdocs\thanos\under\envato.ukiedev.com\ukiewatch\car\assets\boostrap-files\js\bootstrap.min.js
+Content Type: application/javascript
+
+Uri: https://envato.ukiedev.com/ukiewatch/car/assets/js/modernizr.custom.js
+File Name: D:\xampp\htdocs\thanos\under\envato.ukiedev.com\ukiewatch\car\assets\js\modernizr.custom.js
+Content Type: application/javascript
+
+Uri: https://envato.ukiedev.com/ukiewatch/car/assets/js/jquery.nicescroll.min.js
+File Name: D:\xampp\htdocs\thanos\under\envato.ukiedev.com\ukiewatch\car\assets\js\jquery.nicescroll.min.js
+Content Type: application/javascript
+
+Uri: https://envato.ukiedev.com/ukiewatch/car/assets/js/jquery.lwtCountdown-1.0.js
+File Name: D:\xampp\htdocs\thanos\under\envato.ukiedev.com\ukiewatch\car\assets\js\jquery.lwtCountdown-1.0.js
+Content Type: application/javascript
+
+Uri: https://envato.ukiedev.com/ukiewatch/car/assets/js/scripts.js
+File Name: D:\xampp\htdocs\thanos\under\envato.ukiedev.com\ukiewatch\car\assets\js\scripts.js
+Content Type: application/javascript
+
+Uri: https://envato.ukiedev.com/ukiewatch/car/assets/fonts/font-awesome/fonts/fontawesome-webfont.eot?v=4.7.0
+File Name: D:\xampp\htdocs\thanos\under\envato.ukiedev.com\ukiewatch\car\assets\fonts\font-awesome\fonts\fontawesome-webfont.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://envato.ukiedev.com/ukiewatch/car/assets/fonts/font-awesome/fonts/fontawesome-webfont.eot?
+File Name: D:\xampp\htdocs\thanos\under\envato.ukiedev.com\ukiewatch\car\assets\fonts\font-awesome\fonts\fontawesome-webfont-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://envato.ukiedev.com/ukiewatch/car/assets/fonts/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0
+File Name: D:\xampp\htdocs\thanos\under\envato.ukiedev.com\ukiewatch\car\assets\fonts\font-awesome\fonts\fontawesome-webfont.woff2
+Content Type: 
+
+Uri: https://envato.ukiedev.com/ukiewatch/car/assets/fonts/font-awesome/fonts/fontawesome-webfont.woff?v=4.7.0
+File Name: D:\xampp\htdocs\thanos\under\envato.ukiedev.com\ukiewatch\car\assets\fonts\font-awesome\fonts\fontawesome-webfont.woff
+Content Type: application/x-font-woff
+
+Uri: https://envato.ukiedev.com/ukiewatch/car/assets/fonts/font-awesome/fonts/fontawesome-webfont.ttf?v=4.7.0
+File Name: D:\xampp\htdocs\thanos\under\envato.ukiedev.com\ukiewatch\car\assets\fonts\font-awesome\fonts\fontawesome-webfont.ttf
+Content Type: application/x-font-ttf
+
+Uri: https://envato.ukiedev.com/ukiewatch/car/assets/fonts/font-awesome/fonts/fontawesome-webfont.svg?v=4.7.0
+File Name: D:\xampp\htdocs\thanos\under\envato.ukiedev.com\ukiewatch\car\assets\fonts\font-awesome\fonts\fontawesome-webfont.svg
+Content Type: image/svg+xml
+
+Uri: https://envato.ukiedev.com/ukiewatch/car/assets/boostrap-files/fonts/glyphicons-halflings-regular.eot
+File Name: D:\xampp\htdocs\thanos\under\envato.ukiedev.com\ukiewatch\car\assets\boostrap-files\fonts\glyphicons-halflings-regular.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://envato.ukiedev.com/ukiewatch/car/assets/boostrap-files/fonts/glyphicons-halflings-regular.eot?
+File Name: D:\xampp\htdocs\thanos\under\envato.ukiedev.com\ukiewatch\car\assets\boostrap-files\fonts\glyphicons-halflings-regular-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://envato.ukiedev.com/ukiewatch/car/assets/boostrap-files/fonts/glyphicons-halflings-regular.woff
+File Name: D:\xampp\htdocs\thanos\under\envato.ukiedev.com\ukiewatch\car\assets\boostrap-files\fonts\glyphicons-halflings-regular.woff
+Content Type: application/x-font-woff
+
+Uri: https://envato.ukiedev.com/ukiewatch/car/assets/boostrap-files/fonts/glyphicons-halflings-regular.ttf
+File Name: D:\xampp\htdocs\thanos\under\envato.ukiedev.com\ukiewatch\car\assets\boostrap-files\fonts\glyphicons-halflings-regular.ttf
+Content Type: application/x-font-ttf
+
+Uri: https://envato.ukiedev.com/ukiewatch/car/assets/boostrap-files/fonts/glyphicons-halflings-regular.svg
+File Name: D:\xampp\htdocs\thanos\under\envato.ukiedev.com\ukiewatch\car\assets\boostrap-files\fonts\glyphicons-halflings-regular.svg
+Content Type: image/svg+xml
+
+Uri: https://envato.ukiedev.com/ukiewatch/car/assets/img/car.svg
+File Name: D:\xampp\htdocs\thanos\under\envato.ukiedev.com\ukiewatch\car\assets\img\car.svg
+Content Type: image/svg+xml
+
+Uri: https://envato.ukiedev.com/ukiewatch/car/assets/img/hand.svg
+File Name: D:\xampp\htdocs\thanos\under\envato.ukiedev.com\ukiewatch\car\assets\img\hand.svg
+Content Type: image/svg+xml
+
+Uri: https://envato.ukiedev.com/ukiewatch/car/assets/img/ajax-loader.gif
+File Name: D:\xampp\htdocs\thanos\under\envato.ukiedev.com\ukiewatch\car\assets\img\ajax-loader.gif
+Content Type: image/gif
+

@@ -43,7 +43,7 @@
         </div>
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
         <div id="frameWrap">
-            <img id="loader1" src="images/contact-us/contact-load.gif" alt="loading gif"/>
+            <img id="loader1" src="images/contact-us/wheel.png" alt="loading gif"/>
             <iframe id="contact-us-form" src="https://docs.google.com/forms/d/e/1FAIpQLSdNk7muGRAg1_Ts9NT4nSA9J-5uE1BzYEh4PhZmomIiXqDTtA/viewform?embedded=true">Loading ...</iframe>
         </div>
         <script>

@@ -1,0 +1,61 @@
+/* Start media ( max = 468px ) */
+@media (max-width: 468px) {
+
+    .title {
+        margin-bottom: 35px;
+    }
+    .car_and_driver {
+        width: 290px;
+        height: 157px;
+        margin: 40px auto -20px;
+    }
+    .car_and_driver .car {
+        width: 290px;
+        height: 157px;
+    }
+    .car_and_driver .hand {
+        width: 36px;
+        height: 45px;
+        right: 27px;
+        top: 43px;
+        -moz-animation: 0.8s ease 0s normal none infinite hand_mob;
+        -moz-transform-origin: 85% 65%;
+        -webkit-animation: hand_mob 0.8s infinite ease-in-out;
+        -webkit-transform-origin: 85% 65%;
+        -o-animation: 0.8s ease 0s normal none infinite hand_mob;
+        -o-animation: hand_mob 0.8s infinite ease-in-out;
+        -o-transform-origin: 85% 65%;
+        -ms-animation: 0.8s ease 0s normal none infinite hand_mob;
+        -ms-animation: hand_mob 0.8s infinite ease-in-out;
+        -ms-transform-origin: 85% 65%;
+        animation: 0.8s ease 0s normal none infinite hand_mob;
+        animation: hand_mob 0.8s infinite ease-in-out;
+        transform-origin: 85% 65%;
+    }
+
+    /* -------- Watch -------- */
+    #watch .dash span.dash_title {
+        text-align: center;
+    }
+
+    #watch .dash {
+        width: auto;
+        min-width: 70px;
+        padding: 0px 8px 0px;
+        height: 79px;
+        line-height: 62px;
+        margin: 0px -2px;
+    }
+
+    #watch .dash:last-child {
+        padding: 0px 0px 0px 8px;
+    }
+
+    #watch .dash .digit {
+        font-size: 36px;
+        line-height: 56px;
+        height: 44px;
+        width: 20px;
+    }
+
+}

@@ -85,7 +85,7 @@
 							</div>
 							<img src="images/sae-supra-18/day1.jpg" alt="" class="mp5-img-right mp5-middle-img">
 							
-							<div class="mp5-p-bottom-full" data-1300="opacity: 0;" data-1500="opacity: 1;">
+							<div class="mp5-p-bottom-full top-240" data-1300="opacity: 0;" data-1500="opacity: 1;">
 								<h3></h3>
 								<p><br>Issues faced during the 1st TI attempt:
 								

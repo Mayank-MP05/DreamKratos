@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Belgrano|Julius+Sans+One|Kanit|Titillium+Web&display=swap');
+
 @font-face {
   font-family: "Batman";
   src:
@@ -344,7 +346,7 @@ h3{
 }
 
 .batman{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
   font-size: 25px;
 }
 

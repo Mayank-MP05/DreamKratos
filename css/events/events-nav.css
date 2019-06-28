@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Belgrano|Julius+Sans+One|Kanit|Titillium+Web&display=swap');
+
 @font-face {
     font-family: "Batman";0
     src:
@@ -7,22 +9,22 @@ body,html{
     overflow-x: hidden;
 }
 .inner > div > h3{
-    font-family: "Batman",Arial, sans-serif;
+    font-family: 'Belgrano', serif;
     color: #fff;
 }
 
 div ul li{
     color: #fff;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Kanit', sans-serif;
 }
 
 .inner > div > p{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     color: #fff;
 }
 
 .batman,header > h1{
-    font-family: "Batman",Arial, sans-serif;
+    font-family: 'Belgrano', serif;
     font-size: 20px;
 }
 
@@ -120,6 +122,9 @@ div ul li{
     .list-div-vic{
         margin-left: 200px;
         
+    }
+    .top-240{
+        margin-top: 240px;
     }
 }
 
